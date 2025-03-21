@@ -45,3 +45,5 @@ $required_php_version = '7.2.24';
  * @global string $required_mysql_version
  */
 $required_mysql_version = '5.5.5';
+
+$wp_local_package = 'vi';

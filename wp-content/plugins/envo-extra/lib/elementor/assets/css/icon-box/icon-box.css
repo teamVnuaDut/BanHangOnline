@@ -1,0 +1,123 @@
+ .envo-extra-box-icon-wrapper-inner {
+    position: relative;
+}
+.envo-extra-box-icon-wrapper {
+    position: relative;
+    display: block;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-box-icon-wrapper-inner {
+    width: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-box-icon-item {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px;
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    overflow: hidden;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.envo-extra-box-icon-item > svg {
+    width: 100%;
+    height: auto;
+}
+.envo-extra-badge {
+    position: absolute;
+    z-index: 3;
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    -webkit-transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    -ms-transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    -translate-x: 0;
+    -translate-y: 0;
+    -rotate: 0;
+}
+.envo-extra-badge-middle-center,
+.envo-extra-badge-middle-left,
+.envo-extra-badge-middle-right {
+   -translate-y: -50%;
+    top: 50%;
+}
+.envo-extra-badge-top-left {
+    top: 0;
+    left: 0;
+}
+.envo-extra-badge-top-center {
+    top: 0;
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-top-right {
+    top: 0;
+    right: 0;
+}
+.envo-extra-badge-middle-left {
+    left: 0;
+}
+.envo-extra-badge-middle-center {
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-middle-right {
+    right: 0;
+}
+.envo-extra-badge-bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.envo-extra-badge-bottom-center {
+    bottom: 0;
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-bottom-right,
+.envo-extra-elementor-horizontal-menu-style-lineTopBottom .envo-extra-elementor-horizontal-navbar-nav > li > a:after {
+    bottom: 0;
+    right: 0;
+}
+.envo-extra-box-icon-title {
+    margin: 0;
+    line-height: 1.2;
+    transition: color 0.3s ease-in-out;
+}
+.envo-extra-box-icon-description {
+    margin: 0;
+    color: #383838;
+    line-height: 1.2;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}

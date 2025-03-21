@@ -1,0 +1,3561 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Envo Extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 13:42+0100\n"
+"PO-Revision-Date: 2016-03-09 16:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: envo-extra <info@envothemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: include\n"
+"X-Poedit-SearchPathExcluded-1: lib/metabox\n"
+
+#: envo-extra.php:126
+#, php-format
+msgid "To enable shop features, please install and activate the %s plugin."
+msgstr ""
+
+#: envo-extra.php:132
+msgid "The most advanced frontend drag & drop page builder."
+msgstr ""
+
+#: envo-extra.php:245
+msgid "More Options and Features"
+msgstr ""
+
+#: envo-extra.php:247
+msgid "Enwoo PRO"
+msgstr ""
+
+#: envo-extra.php:256 options/main-colors.php:9
+msgid "Theme Options"
+msgstr ""
+
+#: envo-extra.php:347 options/back-to-top.php:37
+#: options/woocommerce/compare.php:21 options/woocommerce/header-cart.php:26
+#: options/woocommerce/header-search.php:26
+#: options/woocommerce/my-account.php:25 options/woocommerce/wishlist.php:25
+msgid "Off"
+msgstr ""
+
+#: envo-extra.php:350
+msgid "Comment on "
+msgstr ""
+
+#: envo-extra.php:554 lib/envothemes-demo-import/envothemes-demo-import.php:211
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:32
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:36
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:57
+msgid "Install Demos"
+msgstr ""
+
+#: envo-extra.php:556
+msgid "Go Pro"
+msgstr ""
+
+#: lib/admin/dashboard.php:121
+#, php-format
+msgid "Enwoo theme %s"
+msgstr ""
+
+#: lib/admin/dashboard.php:123
+msgid "Enwoo theme"
+msgstr ""
+
+#: lib/admin/dashboard.php:126
+msgid "Enwoo dashboard"
+msgstr ""
+
+#: lib/admin/dashboard.php:147 lib/admin/dashboard.php:349
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: lib/admin/dashboard.php:154
+#, php-format
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:162
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: lib/admin/dashboard.php:201
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:34
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:503
+#: lib/envothemes-demo-import/includes/panel/demos.php:877
+msgid "Install Now"
+msgstr ""
+
+#: lib/admin/dashboard.php:220
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:67
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:147
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:504
+#: lib/envothemes-demo-import/includes/panel/demos.php:871
+msgid "Activate"
+msgstr ""
+
+#: lib/admin/dashboard.php:241
+msgid "Details"
+msgstr ""
+
+#: lib/admin/dashboard.php:288
+msgid "Recommended Actions"
+msgstr ""
+
+#: lib/admin/dashboard.php:306
+msgid "One Click Demo Import"
+msgstr ""
+
+#: lib/admin/dashboard.php:366
+msgid "Theme Customizer"
+msgstr ""
+
+#: lib/admin/dashboard.php:370
+#, php-format
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to personalize your site."
+msgstr ""
+
+#: lib/admin/dashboard.php:374
+msgid "Start customizing"
+msgstr ""
+
+#: lib/admin/dashboard.php:378
+msgid "Theme documentation"
+msgstr ""
+
+#: lib/admin/dashboard.php:382
+#, php-format
+msgid "Need help in setting up and configuring %s? Please take a look at our documentation page."
+msgstr ""
+
+#: lib/admin/dashboard.php:389
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: lib/admin/dashboard.php:395
+msgid "Having trouble? Need support?"
+msgstr ""
+
+#: lib/admin/dashboard.php:397
+msgid "Contact us"
+msgstr ""
+
+#: lib/admin/dashboard.php:422
+msgid "Recommended plugins"
+msgstr ""
+
+#: lib/admin/dashboard.php:431
+msgid "Hooray! There are no required actions for you right now."
+msgstr ""
+
+#: lib/admin/dashboard.php:439
+msgid "Import demo data"
+msgstr ""
+
+#: lib/admin/metabox.php:69
+msgid "Enwoo Options"
+msgstr ""
+
+#: lib/admin/metabox.php:76
+msgid "Custom page options"
+msgstr ""
+
+#: lib/elementor/shortcode.php:25
+msgid "Shortcode"
+msgstr ""
+
+#: lib/elementor/widgets.php:96
+msgid "Envo Extra"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:52
+#: lib/elementor/widgets/block-quote/block-quote.php:128
+msgid "Block Quote"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:136
+#: lib/elementor/widgets/counter/counter.php:579
+#: lib/elementor/widgets/icon-box/icon-box.php:803
+#: lib/elementor/widgets/pricing/pricing.php:233
+#: lib/elementor/widgets/pricing/pricing.php:316
+#: lib/elementor/widgets/pricing/pricing.php:485
+#: lib/elementor/widgets/pricing/pricing.php:532
+#: lib/elementor/widgets/pricing/pricing.php:1665
+msgid "Position"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:140
+msgid "Layout 1"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:141
+msgid "Layout 2"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:142
+msgid "Layout 3"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:143
+msgid "Layout 4"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:144
+msgid "Layout 5"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:145
+msgid "Layout 6"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:146
+msgid "Layout 7"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:147
+msgid "Layout 8"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:148
+msgid "Layout 9"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:149
+msgid "Layout 10"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:157
+#: lib/elementor/widgets/testimonial/testimonial.php:240
+msgid "Icons"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:172
+#: lib/elementor/widgets/block-quote/block-quote.php:341
+#: lib/elementor/widgets/icon-box/icon-box.php:143
+#: lib/elementor/widgets/icon-box/icon-box.php:169
+#: lib/elementor/widgets/pricing/pricing.php:178
+#: lib/elementor/widgets/pricing/pricing.php:203
+#: lib/elementor/widgets/team/team.php:456
+#: lib/elementor/widgets/testimonial/testimonial.php:329
+#: options/posts-pages.php:54 options/posts-pages.php:460
+#: options/woocommerce/archive-shop.php:450
+#: options/woocommerce/product-page.php:1362
+msgid "Image"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:204
+#: lib/elementor/widgets/block-quote/block-quote.php:676
+#: lib/elementor/widgets/counter/counter.php:158
+#: lib/elementor/widgets/counter/counter.php:416
+#: lib/elementor/widgets/heading/heading.php:149
+#: lib/elementor/widgets/heading/heading.php:272
+#: lib/elementor/widgets/icon-box/icon-box.php:199
+#: lib/elementor/widgets/icon-box/icon-box.php:638
+#: lib/elementor/widgets/pricing/pricing.php:157
+#: lib/elementor/widgets/pricing/pricing.php:347
+#: lib/elementor/widgets/pricing/pricing.php:382
+#: lib/elementor/widgets/pricing/pricing.php:505
+#: lib/elementor/widgets/pricing/pricing.php:997
+#: lib/elementor/widgets/team/team.php:781 options/posts-pages.php:55
+#: options/posts-pages.php:461 options/woocommerce/archive-shop.php:683
+#: options/woocommerce/product-page.php:171
+msgid "Title"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:207
+msgid "Steve Smith"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:208
+msgid "Type Block Quote Title"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:218
+#: lib/elementor/widgets/block-quote/block-quote.php:720
+#: lib/elementor/widgets/team/team.php:205
+#: lib/elementor/widgets/team/team.php:817
+#: lib/elementor/widgets/testimonial/testimonial.php:201
+#: lib/elementor/widgets/testimonial/testimonial.php:607
+msgid "Designation"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:221
+msgid "By Developer"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:222
+msgid "Type Block Quote Designation"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:232
+#: lib/elementor/widgets/block-quote/block-quote.php:577
+#: lib/elementor/widgets/counter/counter.php:171
+#: lib/elementor/widgets/counter/counter.php:493
+#: lib/elementor/widgets/icon-box/icon-box.php:212
+#: lib/elementor/widgets/icon-box/icon-box.php:716
+#: lib/elementor/widgets/pricing/pricing.php:471
+#: lib/elementor/widgets/pricing/pricing.php:1297
+#: lib/elementor/widgets/team/team.php:218
+#: lib/elementor/widgets/team/team.php:866
+#: lib/elementor/widgets/testimonial/testimonial.php:214
+#: lib/elementor/widgets/testimonial/testimonial.php:656
+msgid "Description"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:235
+#: lib/elementor/widgets/counter/counter.php:175
+#: lib/elementor/widgets/icon-box/icon-box.php:215
+#: lib/elementor/widgets/team/team.php:221
+#: lib/elementor/widgets/testimonial/testimonial.php:217
+msgid "Type your description here"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:250
+#: lib/elementor/widgets/button/button.php:125
+#: lib/elementor/widgets/button/button.php:243
+#: lib/elementor/widgets/counter/counter.php:124
+#: lib/elementor/widgets/pricing/pricing.php:581
+#: lib/elementor/widgets/team/team.php:128
+#: lib/elementor/widgets/testimonial/testimonial.php:126
+msgid "General"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:258
+#: lib/elementor/widgets/button/button.php:157
+#: lib/elementor/widgets/counter/counter.php:245
+#: lib/elementor/widgets/heading/heading.php:243
+#: lib/elementor/widgets/icon-box/icon-box.php:305
+#: lib/elementor/widgets/pricing/pricing.php:588
+#: lib/elementor/widgets/team/team.php:230
+#: lib/elementor/widgets/testimonial/testimonial.php:255
+msgid "Alignment"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:262
+#: lib/elementor/widgets/button/button.php:161
+#: lib/elementor/widgets/counter/counter.php:249
+#: lib/elementor/widgets/heading/heading.php:247
+#: lib/elementor/widgets/icon-box/icon-box.php:309
+#: lib/elementor/widgets/pricing/pricing.php:592
+#: lib/elementor/widgets/pricing/pricing.php:1095
+#: lib/elementor/widgets/team/team.php:234
+#: lib/elementor/widgets/testimonial/testimonial.php:259
+#: options/footer-widgets.php:255 options/footer-widgets.php:447
+#: options/main-menu.php:278 options/posts-pages.php:294
+#: options/posts-pages.php:734 options/sidebar.php:40 options/sidebar.php:240
+#: options/sidebar.php:481 options/woocommerce/archive-shop.php:220
+#: options/woocommerce/archive-shop.php:498
+#: options/woocommerce/archive-shop.php:1197
+#: options/woocommerce/archive-shop.php:1372
+#: options/woocommerce/product-page.php:558
+#: options/woocommerce/product-page.php:782
+#: options/woocommerce/product-page.php:1008
+#: options/woocommerce/product-page.php:1451
+#: options/woocommerce/product-page.php:1619
+#: options/woocommerce/product-page.php:1984
+#: options/woocommerce/product-page.php:2276
+#: options/woocommerce/product-page.php:2451
+msgid "Left"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:266
+#: lib/elementor/widgets/button/button.php:165
+#: lib/elementor/widgets/counter/counter.php:253
+#: lib/elementor/widgets/heading/heading.php:251
+#: lib/elementor/widgets/icon-box/icon-box.php:313
+#: lib/elementor/widgets/icon-box/icon-box.php:448
+#: lib/elementor/widgets/pricing/pricing.php:596
+#: lib/elementor/widgets/pricing/pricing.php:1099
+#: lib/elementor/widgets/team/team.php:238
+#: lib/elementor/widgets/testimonial/testimonial.php:263
+msgid "Center"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:270
+#: lib/elementor/widgets/button/button.php:169
+#: lib/elementor/widgets/counter/counter.php:257
+#: lib/elementor/widgets/heading/heading.php:255
+#: lib/elementor/widgets/icon-box/icon-box.php:317
+#: lib/elementor/widgets/pricing/pricing.php:600
+#: lib/elementor/widgets/team/team.php:242
+#: lib/elementor/widgets/testimonial/testimonial.php:267
+#: options/footer-widgets.php:256 options/footer-widgets.php:448
+#: options/main-menu.php:276 options/posts-pages.php:295
+#: options/posts-pages.php:735 options/sidebar.php:41 options/sidebar.php:241
+#: options/sidebar.php:479 options/woocommerce/archive-shop.php:218
+#: options/woocommerce/archive-shop.php:496
+#: options/woocommerce/archive-shop.php:1195
+#: options/woocommerce/archive-shop.php:1370
+#: options/woocommerce/product-page.php:556
+#: options/woocommerce/product-page.php:780
+#: options/woocommerce/product-page.php:1006
+#: options/woocommerce/product-page.php:1449
+#: options/woocommerce/product-page.php:1617
+#: options/woocommerce/product-page.php:1982
+#: options/woocommerce/product-page.php:2274
+#: options/woocommerce/product-page.php:2449
+msgid "Right"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:286
+#: lib/elementor/widgets/button/button.php:288
+#: lib/elementor/widgets/button/button.php:325
+#: lib/elementor/widgets/button/button.php:392
+#: lib/elementor/widgets/button/button.php:586
+#: lib/elementor/widgets/button/button.php:615
+#: lib/elementor/widgets/icon-box/icon-box.php:540
+#: lib/elementor/widgets/icon-box/icon-box.php:569
+#: lib/elementor/widgets/pricing/pricing.php:641
+#: lib/elementor/widgets/pricing/pricing.php:1539
+#: lib/elementor/widgets/pricing/pricing.php:1574
+#: lib/elementor/widgets/pricing/pricing.php:1829
+#: lib/elementor/widgets/team/team.php:340
+#: lib/elementor/widgets/team/team.php:393
+#: lib/elementor/widgets/team/team.php:727
+#: lib/elementor/widgets/team/team.php:1106
+#: lib/elementor/widgets/testimonial/testimonial.php:521
+#: lib/elementor/widgets/testimonial/testimonial.php:767
+#: options/back-to-top.php:49 options/footer-widgets.php:163
+#: options/main-colors.php:101 options/main-colors.php:160
+#: options/main-menu.php:599 options/main-menu.php:692
+#: options/main-menu.php:828 options/woocommerce/archive-shop.php:432
+#: options/woocommerce/archive-shop.php:665
+#: options/woocommerce/archive-shop.php:1098
+#: options/woocommerce/archive-shop.php:1127
+#: options/woocommerce/archive-shop.php:1506
+#: options/woocommerce/buttons.php:116 options/woocommerce/buttons.php:151
+#: options/woocommerce/header-cart.php:70
+#: options/woocommerce/header-cart.php:112
+#: options/woocommerce/header-cart.php:159
+#: options/woocommerce/header-cart.php:208
+#: options/woocommerce/header-search.php:71
+#: options/woocommerce/header-search.php:118
+#: options/woocommerce/header-search.php:161
+#: options/woocommerce/product-page.php:1143
+#: options/woocommerce/product-page.php:1178
+#: options/woocommerce/product-page.php:1284
+#: options/woocommerce/product-page.php:1326
+#: options/woocommerce/product-page.php:1886
+#: options/woocommerce/product-page.php:1921
+#: options/woocommerce/product-page.php:2584
+msgid "Background"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:314
+#: lib/elementor/widgets/block-quote/block-quote.php:538
+#: lib/elementor/widgets/block-quote/block-quote.php:631
+#: lib/elementor/widgets/button/button.php:495
+#: lib/elementor/widgets/button/button.php:649
+#: lib/elementor/widgets/counter/counter.php:323
+#: lib/elementor/widgets/counter/counter.php:711
+#: lib/elementor/widgets/heading/heading.php:518
+#: lib/elementor/widgets/icon-box/icon-box.php:485
+#: lib/elementor/widgets/icon-box/icon-box.php:868
+#: lib/elementor/widgets/pricing/pricing.php:1596
+#: lib/elementor/widgets/pricing/pricing.php:1845
+#: lib/elementor/widgets/team/team.php:636
+#: lib/elementor/widgets/team/team.php:746
+#: lib/elementor/widgets/team/team.php:1080
+#: lib/elementor/widgets/team/team.php:1128
+#: lib/elementor/widgets/testimonial/testimonial.php:488
+#: lib/elementor/widgets/testimonial/testimonial.php:543
+#: lib/elementor/widgets/testimonial/testimonial.php:790
+msgid "Border Radius"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:326
+#: lib/elementor/widgets/block-quote/block-quote.php:550
+#: lib/elementor/widgets/block-quote/block-quote.php:646
+#: lib/elementor/widgets/button/button.php:506
+#: lib/elementor/widgets/counter/counter.php:673
+#: lib/elementor/widgets/heading/heading.php:530
+#: lib/elementor/widgets/icon-box/icon-box.php:496
+#: lib/elementor/widgets/icon-box/icon-box.php:830
+#: lib/elementor/widgets/pricing/pricing.php:678
+#: lib/elementor/widgets/pricing/pricing.php:1607
+#: lib/elementor/widgets/pricing/pricing.php:1856
+#: lib/elementor/widgets/team/team.php:647
+#: lib/elementor/widgets/team/team.php:770
+#: lib/elementor/widgets/team/team.php:1142
+#: lib/elementor/widgets/testimonial/testimonial.php:557
+#: lib/elementor/widgets/testimonial/testimonial.php:804
+#: options/woocommerce/archive-shop.php:352
+#: options/woocommerce/archive-shop.php:585
+#: options/woocommerce/archive-shop.php:1012
+#: options/woocommerce/archive-shop.php:1459
+#: options/woocommerce/product-page.php:362
+#: options/woocommerce/product-page.php:645
+#: options/woocommerce/product-page.php:869
+#: options/woocommerce/product-page.php:1095
+#: options/woocommerce/product-page.php:1538
+#: options/woocommerce/product-page.php:2363
+#: options/woocommerce/product-page.php:2538
+msgid "Padding"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:352
+#: lib/elementor/widgets/block-quote/block-quote.php:400
+#: lib/elementor/widgets/block-quote/block-quote.php:459
+#: lib/elementor/widgets/button/button.php:529
+#: lib/elementor/widgets/icon-box/icon-box.php:340
+#: lib/elementor/widgets/pricing/pricing.php:722
+#: lib/elementor/widgets/team/team.php:928
+#: lib/elementor/widgets/testimonial/testimonial.php:729
+#: lib/elementor/widgets/testimonial/testimonial.php:854
+msgid "Size"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:374
+#: lib/elementor/widgets/block-quote/block-quote.php:433
+#: lib/elementor/widgets/block-quote/block-quote.php:562
+#: lib/elementor/widgets/block-quote/block-quote.php:661
+#: lib/elementor/widgets/block-quote/block-quote.php:705
+#: lib/elementor/widgets/block-quote/block-quote.php:748
+#: lib/elementor/widgets/counter/counter.php:305
+#: lib/elementor/widgets/counter/counter.php:479
+#: lib/elementor/widgets/counter/counter.php:556
+#: lib/elementor/widgets/icon-box/icon-box.php:467
+#: lib/elementor/widgets/icon-box/icon-box.php:701
+#: lib/elementor/widgets/icon-box/icon-box.php:779
+#: lib/elementor/widgets/pricing/pricing.php:689
+#: lib/elementor/widgets/pricing/pricing.php:804
+#: lib/elementor/widgets/pricing/pricing.php:860
+#: lib/elementor/widgets/pricing/pricing.php:963
+#: lib/elementor/widgets/pricing/pricing.php:1023
+#: lib/elementor/widgets/pricing/pricing.php:1348
+#: lib/elementor/widgets/pricing/pricing.php:1466
+#: lib/elementor/widgets/pricing/pricing.php:1618
+#: lib/elementor/widgets/team/team.php:661
+#: lib/elementor/widgets/team/team.php:803
+#: lib/elementor/widgets/team/team.php:852
+#: lib/elementor/widgets/team/team.php:901
+#: lib/elementor/widgets/team/team.php:1158
+#: lib/elementor/widgets/testimonial/testimonial.php:499
+#: lib/elementor/widgets/testimonial/testimonial.php:593
+#: lib/elementor/widgets/testimonial/testimonial.php:642
+#: lib/elementor/widgets/testimonial/testimonial.php:691
+#: lib/elementor/widgets/testimonial/testimonial.php:818
+#: lib/elementor/widgets/testimonial/testimonial.php:869
+#: options/woocommerce/archive-shop.php:393
+#: options/woocommerce/archive-shop.php:626
+#: options/woocommerce/archive-shop.php:1051
+msgid "Margin"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:389
+#: lib/elementor/widgets/pricing/pricing.php:1361
+msgid "Separator"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:422
+#: lib/elementor/widgets/block-quote/block-quote.php:496
+#: lib/elementor/widgets/block-quote/block-quote.php:594
+#: lib/elementor/widgets/block-quote/block-quote.php:693
+#: lib/elementor/widgets/block-quote/block-quote.php:737
+#: lib/elementor/widgets/button/button.php:573
+#: lib/elementor/widgets/button/button.php:603
+#: lib/elementor/widgets/counter/counter.php:352
+#: lib/elementor/widgets/counter/counter.php:379
+#: lib/elementor/widgets/icon-box/icon-box.php:528
+#: lib/elementor/widgets/icon-box/icon-box.php:557
+#: lib/elementor/widgets/pricing/pricing.php:630
+#: lib/elementor/widgets/pricing/pricing.php:708
+#: lib/elementor/widgets/pricing/pricing.php:842
+#: lib/elementor/widgets/pricing/pricing.php:879
+#: lib/elementor/widgets/pricing/pricing.php:945
+#: lib/elementor/widgets/pricing/pricing.php:1005
+#: lib/elementor/widgets/pricing/pricing.php:1149
+#: lib/elementor/widgets/pricing/pricing.php:1177
+#: lib/elementor/widgets/pricing/pricing.php:1304
+#: lib/elementor/widgets/pricing/pricing.php:1378
+#: lib/elementor/widgets/pricing/pricing.php:1818
+#: lib/elementor/widgets/team/team.php:325
+#: lib/elementor/widgets/team/team.php:379
+#: lib/elementor/widgets/team/team.php:828
+#: lib/elementor/widgets/team/team.php:877
+#: lib/elementor/widgets/team/team.php:991
+#: lib/elementor/widgets/team/team.php:1036
+#: lib/elementor/widgets/testimonial/testimonial.php:618
+#: lib/elementor/widgets/testimonial/testimonial.php:667
+#: lib/elementor/widgets/testimonial/testimonial.php:743
+#: lib/elementor/widgets/testimonial/testimonial.php:843
+#: options/back-to-top.php:48 options/footer-credits.php:125
+#: options/footer-widgets.php:183 options/main-colors.php:121
+#: options/main-colors.php:159 options/woocommerce/archive-shop.php:1097
+#: options/woocommerce/archive-shop.php:1125
+#: options/woocommerce/archive-shop.php:1308
+#: options/woocommerce/archive-shop.php:1505
+#: options/woocommerce/buttons.php:114 options/woocommerce/buttons.php:149
+#: options/woocommerce/header-cart.php:69
+#: options/woocommerce/header-cart.php:111
+#: options/woocommerce/product-page.php:1141
+#: options/woocommerce/product-page.php:1176
+#: options/woocommerce/product-page.php:1282
+#: options/woocommerce/product-page.php:1324
+#: options/woocommerce/product-page.php:1885
+#: options/woocommerce/product-page.php:1920
+#: options/woocommerce/product-page.php:2583
+msgid "Color"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:448
+#: lib/elementor/widgets/testimonial/testimonial.php:832
+msgid "Quote"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:478
+#: lib/elementor/widgets/button/button.php:548
+#: lib/elementor/widgets/counter/counter.php:288
+#: lib/elementor/widgets/icon-box/icon-box.php:362
+#: lib/elementor/widgets/team/team.php:946
+msgid "Background Size"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:508
+#: lib/elementor/widgets/counter/counter.php:694
+#: lib/elementor/widgets/icon-box/icon-box.php:851
+#: lib/elementor/widgets/team/team.php:1003
+#: lib/elementor/widgets/team/team.php:1047
+msgid "Background Color"
+msgstr ""
+
+#: lib/elementor/widgets/block-quote/block-quote.php:586
+#: lib/elementor/widgets/block-quote/block-quote.php:685
+#: lib/elementor/widgets/block-quote/block-quote.php:729
+#: lib/elementor/widgets/counter/counter.php:281
+#: lib/elementor/widgets/counter/counter.php:599
+#: lib/elementor/widgets/heading/heading.php:281
+#: lib/elementor/widgets/heading/heading.php:401
+#: lib/elementor/widgets/icon-box/icon-box.php:823
+#: lib/elementor/widgets/pricing/pricing.php:623
+#: lib/elementor/widgets/pricing/pricing.php:853
+#: lib/elementor/widgets/pricing/pricing.php:890
+#: lib/elementor/widgets/pricing/pricing.php:956
+#: lib/elementor/widgets/pricing/pricing.php:1016
+#: lib/elementor/widgets/pricing/pricing.php:1112
+#: lib/elementor/widgets/pricing/pricing.php:1315
+#: lib/elementor/widgets/pricing/pricing.php:1511
+#: lib/elementor/widgets/pricing/pricing.php:1811
+#: lib/elementor/widgets/team/team.php:793
+#: lib/elementor/widgets/team/team.php:842
+#: lib/elementor/widgets/team/team.php:891
+#: lib/elementor/widgets/testimonial/testimonial.php:583
+#: lib/elementor/widgets/testimonial/testimonial.php:632
+#: lib/elementor/widgets/testimonial/testimonial.php:681
+#: lib/elementor/widgets/testimonial/testimonial.php:719
+msgid "Typography"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:51
+#: lib/elementor/widgets/pricing/pricing.php:499
+#: lib/elementor/widgets/pricing/pricing.php:1482
+#: options/woocommerce/archive-shop.php:956
+msgid "Button"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:131
+#: lib/elementor/widgets/pricing/pricing.php:563
+#: options/woocommerce/header-cart.php:207
+#: options/woocommerce/header-search.php:119
+#: options/woocommerce/header-search.php:162
+msgid "Text"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:136
+#: lib/elementor/widgets/button/button.php:137
+msgid "Click here"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:143
+#: lib/elementor/widgets/heading/heading.php:195
+#: lib/elementor/widgets/pricing/pricing.php:517
+#: lib/elementor/widgets/team/team.php:194
+#: lib/elementor/widgets/team/team.php:290
+#: lib/elementor/widgets/testimonial/testimonial.php:190
+msgid "Link"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:148
+#: lib/elementor/widgets/team/team.php:298
+msgid "https://your-link.com"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:173
+msgid "Justified"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:184
+#: lib/elementor/widgets/button/button.php:519
+#: lib/elementor/widgets/icon-box/icon-box.php:139
+#: lib/elementor/widgets/icon-box/icon-box.php:333
+#: lib/elementor/widgets/pricing/pricing.php:174
+#: lib/elementor/widgets/pricing/pricing.php:189
+#: lib/elementor/widgets/pricing/pricing.php:363
+#: lib/elementor/widgets/team/team.php:279
+#: options/woocommerce/header-search.php:69
+msgid "Icon"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:193
+msgid "Icon Position"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:197
+msgid "Before"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:198
+msgid "After"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:208
+msgid "Icon Spacing"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:227
+msgid "Button ID"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:233
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:234
+msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows <code>A-z 0-9</code> & underscore chars without spaces."
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:269
+#: lib/elementor/widgets/button/button.php:567
+#: lib/elementor/widgets/counter/counter.php:346
+#: lib/elementor/widgets/counter/counter.php:442
+#: lib/elementor/widgets/counter/counter.php:519
+#: lib/elementor/widgets/heading/heading.php:365
+#: lib/elementor/widgets/heading/heading.php:485
+#: lib/elementor/widgets/icon-box/icon-box.php:522
+#: lib/elementor/widgets/icon-box/icon-box.php:664
+#: lib/elementor/widgets/icon-box/icon-box.php:742
+#: lib/elementor/widgets/pricing/pricing.php:1522
+#: lib/elementor/widgets/team/team.php:316
+#: lib/elementor/widgets/team/team.php:531
+#: lib/elementor/widgets/team/team.php:985
+#: lib/elementor/widgets/testimonial/testimonial.php:422
+msgid "Normal"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:275
+#: lib/elementor/widgets/button/button.php:313
+#: lib/elementor/widgets/counter/counter.php:448
+#: lib/elementor/widgets/counter/counter.php:466
+#: lib/elementor/widgets/counter/counter.php:525
+#: lib/elementor/widgets/counter/counter.php:543
+#: lib/elementor/widgets/counter/counter.php:684
+#: lib/elementor/widgets/heading/heading.php:288
+#: lib/elementor/widgets/heading/heading.php:408
+#: lib/elementor/widgets/icon-box/icon-box.php:670
+#: lib/elementor/widgets/icon-box/icon-box.php:688
+#: lib/elementor/widgets/icon-box/icon-box.php:748
+#: lib/elementor/widgets/icon-box/icon-box.php:766
+#: lib/elementor/widgets/icon-box/icon-box.php:841
+#: lib/elementor/widgets/pricing/pricing.php:1528
+#: lib/elementor/widgets/pricing/pricing.php:1563
+msgid "Text Color"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:307
+#: lib/elementor/widgets/button/button.php:597
+#: lib/elementor/widgets/counter/counter.php:373
+#: lib/elementor/widgets/counter/counter.php:460
+#: lib/elementor/widgets/counter/counter.php:537
+#: lib/elementor/widgets/icon-box/icon-box.php:551
+#: lib/elementor/widgets/icon-box/icon-box.php:682
+#: lib/elementor/widgets/icon-box/icon-box.php:760
+#: lib/elementor/widgets/pricing/pricing.php:1557
+#: lib/elementor/widgets/team/team.php:370
+#: lib/elementor/widgets/team/team.php:559
+#: lib/elementor/widgets/team/team.php:1030
+#: lib/elementor/widgets/testimonial/testimonial.php:437
+#: options/footer-credits.php:127 options/footer-widgets.php:184
+#: options/main-colors.php:122 options/top-bar.php:105
+msgid "Hover"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:348
+#: lib/elementor/widgets/button/button.php:624
+#: lib/elementor/widgets/counter/counter.php:398
+#: lib/elementor/widgets/icon-box/icon-box.php:578
+#: lib/elementor/widgets/pricing/pricing.php:1582
+#: lib/elementor/widgets/team/team.php:354
+#: lib/elementor/widgets/team/team.php:406
+#: lib/elementor/widgets/team/team.php:1058
+msgid "Border Color"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:367
+msgid "Line Color"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:386
+msgid "Hover Animation"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:390
+#: lib/elementor/widgets/counter/counter.php:608
+#: lib/elementor/widgets/heading/heading.php:301
+#: lib/elementor/widgets/heading/heading.php:421
+#: lib/elementor/widgets/icon-box/icon-box.php:595
+#: lib/elementor/widgets/pricing/pricing.php:257
+#: lib/elementor/widgets/pricing/pricing.php:1683
+#: lib/elementor/widgets/testimonial/testimonial.php:293
+#: options/footer-widgets.php:223 options/footer-widgets.php:415
+#: options/main-menu.php:238 options/main-menu.php:454
+#: options/posts-pages.php:262 options/posts-pages.php:702
+#: options/sidebar.php:208 options/sidebar.php:448
+#: options/woocommerce/archive-shop.php:187
+#: options/woocommerce/archive-shop.php:465
+#: options/woocommerce/archive-shop.php:1164
+#: options/woocommerce/archive-shop.php:1339
+#: options/woocommerce/product-page.php:246
+#: options/woocommerce/product-page.php:525
+#: options/woocommerce/product-page.php:749
+#: options/woocommerce/product-page.php:975
+#: options/woocommerce/product-page.php:1418
+#: options/woocommerce/product-page.php:1586
+#: options/woocommerce/product-page.php:1951
+#: options/woocommerce/product-page.php:2243
+#: options/woocommerce/product-page.php:2418
+msgid "None"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:391
+msgid "2D"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:393
+msgid "Unique"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:400
+msgid "Animation Type"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:404
+msgid "Grow"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:405
+msgid "Shrink"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:406
+#: lib/elementor/widgets/icon-box/icon-box.php:601
+msgid "Pulse"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:407
+msgid "Pulse Grow"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:408
+msgid "Pulse Shrink"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:409
+msgid "Push"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:410
+msgid "Pop"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:411
+msgid "Bounce In"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:412
+msgid "Bounce Out"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:413
+#: lib/elementor/widgets/pricing/pricing.php:1747
+msgid "Rotate"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:414
+msgid "Grow Rotate"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:415
+msgid "Float"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:416
+msgid "Sink"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:417
+msgid "Bob"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:418
+msgid "Hang"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:419
+msgid "Wobble Vertical"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:420
+msgid "Wobble Horizontal"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:421
+msgid "Wobble To Bottom Right"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:422
+msgid "Wobble To Top Right"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:423
+msgid "Buzz"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:424
+msgid "Buzz Out"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:434
+#: lib/elementor/widgets/button/button.php:463
+#: lib/elementor/widgets/icon-box/icon-box.php:591
+msgid "Animation"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:438
+msgid "Sweep To Right"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:439
+msgid "Sweep To Left"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:440
+msgid "Sweep To Bottom"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:441
+msgid "Sweep To Top"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:442
+msgid "Bounce To Right"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:443
+msgid "Bounce To Left"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:444
+msgid "Bounce To Bottom"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:445
+msgid "Bounce To Top"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:446
+msgid "Radial Out"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:447
+msgid "Radial In"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:448
+msgid "Rectangle In"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:449
+msgid "Rectangle Out"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:450
+msgid "Shutter In Horizontal"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:451
+msgid "Shutter Out Horizontal"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:452
+msgid "Shutter In Vertical"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:453
+msgid "Shutter Out Vertical"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:467
+msgid "Underline From Left"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:468
+msgid "Underline From Right"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:469
+msgid "Underline From Center"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:470
+msgid "Skew Fill"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:471
+msgid "Flip Slide"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:472
+msgid "Bubble From Down"
+msgstr ""
+
+#: lib/elementor/widgets/button/button.php:473
+msgid "Bubble From Center"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:49
+#: lib/elementor/widgets/counter/counter.php:273
+msgid "Counter"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:131
+msgid "Counter Value"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:146
+msgid "Character"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:148
+msgid "K"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:161
+msgid "Counter Title"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:162
+msgid "Type Counter Title"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:174
+msgid "Description Here"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:185
+#: lib/elementor/widgets/icon-box/icon-box.php:225
+msgid "Badge Text"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:188
+#: lib/elementor/widgets/icon-box/icon-box.php:228
+msgid "Type Icon Badge Text"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:197
+#: lib/elementor/widgets/icon-box/icon-box.php:237
+msgid "Box Link"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:209
+#: lib/elementor/widgets/icon-box/icon-box.php:249
+msgid "Title HTML Tag"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:214
+#: lib/elementor/widgets/heading/heading.php:211
+#: lib/elementor/widgets/icon-box/icon-box.php:254
+msgid "H1"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:218
+#: lib/elementor/widgets/heading/heading.php:215
+#: lib/elementor/widgets/icon-box/icon-box.php:258
+msgid "H2"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:222
+#: lib/elementor/widgets/heading/heading.php:219
+#: lib/elementor/widgets/icon-box/icon-box.php:262
+msgid "H3"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:226
+#: lib/elementor/widgets/heading/heading.php:223
+#: lib/elementor/widgets/icon-box/icon-box.php:266
+msgid "H4"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:230
+#: lib/elementor/widgets/heading/heading.php:227
+#: lib/elementor/widgets/icon-box/icon-box.php:270
+msgid "H5"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:234
+#: lib/elementor/widgets/heading/heading.php:231
+#: lib/elementor/widgets/icon-box/icon-box.php:274
+msgid "H6"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:569
+#: lib/elementor/widgets/icon-box/icon-box.php:793
+#: lib/elementor/widgets/pricing/pricing.php:546
+#: lib/elementor/widgets/pricing/pricing.php:1631
+msgid "Badge"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:582
+#: lib/elementor/widgets/icon-box/icon-box.php:806
+#: lib/elementor/widgets/pricing/pricing.php:1668
+#: options/footer-widgets.php:289 options/footer-widgets.php:481
+#: options/main-menu.php:318 options/main-menu.php:516
+#: options/posts-pages.php:328 options/posts-pages.php:768
+#: options/sidebar.php:274 options/sidebar.php:514
+#: options/woocommerce/archive-shop.php:253
+#: options/woocommerce/archive-shop.php:531
+#: options/woocommerce/archive-shop.php:1230
+#: options/woocommerce/archive-shop.php:1405
+#: options/woocommerce/product-page.php:308
+#: options/woocommerce/product-page.php:591
+#: options/woocommerce/product-page.php:815
+#: options/woocommerce/product-page.php:1041
+#: options/woocommerce/product-page.php:1484
+#: options/woocommerce/product-page.php:1652
+#: options/woocommerce/product-page.php:2017
+#: options/woocommerce/product-page.php:2309
+#: options/woocommerce/product-page.php:2484
+msgid "Top Left"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:583
+#: lib/elementor/widgets/icon-box/icon-box.php:807
+#: lib/elementor/widgets/pricing/pricing.php:1669
+msgid "Top Center"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:584
+#: lib/elementor/widgets/icon-box/icon-box.php:808
+#: lib/elementor/widgets/pricing/pricing.php:1670
+#: options/footer-widgets.php:290 options/footer-widgets.php:482
+#: options/main-menu.php:319 options/main-menu.php:517
+#: options/posts-pages.php:329 options/posts-pages.php:769
+#: options/sidebar.php:275 options/sidebar.php:515
+#: options/woocommerce/archive-shop.php:254
+#: options/woocommerce/archive-shop.php:532
+#: options/woocommerce/archive-shop.php:1231
+#: options/woocommerce/archive-shop.php:1406
+#: options/woocommerce/product-page.php:309
+#: options/woocommerce/product-page.php:592
+#: options/woocommerce/product-page.php:816
+#: options/woocommerce/product-page.php:1042
+#: options/woocommerce/product-page.php:1485
+#: options/woocommerce/product-page.php:1653
+#: options/woocommerce/product-page.php:2018
+#: options/woocommerce/product-page.php:2310
+#: options/woocommerce/product-page.php:2485
+msgid "Top Right"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:585
+#: lib/elementor/widgets/icon-box/icon-box.php:809
+msgid "Middle Left"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:586
+#: lib/elementor/widgets/icon-box/icon-box.php:810
+msgid "Middle Center"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:587
+#: lib/elementor/widgets/icon-box/icon-box.php:811
+msgid "Middle Right"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:588
+#: lib/elementor/widgets/icon-box/icon-box.php:812
+#: options/footer-widgets.php:291 options/footer-widgets.php:483
+#: options/main-menu.php:320 options/main-menu.php:518
+#: options/posts-pages.php:330 options/posts-pages.php:770
+#: options/sidebar.php:276 options/sidebar.php:516
+#: options/woocommerce/archive-shop.php:255
+#: options/woocommerce/archive-shop.php:533
+#: options/woocommerce/archive-shop.php:1232
+#: options/woocommerce/archive-shop.php:1407
+#: options/woocommerce/product-page.php:310
+#: options/woocommerce/product-page.php:593
+#: options/woocommerce/product-page.php:817
+#: options/woocommerce/product-page.php:1043
+#: options/woocommerce/product-page.php:1486
+#: options/woocommerce/product-page.php:1654
+#: options/woocommerce/product-page.php:2019
+#: options/woocommerce/product-page.php:2311
+#: options/woocommerce/product-page.php:2486
+msgid "Bottom Left"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:589
+#: lib/elementor/widgets/icon-box/icon-box.php:813
+msgid "Bottom Center"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:590
+#: lib/elementor/widgets/icon-box/icon-box.php:814
+#: options/footer-widgets.php:292 options/footer-widgets.php:484
+#: options/main-menu.php:321 options/main-menu.php:519
+#: options/posts-pages.php:331 options/posts-pages.php:771
+#: options/sidebar.php:277 options/sidebar.php:517
+#: options/woocommerce/archive-shop.php:256
+#: options/woocommerce/archive-shop.php:534
+#: options/woocommerce/archive-shop.php:1233
+#: options/woocommerce/archive-shop.php:1408
+#: options/woocommerce/product-page.php:311
+#: options/woocommerce/product-page.php:594
+#: options/woocommerce/product-page.php:818
+#: options/woocommerce/product-page.php:1044
+#: options/woocommerce/product-page.php:1487
+#: options/woocommerce/product-page.php:1655
+#: options/woocommerce/product-page.php:2020
+#: options/woocommerce/product-page.php:2312
+#: options/woocommerce/product-page.php:2487
+msgid "Bottom Right"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:606
+msgid "Offset"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:609
+#: lib/elementor/widgets/heading/heading.php:302
+#: lib/elementor/widgets/heading/heading.php:422
+#: lib/elementor/widgets/pricing/pricing.php:276
+#: lib/elementor/widgets/pricing/pricing.php:1684 options/site-width.php:23
+#: options/site-width.php:74 options/site-width.php:125
+#: options/site-width.php:176 options/site-width.php:227
+#: options/site-width.php:278
+msgid "Custom"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:618
+msgid "Offset Left"
+msgstr ""
+
+#: lib/elementor/widgets/counter/counter.php:645
+msgid "Offset Top"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:48
+#: lib/elementor/widgets/heading/heading.php:184
+msgid "Heading"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:156
+msgid "Title Before"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:158
+msgid "Your"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:169
+msgid "Title Center"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:171
+msgid "Simple"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:182
+msgid "Title After"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:207
+msgid "HTML Tag"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:299
+#: lib/elementor/widgets/heading/heading.php:419
+msgid "Text Stroke"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:312
+#: lib/elementor/widgets/heading/heading.php:432
+msgid "Stroke Width"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:338
+#: lib/elementor/widgets/heading/heading.php:458
+msgid "Stroke Color"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:362
+#: lib/elementor/widgets/heading/heading.php:482
+msgid "Blend Mode"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:392
+msgid "Center Title"
+msgstr ""
+
+#: lib/elementor/widgets/heading/heading.php:510
+#: lib/elementor/widgets/pricing/pricing.php:650
+#: lib/elementor/widgets/pricing/pricing.php:1548
+#: lib/elementor/widgets/pricing/pricing.php:1838 options/main-colors.php:161
+#: options/woocommerce/archive-shop.php:181
+#: options/woocommerce/archive-shop.php:459
+#: options/woocommerce/archive-shop.php:1126
+#: options/woocommerce/archive-shop.php:1158
+#: options/woocommerce/archive-shop.php:1333
+#: options/woocommerce/buttons.php:115 options/woocommerce/buttons.php:150
+#: options/woocommerce/header-cart.php:71
+#: options/woocommerce/header-cart.php:160
+#: options/woocommerce/header-cart.php:209
+#: options/woocommerce/product-page.php:240
+#: options/woocommerce/product-page.php:519
+#: options/woocommerce/product-page.php:743
+#: options/woocommerce/product-page.php:969
+#: options/woocommerce/product-page.php:1142
+#: options/woocommerce/product-page.php:1177
+#: options/woocommerce/product-page.php:1283
+#: options/woocommerce/product-page.php:1325
+#: options/woocommerce/product-page.php:1412
+#: options/woocommerce/product-page.php:1945
+#: options/woocommerce/product-page.php:2237
+#: options/woocommerce/product-page.php:2412
+msgid "Border"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:52
+#: lib/elementor/widgets/icon-box/icon-box.php:202
+msgid "Icon Box"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:127
+#: lib/elementor/widgets/team/team.php:675
+#: lib/elementor/widgets/testimonial/testimonial.php:513
+#: options/posts-pages.php:57
+msgid "Content"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:134
+#: lib/elementor/widgets/pricing/pricing.php:169
+msgid "Media Type"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:203
+msgid "Type Icon Box Title"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:285
+#: lib/elementor/widgets/pricing/pricing.php:824
+#: lib/elementor/widgets/team/team.php:134
+#: lib/elementor/widgets/testimonial/testimonial.php:132
+#: options/posts-pages.php:43 options/posts-pages.php:451
+msgid "Layout"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:289
+#: lib/elementor/widgets/pricing/pricing.php:666
+#: lib/elementor/widgets/pricing/pricing.php:833
+#: lib/elementor/widgets/pricing/pricing.php:1498
+#: lib/elementor/widgets/pricing/pricing.php:1650
+msgid "Inline"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:293
+#: lib/elementor/widgets/pricing/pricing.php:662
+#: lib/elementor/widgets/pricing/pricing.php:829
+#: lib/elementor/widgets/pricing/pricing.php:1494
+#: lib/elementor/widgets/pricing/pricing.php:1646
+msgid "Block"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:386
+#: lib/elementor/widgets/pricing/pricing.php:750
+#: lib/elementor/widgets/pricing/pricing.php:1441
+#: lib/elementor/widgets/team/team.php:483
+#: lib/elementor/widgets/team/team.php:682
+#: lib/elementor/widgets/testimonial/testimonial.php:370
+msgid "Height"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:419
+#: lib/elementor/widgets/pricing/pricing.php:783
+#: lib/elementor/widgets/team/team.php:509
+#: lib/elementor/widgets/testimonial/testimonial.php:400
+msgid "Object Fit"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:422
+#: lib/elementor/widgets/pricing/pricing.php:786
+#: lib/elementor/widgets/team/team.php:515
+#: lib/elementor/widgets/testimonial/testimonial.php:406
+msgid "Default"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:423
+#: lib/elementor/widgets/pricing/pricing.php:787
+#: lib/elementor/widgets/team/team.php:516
+#: lib/elementor/widgets/testimonial/testimonial.php:407
+msgid "Fill"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:424
+#: lib/elementor/widgets/pricing/pricing.php:788
+#: lib/elementor/widgets/team/team.php:517
+#: lib/elementor/widgets/testimonial/testimonial.php:408
+msgid "Cover"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:425
+#: lib/elementor/widgets/pricing/pricing.php:789
+#: lib/elementor/widgets/team/team.php:518
+#: lib/elementor/widgets/testimonial/testimonial.php:409
+msgid "Contain"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:440
+msgid "Vertical Align"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:444
+msgid "Start"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:452
+msgid "End"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:596
+msgid "FadeIn"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:597
+msgid "Bounce"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:598
+msgid "BounceIn"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:599
+msgid "BounceOut"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:600
+msgid "Flash"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:602
+msgid "Rubber"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:603
+msgid "Shake"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:604
+msgid "Swing"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:605
+msgid "Tada"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:606
+msgid "Wobble"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:607
+msgid "Flip X"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:608
+msgid "Flip Y"
+msgstr ""
+
+#: lib/elementor/widgets/icon-box/icon-box.php:617
+#: lib/elementor/widgets/team/team.php:598
+#: lib/elementor/widgets/testimonial/testimonial.php:450
+msgid "Transition Duration"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:76
+msgid "Pricing"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:151
+#: lib/elementor/widgets/pricing/pricing.php:615 options/header.php:7
+#: options/header.php:12
+msgid "Header"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:160
+msgid "Basic"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:237
+msgid "After Title"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:238
+msgid "Before Title"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:247
+#: lib/elementor/widgets/pricing/pricing.php:294
+#: lib/elementor/widgets/pricing/pricing.php:817
+#: options/woocommerce/archive-shop.php:741
+#: options/woocommerce/product-page.php:403
+#: options/woocommerce/product-page.php:419
+msgid "Price"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:253
+#: lib/elementor/widgets/pricing/pricing.php:871
+msgid "Currency"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:284
+msgid "Custom Symbol"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:305
+#: lib/elementor/widgets/pricing/pricing.php:937
+msgid "Period"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:307
+msgid "Per Month"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:320
+#: lib/elementor/widgets/pricing/pricing.php:489
+#: lib/elementor/widgets/pricing/pricing.php:536
+msgid "Before Features"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:321
+#: lib/elementor/widgets/pricing/pricing.php:490
+#: lib/elementor/widgets/pricing/pricing.php:537
+msgid "After Features"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:330
+#: lib/elementor/widgets/pricing/pricing.php:349
+#: lib/elementor/widgets/pricing/pricing.php:976
+msgid "Features"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:336
+#: lib/elementor/widgets/pricing/pricing.php:338
+#: lib/elementor/widgets/pricing/pricing.php:552
+#: lib/elementor/widgets/pricing/pricing.php:554
+#: lib/elementor/widgets/pricing/pricing.php:1368
+#: lib/elementor/widgets/pricing/pricing.php:1370
+#: lib/elementor/widgets/team/team.php:268
+#: lib/elementor/widgets/team/team.php:306
+#: lib/elementor/widgets/testimonial/testimonial.php:228
+msgid "Show"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:339
+#: lib/elementor/widgets/pricing/pricing.php:555
+#: lib/elementor/widgets/pricing/pricing.php:1371
+#: lib/elementor/widgets/team/team.php:269
+#: lib/elementor/widgets/team/team.php:307
+#: lib/elementor/widgets/testimonial/testimonial.php:229
+msgid "Hide"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:384
+msgid "Type list item content."
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:394
+msgid "Tooltip Text"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:397
+msgid "Type tooltip text here."
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:406
+msgid "Status"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:410
+#: lib/elementor/widgets/pricing/pricing.php:1143
+#: lib/envothemes-demo-import/includes/panel/demos.php:104
+msgid "Active"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:411
+#: lib/elementor/widgets/pricing/pricing.php:1171
+msgid "Inactive"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:423
+#, php-format
+msgid "Item: %1$s"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:432
+msgid "Feature List 1"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:440
+msgid "Feature List 2"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:441
+msgid "Tooltip Text Here"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:449
+msgid "Feature List 3"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:457
+msgid "Feature List 4"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:479
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:508
+msgid "Get Started"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:566
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:242
+msgid "Premium"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:657
+#: lib/elementor/widgets/pricing/pricing.php:1489
+#: lib/elementor/widgets/pricing/pricing.php:1641
+msgid "Display"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:700
+msgid "Media"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:897
+#: lib/elementor/widgets/pricing/pricing.php:1720
+msgid "Vertical Offset"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:917
+#: lib/elementor/widgets/team/team.php:963
+msgid "Space Between"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:986
+msgid "Wrapper Margin"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1034
+msgid "Feature List"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1042
+msgid "Icon Size"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1068
+msgid "Icon Space"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1091
+msgid "Content Align"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1119
+msgid "Space between"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1159
+#: lib/elementor/widgets/pricing/pricing.php:1187
+#: lib/elementor/widgets/pricing/pricing.php:1209
+msgid "Icon Color"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1201
+msgid "Tooltip"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1219
+msgid "Icon Background"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1230
+msgid "Content Typography"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1237
+#: lib/elementor/widgets/pricing/pricing.php:1412
+#: lib/elementor/widgets/team/team.php:463
+#: lib/elementor/widgets/testimonial/testimonial.php:336
+msgid "Width"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1263
+msgid "Content Color"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1273
+msgid "Content Background"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1284
+msgid "Content Padding"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1322
+msgid "Max Width"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1391
+msgid "Style"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1395
+#: options/footer-widgets.php:224 options/footer-widgets.php:416
+#: options/main-menu.php:239 options/main-menu.php:455
+#: options/posts-pages.php:263 options/posts-pages.php:703
+#: options/sidebar.php:209 options/sidebar.php:449
+#: options/woocommerce/archive-shop.php:188
+#: options/woocommerce/archive-shop.php:466
+#: options/woocommerce/archive-shop.php:1165
+#: options/woocommerce/archive-shop.php:1340
+#: options/woocommerce/product-page.php:247
+#: options/woocommerce/product-page.php:526
+#: options/woocommerce/product-page.php:750
+#: options/woocommerce/product-page.php:976
+#: options/woocommerce/product-page.php:1419
+#: options/woocommerce/product-page.php:1587
+#: options/woocommerce/product-page.php:1952
+#: options/woocommerce/product-page.php:2244
+#: options/woocommerce/product-page.php:2419
+msgid "Solid"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1396
+#: options/footer-widgets.php:225 options/footer-widgets.php:417
+#: options/main-menu.php:240 options/main-menu.php:456
+#: options/posts-pages.php:264 options/posts-pages.php:704
+#: options/sidebar.php:210 options/sidebar.php:450
+#: options/woocommerce/archive-shop.php:189
+#: options/woocommerce/archive-shop.php:467
+#: options/woocommerce/archive-shop.php:1166
+#: options/woocommerce/archive-shop.php:1341
+#: options/woocommerce/product-page.php:248
+#: options/woocommerce/product-page.php:527
+#: options/woocommerce/product-page.php:751
+#: options/woocommerce/product-page.php:977
+#: options/woocommerce/product-page.php:1420
+#: options/woocommerce/product-page.php:1588
+#: options/woocommerce/product-page.php:1953
+#: options/woocommerce/product-page.php:2245
+#: options/woocommerce/product-page.php:2420
+msgid "Double"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1397
+#: options/footer-widgets.php:226 options/footer-widgets.php:418
+#: options/main-menu.php:241 options/main-menu.php:457
+#: options/posts-pages.php:265 options/posts-pages.php:705
+#: options/sidebar.php:211 options/sidebar.php:451
+#: options/woocommerce/archive-shop.php:190
+#: options/woocommerce/archive-shop.php:468
+#: options/woocommerce/archive-shop.php:1167
+#: options/woocommerce/archive-shop.php:1342
+#: options/woocommerce/product-page.php:249
+#: options/woocommerce/product-page.php:528
+#: options/woocommerce/product-page.php:752
+#: options/woocommerce/product-page.php:978
+#: options/woocommerce/product-page.php:1421
+#: options/woocommerce/product-page.php:1589
+#: options/woocommerce/product-page.php:1954
+#: options/woocommerce/product-page.php:2246
+#: options/woocommerce/product-page.php:2421
+msgid "Dotted"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1398
+#: options/footer-widgets.php:227 options/footer-widgets.php:419
+#: options/main-menu.php:242 options/main-menu.php:458
+#: options/posts-pages.php:266 options/posts-pages.php:706
+#: options/sidebar.php:212 options/sidebar.php:452
+#: options/woocommerce/archive-shop.php:191
+#: options/woocommerce/archive-shop.php:469
+#: options/woocommerce/archive-shop.php:1168
+#: options/woocommerce/archive-shop.php:1343
+#: options/woocommerce/product-page.php:250
+#: options/woocommerce/product-page.php:529
+#: options/woocommerce/product-page.php:753
+#: options/woocommerce/product-page.php:979
+#: options/woocommerce/product-page.php:1422
+#: options/woocommerce/product-page.php:1590
+#: options/woocommerce/product-page.php:1955
+#: options/woocommerce/product-page.php:2247
+#: options/woocommerce/product-page.php:2422
+msgid "Dashed"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1399
+#: options/footer-widgets.php:228 options/footer-widgets.php:420
+#: options/main-menu.php:243 options/main-menu.php:459
+#: options/posts-pages.php:267 options/posts-pages.php:707
+#: options/sidebar.php:213 options/sidebar.php:453
+#: options/woocommerce/archive-shop.php:192
+#: options/woocommerce/archive-shop.php:470
+#: options/woocommerce/archive-shop.php:1169
+#: options/woocommerce/archive-shop.php:1344
+#: options/woocommerce/product-page.php:251
+#: options/woocommerce/product-page.php:530
+#: options/woocommerce/product-page.php:754
+#: options/woocommerce/product-page.php:980
+#: options/woocommerce/product-page.php:1423
+#: options/woocommerce/product-page.php:1591
+#: options/woocommerce/product-page.php:1956
+#: options/woocommerce/product-page.php:2248
+#: options/woocommerce/product-page.php:2423
+msgid "Groove"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1681
+msgid "Transform"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1693
+msgid "Horizontal Offset"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1767
+msgid "Transform Origin"
+msgstr ""
+
+#: lib/elementor/widgets/pricing/pricing.php:1795
+msgid "Overflow"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:53
+msgid "Team"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:138
+#: lib/elementor/widgets/testimonial/testimonial.php:136
+msgid "Style 1"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:139
+#: lib/elementor/widgets/testimonial/testimonial.php:137
+msgid "Style 2"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:140
+#: lib/elementor/widgets/testimonial/testimonial.php:138
+msgid "Style 3"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:141
+#: lib/elementor/widgets/testimonial/testimonial.php:139
+msgid "Style 4"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:142
+#: lib/elementor/widgets/testimonial/testimonial.php:140
+msgid "Style 5"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:143
+#: lib/elementor/widgets/testimonial/testimonial.php:141
+msgid "Style 6"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:144
+#: lib/elementor/widgets/testimonial/testimonial.php:142
+msgid "Style 7"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:145
+#: lib/elementor/widgets/testimonial/testimonial.php:143
+msgid "Style 8"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:146
+#: lib/elementor/widgets/testimonial/testimonial.php:144
+msgid "Style 9"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:147
+#: lib/elementor/widgets/testimonial/testimonial.php:145
+msgid "Style 10"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:148
+msgid "Style 11"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:149
+msgid "Style 12"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:150
+msgid "Style 13"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:151
+msgid "Style 14"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:152
+msgid "Style 15"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:160
+#: lib/elementor/widgets/testimonial/testimonial.php:155
+msgid "Choose Image"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:181
+#: lib/elementor/widgets/testimonial/testimonial.php:177
+#: lib/elementor/widgets/testimonial/testimonial.php:572
+msgid "Name"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:183
+#: lib/elementor/widgets/testimonial/testimonial.php:179
+msgid "Jhon Walker"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:207
+#: lib/elementor/widgets/testimonial/testimonial.php:203
+msgid "Managing Director"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:220
+msgid "It is a long established fact that a reader will be distracted by the content."
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:260
+#: lib/elementor/widgets/team/team.php:918
+msgid "Social"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:266
+msgid "Enable"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:304
+msgid "Inline Style"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:537
+#: lib/elementor/widgets/team/team.php:578
+msgid "Shape Color"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:565
+msgid "Overlay Color"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:703
+msgid "Backdrop Blur"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:757
+msgid "Separator Color"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:1014
+msgid "Wrapper Background"
+msgstr ""
+
+#: lib/elementor/widgets/team/team.php:1094
+msgid "Wrapper"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:51
+msgid "Testimonial"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:216
+msgid "It is a long established fact that a reader will be distracted by the readable content."
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:226
+msgid "Show Quote"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:284
+#: lib/elementor/widgets/testimonial/testimonial.php:304
+#: lib/elementor/widgets/testimonial/testimonial.php:708
+msgid "Rating"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:290
+msgid "Type"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:294
+msgid "Star"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:295
+msgid "Number"
+msgstr ""
+
+#: lib/elementor/widgets/testimonial/testimonial.php:753
+msgid "Filled"
+msgstr ""
+
+#: lib/envothemes-demo-import/envothemes-demo-import.php:147
+#: lib/envothemes-demo-import/envothemes-demo-import.php:156
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:69
+msgid "Leave A Review?"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:70
+#, php-format
+msgid "We hope you've enjoyed using %1$s theme! Would you consider leaving us a review on WordPress.org?"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:75
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:81
+msgid "I've already left a review"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:87
+msgid "Maybe Later"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:93
+msgid "I need help!"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:99
+msgid "Never show again"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:196
+msgid "Go PRO for More Features"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:198
+#, php-format
+msgid "Get the %1$s for more stunning elements, demos and customization options."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:204
+#: lib/envothemes-demo-import/includes/notify/notify.php:296
+msgid "Show me more"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:210
+#: lib/envothemes-demo-import/includes/notify/notify.php:302
+msgid "Hide this message"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:283
+msgid "Try our new FREE Multipurspose and WooCommerce WordPress Theme - Enwoo"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/notify/notify.php:287
+#, php-format
+msgid "%1$s - new free Multipurpose and WooCommerce theme. Check out theme %2$s, that can be imported for FREE with simple click."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:63
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:143
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:505
+#: lib/envothemes-demo-import/includes/panel/demos.php:882
+msgid "Activated"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:95
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:201
+msgid "By"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:103
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:236
+msgid "More Details"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:225
+msgid "Get This Plugin"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:258
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:268
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:338
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:409
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:326
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:397
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/assets/class-plugin-installer.php:502
+msgid "Are you sure you want to install this plugin?"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:70
+msgid "All"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:77
+msgid "Search demos..."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:105
+msgid "PRO"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/class-install-demos.php:115
+msgid "Live Preview"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:44
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:76
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:84
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:29
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:37
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:45
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:88
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:93
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:312
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-parsers.php:512
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-regex.php:96
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:41
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:46
+#: lib/envothemes-demo-import/includes/panel/classes/importers/parsers/class-wxr-parser-xml.php:48
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:84
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:106
+msgid "Site does not support widget"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:127
+msgid "Widget already exists"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:185
+msgid "Imported"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:189
+msgid "Imported to Inactive"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-widget-importer.php:195
+msgid "No Title"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:152
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:161
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:212
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:216
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:225
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:153
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:196
+msgid "All done."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:196
+msgid "Have fun!"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:197
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:217
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:233
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:258
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:284
+msgid "Assign Authors"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:285
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:287
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:297
+msgid "Import Attachments"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:300
+msgid "Download and import file attachments"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:304
+msgid "Submit"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:317
+msgid "Import author:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:329
+msgid "or create new user with login name:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:332
+msgid "as a new user:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:342
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:344
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:352
+msgid "- Select -"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:406
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:458
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:503
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:558
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:784
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:651
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:688
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:750
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:924
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:931
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:994
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1007
+msgid "Invalid file type"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1051
+msgid "Remote server did not respond"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1057
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1064
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1069
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1075
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1175
+msgid "Import WordPress"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1182
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1197
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/classes/importers/class-wordpress-importer.php:1198
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:102
+msgid "There was a problem during the importing process resulting in the following error from your server:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:103
+msgid "Activating"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:718
+#, php-format
+msgid "Import the %1$s demo"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:725
+#, php-format
+msgid "Importing demo data allow you to quickly edit everything instead of creating content from scratch. It is recommended uploading sample data on a fresh WordPress install to prevent conflicts with your current content. You can use this plugin to reset your site if needed: %1$sWordpress Database Reset%2$s."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:733
+msgid "Required Plugins"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:734
+msgid "For your site to look exactly like this demo, the plugins below need to be activated."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:742
+msgid "Recommended Plugins"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:743
+msgid "These plugins are not required for the demo import. However, if you do not install them, some demo features will not be included."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:749
+msgid "Required Theme"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:750
+#, php-format
+msgid "This demo requires a different active theme. Theme %1$sEnwoo%2$s will be activated after the successful import."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:759
+msgid "Install and activate Enwoo PRO"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:765
+msgid "Activate Enwoo PRO license"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:771
+msgid "Product expired! Renew the Enwoo PRO license"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:777
+msgid "Gutenberg is disabled on your site! Activate it."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:783
+msgid "Go to the next step"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:796
+msgid "Select what you want to import:"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:802
+msgid "Import XML Data"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:802
+msgid "pages, posts, images, menus, etc..."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:809
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:816
+msgid "Import Widgets"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:823
+msgid "Activate Enwoo Theme"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:832
+msgid "Install this demo"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:837
+msgid "The import process could take some time, please be patient"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:843
+msgid "Demo Imported!"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:844
+msgid "See the result"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:893
+msgid "Get This Addon"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:915
+msgid "No plugin specified"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:935
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:957
+msgid "Importing XML Data"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:963
+msgid "Importing Customizer Settings"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:969
+msgid "Importing Widgets"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:975
+msgid "Activating Enwoo Theme"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:1288
+msgid "Can not retrieve sample data xml file. The server may be down at the moment please try again later. If you still have issues contact the theme developer for assistance."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:1303
+msgid "The xml import file could not be accessed. Please try again or contact the theme developer."
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:1339
+msgid "Can not retrieve class-wp-importer.php"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:1349
+msgid "Can not retrieve wordpress-importer.php"
+msgstr ""
+
+#: lib/envothemes-demo-import/includes/panel/demos.php:1360
+msgid "Sample data file appears corrupt or can not be accessed."
+msgstr ""
+
+#: options/back-to-top.php:7
+msgid "Back to top"
+msgstr ""
+
+#: options/back-to-top.php:30
+msgid "Back to top button"
+msgstr ""
+
+#: options/back-to-top.php:36 options/woocommerce/compare.php:20
+#: options/woocommerce/header-cart.php:25
+#: options/woocommerce/header-search.php:25
+#: options/woocommerce/my-account.php:24 options/woocommerce/wishlist.php:24
+msgid "On"
+msgstr ""
+
+#: options/back-to-top.php:43 options/woocommerce/archive-shop.php:1092
+#: options/woocommerce/archive-shop.php:1500
+#: options/woocommerce/product-page.php:2578
+msgid "Colors"
+msgstr ""
+
+#: options/back-to-top.php:50
+msgid "Color hover"
+msgstr ""
+
+#: options/back-to-top.php:51 options/main-menu.php:829
+#: options/woocommerce/header-search.php:72
+msgid "Background hover"
+msgstr ""
+
+#: options/back-to-top.php:109 options/woocommerce/archive-shop.php:1580
+msgid "Position from right"
+msgstr ""
+
+#: options/back-to-top.php:177
+msgid "Position from bottom"
+msgstr ""
+
+#: options/custom-codes.php:12
+msgid "Custom Codes"
+msgstr ""
+
+#: options/custom-codes.php:20
+msgid "Code to be added to the HEAD"
+msgstr ""
+
+#: options/custom-codes.php:21
+msgid "Suitable for Google Analytics code"
+msgstr ""
+
+#: options/custom-codes.php:41
+msgid "Code to be added to the footer"
+msgstr ""
+
+#: options/footer-credits.php:8
+msgid "Copyright (Footer Credits)"
+msgstr ""
+
+#: options/footer-credits.php:34
+msgid "Footer credits"
+msgstr ""
+
+#: options/footer-credits.php:35
+msgid "HTML is allowed.<br/> Use <code>%current_year%</code> to update year automatically.<br/> Use <code>%copy%</code> to include copyright symbol."
+msgstr ""
+
+#: options/footer-credits.php:59 options/footer-widgets.php:67
+#: options/main-menu.php:598 options/sidebar.php:113
+#: options/woocommerce/archive-shop.php:691
+#: options/woocommerce/archive-shop.php:886
+#: options/woocommerce/archive-shop.php:964
+#: options/woocommerce/product-page.php:187
+#: options/woocommerce/product-page.php:692
+#: options/woocommerce/product-page.php:2185
+msgid "Font"
+msgstr ""
+
+#: options/footer-credits.php:105
+msgid "Copyright background"
+msgstr ""
+
+#: options/footer-credits.php:120
+msgid "Copyright text colors"
+msgstr ""
+
+#: options/footer-credits.php:126 options/footer-widgets.php:178
+#: options/main-colors.php:116 options/sidebar.php:168 options/top-bar.php:104
+#: options/woocommerce/header-cart.php:158
+msgid "Links"
+msgstr ""
+
+#: options/footer-credits.php:163
+msgid "Copyright spacing"
+msgstr ""
+
+#: options/footer-widgets.php:8
+msgid "Footer Widgets"
+msgstr ""
+
+#: options/footer-widgets.php:34
+msgid "Footer widgets columns"
+msgstr ""
+
+#: options/footer-widgets.php:116
+msgid "Widget Titles"
+msgstr ""
+
+#: options/footer-widgets.php:217
+msgid "Footer widgets area border"
+msgstr ""
+
+#: options/footer-widgets.php:221 options/footer-widgets.php:413
+#: options/main-menu.php:236 options/main-menu.php:452
+#: options/posts-pages.php:260 options/posts-pages.php:700
+#: options/sidebar.php:206 options/sidebar.php:446
+#: options/woocommerce/archive-shop.php:185
+#: options/woocommerce/archive-shop.php:463
+#: options/woocommerce/archive-shop.php:1162
+#: options/woocommerce/archive-shop.php:1337
+#: options/woocommerce/product-page.php:244
+#: options/woocommerce/product-page.php:523
+#: options/woocommerce/product-page.php:747
+#: options/woocommerce/product-page.php:973
+#: options/woocommerce/product-page.php:1416
+#: options/woocommerce/product-page.php:1584
+#: options/woocommerce/product-page.php:1949
+#: options/woocommerce/product-page.php:2241
+#: options/woocommerce/product-page.php:2416
+msgid "Choose an option"
+msgstr ""
+
+#: options/footer-widgets.php:242
+msgid "Footer widgets area border width"
+msgstr ""
+
+#: options/footer-widgets.php:253 options/footer-widgets.php:445
+#: options/main-menu.php:275 options/main-menu.php:482
+#: options/posts-pages.php:292 options/posts-pages.php:732
+#: options/sidebar.php:238 options/sidebar.php:478
+#: options/woocommerce/archive-shop.php:217
+#: options/woocommerce/archive-shop.php:495
+#: options/woocommerce/archive-shop.php:1194
+#: options/woocommerce/archive-shop.php:1369
+#: options/woocommerce/product-page.php:274
+#: options/woocommerce/product-page.php:555
+#: options/woocommerce/product-page.php:779
+#: options/woocommerce/product-page.php:1005
+#: options/woocommerce/product-page.php:1448
+#: options/woocommerce/product-page.php:1616
+#: options/woocommerce/product-page.php:1981
+#: options/woocommerce/product-page.php:2273
+#: options/woocommerce/product-page.php:2448
+msgid "Top"
+msgstr ""
+
+#: options/footer-widgets.php:254 options/footer-widgets.php:446
+#: options/main-menu.php:277 options/main-menu.php:483
+#: options/posts-pages.php:293 options/posts-pages.php:733
+#: options/sidebar.php:239 options/sidebar.php:480
+#: options/woocommerce/archive-shop.php:219
+#: options/woocommerce/archive-shop.php:497
+#: options/woocommerce/archive-shop.php:1196
+#: options/woocommerce/archive-shop.php:1371
+#: options/woocommerce/product-page.php:275
+#: options/woocommerce/product-page.php:557
+#: options/woocommerce/product-page.php:781
+#: options/woocommerce/product-page.php:1007
+#: options/woocommerce/product-page.php:1450
+#: options/woocommerce/product-page.php:1618
+#: options/woocommerce/product-page.php:1983
+#: options/woocommerce/product-page.php:2275
+#: options/woocommerce/product-page.php:2450
+msgid "Bottom"
+msgstr ""
+
+#: options/footer-widgets.php:279
+msgid "Footer widgets area border radius"
+msgstr ""
+
+#: options/footer-widgets.php:312
+msgid "Footer widgets area border color"
+msgstr ""
+
+#: options/footer-widgets.php:343
+msgid "Footer widgets area box shadow"
+msgstr ""
+
+#: options/footer-widgets.php:344 options/footer-widgets.php:536
+#: options/main-menu.php:394 options/main-menu.php:571
+#: options/posts-pages.php:384 options/posts-pages.php:824
+#: options/sidebar.php:378 options/sidebar.php:618
+#: options/woocommerce/archive-shop.php:308
+#: options/woocommerce/archive-shop.php:330
+#: options/woocommerce/archive-shop.php:1285
+msgid "e.g. 5px 5px 15px 5px #000000"
+msgstr ""
+
+#: options/footer-widgets.php:367
+msgid "Footer widgets area spacing"
+msgstr ""
+
+#: options/footer-widgets.php:409
+msgid "Footer widgets border"
+msgstr ""
+
+#: options/footer-widgets.php:434
+msgid "Footer widgets border width"
+msgstr ""
+
+#: options/footer-widgets.php:471
+msgid "Footer widgets border radius"
+msgstr ""
+
+#: options/footer-widgets.php:504
+msgid "Footer widgets border color"
+msgstr ""
+
+#: options/footer-widgets.php:535
+msgid "Footer widgets box shadow"
+msgstr ""
+
+#: options/footer-widgets.php:559
+msgid "Footer widgets spacing"
+msgstr ""
+
+#: options/header.php:38
+msgid "Header layout"
+msgstr ""
+
+#: options/header.php:51
+msgid "Header background"
+msgstr ""
+
+#: options/header.php:76
+msgid "Header spacing"
+msgstr ""
+
+#: options/header.php:116
+msgid "Logo spacing"
+msgstr ""
+
+#: options/header.php:158
+msgid "Site Title and Tagline spacing"
+msgstr ""
+
+#: options/header.php:200
+msgid "Site title font"
+msgstr ""
+
+#: options/header.php:251
+msgid "Site description font"
+msgstr ""
+
+#: options/header.php:309
+msgid "Header widget area font"
+msgstr ""
+
+#: options/header.php:380
+msgid "Widget/Search area spacing"
+msgstr ""
+
+#: options/main-colors.php:13
+msgid "Content colors and typography"
+msgstr ""
+
+#: options/main-colors.php:51
+msgid "Site font"
+msgstr ""
+
+#: options/main-colors.php:154 options/woocommerce/buttons.php:8
+#: options/woocommerce/buttons.php:109
+msgid "Buttons"
+msgstr ""
+
+#: options/main-menu.php:7
+msgid "Menus"
+msgstr ""
+
+#: options/main-menu.php:13
+msgid "Main Menu"
+msgstr ""
+
+#: options/main-menu.php:19 options/main-menu.php:822
+msgid "Secondary Menu"
+msgstr ""
+
+#: options/main-menu.php:25
+msgid "Category Menu"
+msgstr ""
+
+#: options/main-menu.php:51
+msgid "Menu Alignment"
+msgstr ""
+
+#: options/main-menu.php:74 options/main-menu.php:641 options/main-menu.php:776
+msgid "Menu Font"
+msgstr ""
+
+#: options/main-menu.php:132
+msgid "Main Menu Colors"
+msgstr ""
+
+#: options/main-menu.php:137 options/main-menu.php:722
+msgid "Menu Background"
+msgstr ""
+
+#: options/main-menu.php:138 options/main-menu.php:723
+#: options/main-menu.php:827
+msgid "Font hover"
+msgstr ""
+
+#: options/main-menu.php:139 options/main-menu.php:724
+msgid "Item background hover"
+msgstr ""
+
+#: options/main-menu.php:140 options/main-menu.php:725
+msgid "Active item font"
+msgstr ""
+
+#: options/main-menu.php:141 options/main-menu.php:726
+msgid "Active item background"
+msgstr ""
+
+#: options/main-menu.php:232
+msgid "Menu border"
+msgstr ""
+
+#: options/main-menu.php:264
+msgid "Menu Border Width"
+msgstr ""
+
+#: options/main-menu.php:308
+msgid "Menu Border Radius"
+msgstr ""
+
+#: options/main-menu.php:348
+msgid "Menu border color"
+msgstr ""
+
+#: options/main-menu.php:393
+msgid "Menu shadow"
+msgstr ""
+
+#: options/main-menu.php:416
+msgid "Secondary bar background color"
+msgstr ""
+
+#: options/main-menu.php:448
+msgid "Sub-menu border"
+msgstr ""
+
+#: options/main-menu.php:473
+msgid "Sub-menu border width"
+msgstr ""
+
+#: options/main-menu.php:506
+msgid "Sub-menu border radius"
+msgstr ""
+
+#: options/main-menu.php:539
+msgid "Sub-menu border color"
+msgstr ""
+
+#: options/main-menu.php:570
+msgid "Sub-menu box shadow"
+msgstr ""
+
+#: options/main-menu.php:592
+msgid "Menu badge (description) colors"
+msgstr ""
+
+#: options/main-menu.php:687
+msgid "Category menu"
+msgstr ""
+
+#: options/main-menu.php:717
+msgid "Sub-level menu colors"
+msgstr ""
+
+#: options/main-menu.php:830
+msgid "Font active"
+msgstr ""
+
+#: options/main-menu.php:831
+msgid "Background active"
+msgstr ""
+
+#: options/posts-pages.php:8
+msgid "Blog posts archive"
+msgstr ""
+
+#: options/posts-pages.php:14
+msgid "Single post and page"
+msgstr ""
+
+#: options/posts-pages.php:56 options/posts-pages.php:462
+#: options/woocommerce/product-page.php:2112
+msgid "Meta"
+msgstr ""
+
+#: options/posts-pages.php:58
+msgid "Categories & Tags"
+msgstr ""
+
+#: options/posts-pages.php:59
+msgid "Navigation"
+msgstr ""
+
+#: options/posts-pages.php:66
+msgid "Meta Date"
+msgstr ""
+
+#: options/posts-pages.php:72 options/posts-pages.php:98
+#: options/posts-pages.php:124 options/posts-pages.php:476
+#: options/posts-pages.php:495 options/posts-pages.php:514
+#: options/woocommerce/product-page.php:1264
+#: options/woocommerce/product-page.php:2125
+#: options/woocommerce/product-page.php:2144
+#: options/woocommerce/product-page.php:2163
+msgid "Visible"
+msgstr ""
+
+#: options/posts-pages.php:73 options/posts-pages.php:99
+#: options/posts-pages.php:125 options/posts-pages.php:477
+#: options/posts-pages.php:496 options/posts-pages.php:515
+#: options/woocommerce/product-page.php:1265
+#: options/woocommerce/product-page.php:2126
+#: options/woocommerce/product-page.php:2145
+#: options/woocommerce/product-page.php:2164
+msgid "Hidden"
+msgstr ""
+
+#: options/posts-pages.php:92
+msgid "Meta comments"
+msgstr ""
+
+#: options/posts-pages.php:118
+msgid "Meta Author"
+msgstr ""
+
+#: options/posts-pages.php:154
+msgid "Article title"
+msgstr ""
+
+#: options/posts-pages.php:200
+msgid "Content font"
+msgstr ""
+
+#: options/posts-pages.php:256 options/posts-pages.php:696
+msgid "Article border"
+msgstr ""
+
+#: options/posts-pages.php:281 options/posts-pages.php:721
+msgid "Article Border Width"
+msgstr ""
+
+#: options/posts-pages.php:318 options/posts-pages.php:758
+msgid "Article Border Radius"
+msgstr ""
+
+#: options/posts-pages.php:351 options/posts-pages.php:791
+msgid "Article border color"
+msgstr ""
+
+#: options/posts-pages.php:383 options/posts-pages.php:823
+msgid "Article box shadow"
+msgstr ""
+
+#: options/posts-pages.php:406 options/posts-pages.php:847
+msgid "Article spacing"
+msgstr ""
+
+#: options/posts-pages.php:463 options/pro.php:36
+msgid "Excerpt"
+msgstr ""
+
+#: options/posts-pages.php:470
+msgid "Date"
+msgstr ""
+
+#: options/posts-pages.php:489
+msgid "Comments"
+msgstr ""
+
+#: options/posts-pages.php:508
+msgid "Author"
+msgstr ""
+
+#: options/posts-pages.php:527
+msgid "Number of words in excerpt"
+msgstr ""
+
+#: options/posts-pages.php:549
+msgid "Title Font"
+msgstr ""
+
+#: options/posts-pages.php:598
+msgid "Meta font"
+msgstr ""
+
+#: options/posts-pages.php:646
+msgid "Excerpt font"
+msgstr ""
+
+#: options/pro.php:50
+msgid "Archive gallery images"
+msgstr ""
+
+#: options/pro.php:88
+msgid "Off Canvas Filter"
+msgstr ""
+
+#: options/pro.php:110
+msgid "Quick View"
+msgstr ""
+
+#: options/pro.php:124
+msgid "Sale Countdown"
+msgstr ""
+
+#: options/pro.php:138
+msgid "Social sharing"
+msgstr ""
+
+#: options/pro.php:152
+msgid "Variation Swatches"
+msgstr ""
+
+#: options/sidebar.php:8
+msgid "Sidebar"
+msgstr ""
+
+#: options/sidebar.php:34
+msgid "Sidebar position"
+msgstr ""
+
+#: options/sidebar.php:63
+msgid "Widget titles"
+msgstr ""
+
+#: options/sidebar.php:163
+msgid "Widget links"
+msgstr ""
+
+#: options/sidebar.php:169
+msgid "Links hover"
+msgstr ""
+
+#: options/sidebar.php:202
+msgid "Sidebar border"
+msgstr ""
+
+#: options/sidebar.php:227
+msgid "Sidebar Border Width"
+msgstr ""
+
+#: options/sidebar.php:264
+msgid "Sidebar Border Radius"
+msgstr ""
+
+#: options/sidebar.php:297
+msgid "Sidebar border color"
+msgstr ""
+
+#: options/sidebar.php:377
+msgid "Sidebar box shadow"
+msgstr ""
+
+#: options/sidebar.php:401
+msgid "Sidebar spacing"
+msgstr ""
+
+#: options/sidebar.php:442
+msgid "Widgets border"
+msgstr ""
+
+#: options/sidebar.php:467
+msgid "Widgets Border Width"
+msgstr ""
+
+#: options/sidebar.php:504
+msgid "Widgets Border Radius"
+msgstr ""
+
+#: options/sidebar.php:537
+msgid "Widgets border color"
+msgstr ""
+
+#: options/sidebar.php:617
+msgid "Widgets box shadow"
+msgstr ""
+
+#: options/sidebar.php:641
+msgid "Widgets spacing"
+msgstr ""
+
+#: options/site-width.php:8
+msgid "Site Width Options"
+msgstr ""
+
+#: options/site-width.php:17
+msgid "Top Bar Width"
+msgstr ""
+
+#: options/site-width.php:24 options/site-width.php:75
+#: options/site-width.php:126 options/site-width.php:177
+#: options/site-width.php:228 options/site-width.php:279
+msgid "Full Width"
+msgstr ""
+
+#: options/site-width.php:68
+msgid "Header Width"
+msgstr ""
+
+#: options/site-width.php:119
+msgid "Search Bar Width"
+msgstr ""
+
+#: options/site-width.php:170
+msgid "Content Width"
+msgstr ""
+
+#: options/site-width.php:221
+msgid "Footer Widgets Width"
+msgstr ""
+
+#: options/site-width.php:272
+msgid "Footer Credits Width"
+msgstr ""
+
+#: options/top-bar.php:8
+msgid "Top Bar"
+msgstr ""
+
+#: options/top-bar.php:34
+msgid "Top bar font"
+msgstr ""
+
+#: options/top-bar.php:83
+msgid "Top bar background"
+msgstr ""
+
+#: options/top-bar.php:99
+msgid "Top bar links"
+msgstr ""
+
+#: options/top-bar.php:137
+msgid "Top bar spacing"
+msgstr ""
+
+#: options/woocommerce.php:51
+msgid "WooCommerce"
+msgstr ""
+
+#: options/woocommerce.php:55
+msgid "General Settings"
+msgstr ""
+
+#: options/woocommerce.php:65
+msgid "Header (Cart, My Account & Search)"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:8
+msgid "Archive/Shop"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:32
+#: options/woocommerce/product-page.php:35
+msgid "Global options"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:39
+msgid "Number of items"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:40
+msgid "Change number of products displayed per page in archive(shop) page."
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:54
+msgid "Items per row"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:55
+msgid "Change the number of products columns per row in archive(shop) page."
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:68
+msgid "Products with equal height"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:76
+#: options/woocommerce/product-page.php:75
+msgid "Breadcrumbs"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:101
+#: options/woocommerce/product-page.php:100
+msgid "Breadcrubs font"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:172
+msgid "Product"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:206
+#: options/woocommerce/archive-shop.php:484
+#: options/woocommerce/archive-shop.php:1183
+#: options/woocommerce/archive-shop.php:1358
+#: options/woocommerce/product-page.php:265
+#: options/woocommerce/product-page.php:544
+#: options/woocommerce/product-page.php:768
+#: options/woocommerce/product-page.php:994
+#: options/woocommerce/product-page.php:1437
+#: options/woocommerce/product-page.php:1605
+#: options/woocommerce/product-page.php:1970
+#: options/woocommerce/product-page.php:2262
+#: options/woocommerce/product-page.php:2437
+msgid "Border width"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:243
+#: options/woocommerce/archive-shop.php:521
+#: options/woocommerce/archive-shop.php:1220
+#: options/woocommerce/archive-shop.php:1395
+#: options/woocommerce/product-page.php:298
+#: options/woocommerce/product-page.php:581
+#: options/woocommerce/product-page.php:805
+#: options/woocommerce/product-page.php:1031
+#: options/woocommerce/product-page.php:1474
+#: options/woocommerce/product-page.php:1642
+#: options/woocommerce/product-page.php:2007
+#: options/woocommerce/product-page.php:2299
+#: options/woocommerce/product-page.php:2474
+msgid "Border radius"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:276
+#: options/woocommerce/archive-shop.php:554
+#: options/woocommerce/archive-shop.php:1253
+#: options/woocommerce/archive-shop.php:1428
+#: options/woocommerce/header-search.php:39
+#: options/woocommerce/product-page.php:331
+#: options/woocommerce/product-page.php:614
+#: options/woocommerce/product-page.php:838
+#: options/woocommerce/product-page.php:1064
+#: options/woocommerce/product-page.php:1507
+#: options/woocommerce/product-page.php:1675
+#: options/woocommerce/product-page.php:2040
+#: options/woocommerce/product-page.php:2332
+#: options/woocommerce/product-page.php:2507
+msgid "Border color"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:307
+msgid "Product box shadow"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:329
+msgid "Product shadow on hover"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:756
+msgid "Price Font"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:808
+msgid "Del Price Font"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:855
+#: options/woocommerce/archive-shop.php:862
+#: options/woocommerce/product-page.php:2138
+msgid "Categories"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:1120
+msgid "Colors on hover"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:1284
+msgid "Button box shadow"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:1301
+msgid "Rating stars"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:1324
+msgid "Sale badge"
+msgstr ""
+
+#: options/woocommerce/archive-shop.php:1538
+#: options/woocommerce/product-page.php:2616
+msgid "Position from top"
+msgstr ""
+
+#: options/woocommerce/buttons.php:38 options/woocommerce/product-page.php:917
+msgid "Button font"
+msgstr ""
+
+#: options/woocommerce/buttons.php:89
+msgid "Button padding"
+msgstr ""
+
+#: options/woocommerce/buttons.php:144
+msgid "Buttons hover"
+msgstr ""
+
+#: options/woocommerce/buttons.php:179
+msgid "Button border radius"
+msgstr ""
+
+#: options/woocommerce/buttons.php:201
+msgid "Filter by price sider"
+msgstr ""
+
+#: options/woocommerce/compare.php:4
+msgid "Compare"
+msgstr ""
+
+#: options/woocommerce/compare.php:14
+msgid "Compare icon"
+msgstr ""
+
+#: options/woocommerce/compare.php:33
+msgid "Header compare icon color"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:8 options/woocommerce/header-cart.php:18
+msgid "Cart"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:39
+msgid "Header cart icon color"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:64
+msgid "Header cart counter"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:106
+msgid "Header cart subtotal"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:152
+msgid "Header cart open box colors"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:157
+msgid "Text color"
+msgstr ""
+
+#: options/woocommerce/header-cart.php:202
+msgid "Open cart buttons"
+msgstr ""
+
+#: options/woocommerce/header-search.php:8
+msgid "Search"
+msgstr ""
+
+#: options/woocommerce/header-search.php:18
+msgid "Search form"
+msgstr ""
+
+#: options/woocommerce/header-search.php:64
+msgid "Search button colors"
+msgstr ""
+
+#: options/woocommerce/header-search.php:70
+msgid "Icon hover"
+msgstr ""
+
+#: options/woocommerce/header-search.php:113
+msgid "Search input colors"
+msgstr ""
+
+#: options/woocommerce/header-search.php:120
+msgid "Placeholder"
+msgstr ""
+
+#: options/woocommerce/header-search.php:156
+msgid "Search categories colors"
+msgstr ""
+
+#: options/woocommerce/header-search.php:192
+msgid "Rounded corners"
+msgstr ""
+
+#: options/woocommerce/my-account.php:8
+msgid "My Account"
+msgstr ""
+
+#: options/woocommerce/my-account.php:18
+msgid "My Account icon"
+msgstr ""
+
+#: options/woocommerce/my-account.php:39
+msgid "Header My Account icon color"
+msgstr ""
+
+#: options/woocommerce/product-page.php:8
+msgid "Product Page"
+msgstr ""
+
+#: options/woocommerce/product-page.php:42
+msgid "Gallery zoom"
+msgstr ""
+
+#: options/woocommerce/product-page.php:50
+msgid "Gallery lightbox"
+msgstr ""
+
+#: options/woocommerce/product-page.php:58
+msgid "Gallery slider"
+msgstr ""
+
+#: options/woocommerce/product-page.php:67
+msgid "Related products"
+msgstr ""
+
+#: options/woocommerce/product-page.php:470
+msgid "Del price"
+msgstr ""
+
+#: options/woocommerce/product-page.php:685
+msgid "Summary"
+msgstr ""
+
+#: options/woocommerce/product-page.php:909
+msgid "Button and Quantity"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1136
+msgid "Button colors"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1171
+msgid "Button colors on hover"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1215
+msgid "Quantity height"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1258
+msgid "Quantity plus/minus"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1277
+msgid "Plus/Minus buttons"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1319
+msgid "Plus/Minus buttons hover"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1370
+msgid "Image area width (in %)"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1580
+msgid "Gallery images border"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1706
+msgid "Gallery images padding"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1746
+msgid "Tabs"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1762
+msgid "Tabs font"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1810
+msgid "Tabs content font"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1860
+msgid "Tab titles align"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1880
+msgid "Active tab"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1887
+msgid "Line"
+msgstr ""
+
+#: options/woocommerce/product-page.php:1915
+msgid "Inactive tab"
+msgstr ""
+
+#: options/woocommerce/product-page.php:2072
+msgid "Content padding"
+msgstr ""
+
+#: options/woocommerce/product-page.php:2119
+msgid "SKU"
+msgstr ""
+
+#: options/woocommerce/product-page.php:2157
+msgid "Tags"
+msgstr ""
+
+#: options/woocommerce/product-page.php:2403
+msgid "Sale"
+msgstr ""
+
+#: options/woocommerce/product-page.php:2658
+msgid "Position from left"
+msgstr ""
+
+#: options/woocommerce/wishlist.php:8
+msgid "Wishlist"
+msgstr ""
+
+#: options/woocommerce/wishlist.php:18
+msgid "Wishlist icon"
+msgstr ""
+
+#: options/woocommerce/wishlist.php:38
+msgid "Header wishlist icon color"
+msgstr ""

@@ -1,0 +1,502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Woo Search\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"POT-Creation-Date: 2019-07-18 11:26+0000\n"
+"PO-Revision-Date: 2019-07-25 14:43+0000\n"
+"Last-Translator: Алексей Казаков <hdelta045@yandex.ru>\n"
+"Language-Team: Русский\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: includes/class-aws-admin.php:129
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/class-aws-admin.php:351
+msgid "Reindex table"
+msgstr "Переиндексировать таблицу"
+
+msgid ""
+"This action only need for %s one time %s - after you activate this plugin. "
+"After this all products changes will be re-indexed automatically."
+msgstr ""
+"Это действие нужно только % s один раз % s - после активации этого плагина. "
+"После этого все изменения товаров будут автоматически переиндексированы."
+
+msgid "Go to Settings Page"
+msgstr "На страницу настроек"
+
+#: includes/class-aws-admin.php:352
+msgid ""
+"Update all data in plugins index table. Index table - table with products "
+"data where plugin is searching all typed terms.<br>Use this button if you "
+"think that plugin not shows last actual data in its search results.<br>"
+"<strong>CAUTION:</strong> this can take large amount of time.</span>"
+msgstr ""
+"Обновите все данные в таблице индексов плагинов. Индексная таблица - таблица "
+"с данными о товарах, где плагин ищет все введенные термины.<br>Используйте "
+"эту кнопку, если считаете, что плагин не отображает последние фактические "
+"данные в результатах поиска.<br><strong> ВНИМАНИЕ: </strong> это может "
+"займет много времени.</span>"
+
+#: includes/class-aws-admin.php:362
+msgid "Clear cache"
+msgstr "Очистить кеш"
+
+#: includes/class-aws-admin.php:363
+msgid "Clear cache for all search results."
+msgstr "Очищает кеш от всех результатов поиска"
+
+#: includes/options.php:111
+msgid ""
+"Smart scraping sentences with searching terms from product description."
+msgstr "Умные списки предложений с поисковыми терминами из описания продукта."
+
+#: includes/options.php:112
+msgid ""
+"First N words of product description ( number of words that you choose below."
+" )"
+msgstr ""
+"Первые N слов описания продукта (количество слов, которые вы выбираете ниже.)"
+
+#: advanced-woo-search.php:113
+msgid "Sale!"
+msgstr "Распродажа!"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "View all results"
+msgstr "Посмотреть все результаты"
+
+#: advanced-woo-search.php:127
+msgid "Settings"
+msgstr "Настройки"
+
+#: advanced-woo-search.php:130 includes/class-aws-admin.php:63
+msgid "Get Premium"
+msgstr "Получить Premium-версию"
+
+#: advanced-woo-search.php:166
+msgid ""
+"Advanced Woo Search plugin is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"Плагин Advanced Woo Search включен, но не эффективен. Для работы требуется "
+"WooCommerce."
+
+#: includes/widget.php:15
+msgid "Advanced WooCommerce search widget"
+msgstr "Advanced WooCommerce search widget"
+
+#: includes/widget.php:17
+msgid "&raquo; AWS Widget"
+msgstr "&raquo; AWS Widget"
+
+#: includes/widget.php:56
+msgid "Search..."
+msgstr "Ищу..."
+
+#: includes/widget.php:62
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: includes/class-aws-admin.php:38 includes/class-aws-admin.php:38
+msgid "Adv. Woo Search"
+msgstr "Adv. Woo Search"
+
+#: includes/class-aws-admin.php:49
+msgid "General"
+msgstr "Основные"
+
+#: includes/class-aws-admin.php:296
+msgid "Active sources"
+msgstr "Активированные источник "
+
+#: includes/class-aws-admin.php:297
+msgid "Change order by drag&drop"
+msgstr "Измените порядок путем перетаскивания"
+
+#: includes/class-aws-admin.php:316
+msgid "Deactivated sources"
+msgstr "Деактивированные источники"
+
+#: includes/class-aws-admin.php:317
+msgid "Excluded from search results"
+msgstr "Исключено из поисковых результатов"
+
+#: includes/options.php:9
+msgid "Cache results"
+msgstr "Результаты кеширования"
+
+msgid "Sync index table"
+msgstr "Синхронизировать индексную таблицу"
+
+msgid ""
+"Automatically update plugin index table when product content was changed. "
+"This means that in search there will be always latest product data."
+msgstr ""
+"Автоматически обновлять индексную таблицу плагинов при изменении содержимого "
+"продукта. Это означает, что в поиске всегда будут последние данные о товаре."
+
+msgid "Turn this off if you have any problems with performance."
+msgstr ""
+"Выключите это, если у вас есть какие-либо проблемы с производительностью."
+
+msgid "Main Settings"
+msgstr "Основные настройки"
+
+msgid "Seamless integration"
+msgstr "Бесшовная интеграция"
+
+msgid ""
+"Replace all the standard search forms on your website ( may not work with "
+"some themes )."
+msgstr ""
+"Заменяет все стандартные формы поиска на вашем сайте (может не работать с "
+"некоторыми темами)."
+
+msgid "Activation"
+msgstr "Активация"
+
+msgid ""
+"In case you need to add plugin search form on your website, you can do it in "
+"several ways:"
+msgstr ""
+"Если вам нужно добавить форму поиска плагинов на ваш сайт, вы можете сделать "
+"это несколькими способами:"
+
+msgid ""
+"Enable a \"Seamless integration\" option ( may not work with some themes )"
+msgstr ""
+"Включите опцию «Бесшовная интеграция» (может не работать с некоторыми темами)"
+
+msgid "Add search form using shortcode %s"
+msgstr "Добавить форму поиска, используя шорткод %s"
+
+msgid ""
+"Add search form as widget for one of your theme widget areas. Go to "
+"Appearance -> Widgets and drag&drop AWS Widget to one of your widget areas"
+msgstr ""
+"Добавить форму поиска в качестве виджета в одной из областей виджетов вашей "
+"темы. Перейдите в Внешний вид -> Виджеты и перетащите AWS Widget в одну из "
+"областей виджетов"
+
+msgid "Add PHP code to the necessary files of your theme: %s"
+msgstr "Добавьте PHP-код в нужные файлы вашей темы: %s"
+
+#: includes/options.php:10
+msgid ""
+"Turn off if you have old data in the search results after content of "
+"products was changed.<br><strong>CAUTION:</strong> can dramatically increase "
+"search speed"
+msgstr ""
+"Установите off, если у вас остались старые данные в результатах поиска после "
+"изменения содержания товаров.<br><strong>ВНИМАНИЕ:</strong> может "
+"значительно увеличить скорость поиска"
+
+#: includes/options.php:15 includes/options.php:43 includes/options.php:55
+#: includes/options.php:67 includes/options.php:99 includes/options.php:123
+#: includes/options.php:135 includes/options.php:147 includes/options.php:159
+msgid "On"
+msgstr "On"
+
+#: includes/options.php:16 includes/options.php:44 includes/options.php:56
+#: includes/options.php:68 includes/options.php:100 includes/options.php:124
+#: includes/options.php:136 includes/options.php:148 includes/options.php:160
+msgid "Off"
+msgstr "Off"
+
+#: includes/options.php:21
+msgid "Text for search field"
+msgstr "Текст в поле поиска"
+
+#: includes/options.php:22
+msgid "Text for search field placeholder."
+msgstr " Текст, который будет указан в поле поиска"
+
+#: includes/options.php:35
+msgid "Search"
+msgstr "Искать"
+
+msgid "Text for show more button"
+msgstr "Текст для кнопки Показать больше"
+
+msgid ""
+"Text for link to search results page at the bottom of search results block."
+msgstr ""
+"Текст ссылки на страницу результатов поиска в нижней части блока результатов "
+"поиска."
+
+#: includes/options.php:40
+msgid "Nothing found field"
+msgstr "Поле Ничего не найдено"
+
+#: includes/options.php:41
+msgid "Text when there is no search results."
+msgstr "Текст, который сообщает, что ничего не нашлось"
+
+#: includes/options.php:43
+msgid "Nothing found"
+msgstr "Нет результатов"
+
+#: includes/options.php:29
+msgid "Minimum number of characters"
+msgstr "Минимальное количество символов"
+
+#: includes/options.php:30
+msgid "Minimum number of characters required to run ajax search."
+msgstr ""
+"Минимальное количество символов, которое требуется для запуска ajax поиска."
+
+#: includes/options.php:37
+msgid "Show loader"
+msgstr "Показать загрузчик"
+
+#: includes/options.php:38
+msgid "Show loader animation while searching."
+msgstr "Показывать процесс загрузки пока идет поиск"
+
+msgid "Show clear button"
+msgstr "Показать кнопку очистки"
+
+msgid ""
+"Show 'Clear search string' button for desktop devices ( for mobile it is "
+"always visible )."
+msgstr ""
+"Показать кнопку «Очистить строку поиска» для настольных устройств (для "
+"мобильных устройств она всегда видна)."
+
+msgid "Show 'View All Results'"
+msgstr "Показать \"Посмотреть все результаты\""
+
+msgid "Show link to search results page at the bottom of search results block."
+msgstr ""
+"Показать ссылку на страницу результатов поиска внизу блока результатов "
+"поиска."
+
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+msgid "Choose how to view search results."
+msgstr "Выберите, в каком виде выводить результаты поиска"
+
+msgid "Both ajax search results and search results page"
+msgstr "Оба варианта: Результаты поиска ajax и страница результатов поиска "
+
+msgid "Only ajax search results ( no search results page )"
+msgstr "Только результаты поиска ajax ( нет страница результатов поиска )"
+
+msgid "Only search results page ( no ajax search results )"
+msgstr "Только страница результатов поиска ( нет результатов поиска ajax )"
+
+msgid "Form Styling"
+msgstr "Вид поисковой формы "
+
+msgid "Choose search form layout"
+msgstr "Выберите форму поиска"
+
+msgid ""
+"Filter button will be visible only if you have more than one active filter "
+"for current search form instance."
+msgstr ""
+"Кнопка фильтра будет видна, только если у вас есть более одного активного "
+"фильтра для текущего экземпляра формы поиска."
+
+#: includes/options.php:49
+msgid "Show image"
+msgstr "Показывать изображения"
+
+#: includes/options.php:50
+msgid "Show product image for each search result."
+msgstr "Показать изображения товара для каждого результата поиска"
+
+#: includes/options.php:61
+msgid "Show description"
+msgstr "Показывать описание"
+
+#: includes/options.php:62
+msgid "Show product description for each search result."
+msgstr "Показывать описание товара для каждого результата поиска"
+
+#: includes/options.php:73
+msgid "Description source"
+msgstr "Источник Описание"
+
+#: includes/options.php:74
+msgid ""
+"From where to take product description.<br>If first source is empty data "
+"will be taken from other sources."
+msgstr ""
+"Откуда взять описание товара.<br>Если первый источник пуст, данные будут "
+"взяты из других источников."
+
+#: includes/options.php:79
+msgid "Content"
+msgstr "Содержание"
+
+#: includes/options.php:80
+msgid "Short description"
+msgstr "Отрывок"
+
+#: includes/options.php:85
+msgid "Description length"
+msgstr "Длина Описания"
+
+#: includes/options.php:86
+msgid "Maximal allowed number of words for product description."
+msgstr "Максимально допустимое количество слов для описания продукта."
+
+#: includes/options.php:93
+msgid "Show price"
+msgstr "Показывать стоимость"
+
+#: includes/options.php:94
+msgid "Show product price for each search result."
+msgstr "Показывать стоимость товара для каждого результата поиска"
+
+msgid "Show price for out of stock"
+msgstr "Показывать стоимость товаров, которых нет в наличии"
+
+msgid "Show product price for out of stock products."
+msgstr "Показывать стоимость товаров, которых нет в наличии"
+
+#: includes/options.php:105
+msgid "Description content"
+msgstr "Содержимое Описания"
+
+#: includes/options.php:106
+msgid "What to show in product description?"
+msgstr "Что показывать в описании товара?"
+
+#: includes/options.php:117
+msgid "Show categories archive"
+msgstr "Показывать категории архивов"
+
+#: includes/options.php:118
+msgid "Include categories archives pages to search result."
+msgstr "Включить категории архивных страниц в результаты поиска."
+
+#: includes/options.php:129
+msgid "Show tags archive"
+msgstr "Показывать метки архивов"
+
+#: includes/options.php:130
+msgid "Include tags archives pages to search results."
+msgstr "Включить метки архивных страниц в результаты поиска"
+
+#: includes/options.php:141
+msgid "Show sale badge"
+msgstr "Показывать знак распродажи"
+
+#: includes/options.php:142
+msgid "Show sale badge for products in search results."
+msgstr "Показывать значок распродажи в результатах поиска"
+
+#: includes/options.php:153
+msgid "Show product SKU"
+msgstr "Показывать SKU товара"
+
+#: includes/options.php:154
+msgid "Show product SKU in search results."
+msgstr "Показывать SKU товара в результатах поиска"
+
+msgid "Show stock status"
+msgstr "Показывать статус в наличии"
+
+msgid "Show stock status for every product in search results."
+msgstr "Показывать статус наличия для каждого товара из поиска"
+
+msgid "Show featured icon"
+msgstr "Показывать значок рекомендации"
+
+msgid "Show or not star icon for featured products."
+msgstr "Показать или нет значок звезды для рекомендуемых продуктов."
+
+#: includes/options.php:167
+msgid "Max number of results"
+msgstr "Максимальное число найденных результатов"
+
+#: includes/options.php:168
+msgid "Maximum number of displayed search results."
+msgstr "Максимальное число найденных результатов, которые будут показаны"
+
+#: includes/options.php:175
+msgid "Search in"
+msgstr "Искать в"
+
+#: includes/options.php:176
+msgid "Search source: Drag&drop sources to activate or deactivate them."
+msgstr ""
+"Где искать: перетащите источники, чтобы активировать или деактивировать их."
+
+#: includes/options.php:30
+msgid "Show out-of-stock"
+msgstr "Показать товары, которых нет в наличии"
+
+#: includes/options.php:31
+msgid "Show out-of-stock products in search"
+msgstr "Показать в результатах поиска те товары, которых нет в наличии"
+
+msgid "Stop words list"
+msgstr "Список стоп-слов"
+
+msgid "Comma separated list of words that will be excluded from search."
+msgstr "Разделенный запятыми список слов, которые будут исключены из поиска."
+
+msgid "Re-index required on change."
+msgstr "При изменении требуется переиндексация."
+
+#: includes/options.php:42
+msgid "Use Google Analytics"
+msgstr "Использовать Google Analytics"
+
+#: includes/options.php:42
+msgid ""
+"Use google analytics to track searches. You need google analytics to be "
+"installed on your site."
+msgstr ""
+"Используйте Google Analytics для отслеживания поисковых запросов. Вам нужно "
+"установить Google Analytics на вашем сайте."
+
+#: includes/options.php:42
+msgid ""
+"Will send event with category - 'AWS search', action - 'AWS Search Term' and "
+"label of value of search term."
+msgstr ""
+"Отправит событие с категорией - 'AWS search', действие - 'AWS Search Term' и "
+"меткой значения поискового термина."
+
+msgid "In stock"
+msgstr "В наличии"
+
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#. Name of the plugin
+msgid "Advanced Woo Search"
+msgstr "Advanced Woo Search"
+
+#. Description of the plugin
+msgid "Advance ajax WooCommerce product search."
+msgstr "Расширенный ajax-поиск товаров в Woocommerce"
+
+#. Author of the plugin
+msgid "ILLID"
+msgstr "ILLID"

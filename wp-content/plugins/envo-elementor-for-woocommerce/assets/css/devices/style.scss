@@ -1,0 +1,1509 @@
+// Transform
+@mixin transform($args) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+}
+
+/*------------------------------------------------------------------
+Devices
+-------------------------------------------------------------------*/
+.etww-device {
+    position: relative;
+    @include transform(scale(1));
+    z-index: 1;
+
+    &,
+    &::before,
+    &::after,
+    *,
+    *::before,
+    *::after {
+        display: block;
+    }
+
+    .etww-device-frame {
+        z-index: 1;
+    }
+
+    .etww-device-content {
+        background-color: #fff;
+        background-position: center center;
+        background-size: cover;
+        object-fit: cover;
+        position: relative;
+    }
+}
+
+// iPhone X
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #222;
+
+.etww-device-iphone-x {
+    height: 868px;
+    width: 428px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 68px;
+    box-shadow: inset 0 0 2px 2px $device-silver-dark, inset 0 0 0 7px $device-silver;
+    padding: 28px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .etww-device-content {
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .etww-device-stripe {
+    &::after,
+    &::before {
+      border: solid rgba(#333, .25);
+      border-width: 0 7px;
+      content: "";
+      height: 7px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 9;
+    }
+    &::after {
+      top: 85px;
+    }
+    &::before {
+      bottom: 85px;
+    }
+  }
+
+  .etww-device-header {
+    background: $device-silver-panel;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 30px;
+    left: 50%;
+    margin-left: -102px;
+    position: absolute;
+    top: 28px;
+    width: 204px;
+
+    &::after,
+    &::before {
+      content: "";
+      height: 10px;
+      position: absolute;
+      top: 0;
+      width: 10px;
+    }
+    &::after {
+      background: radial-gradient(circle at bottom left, transparent 0, transparent 75%, $device-silver-panel 75%, $device-silver-panel 100%);
+      left: -10px;
+    }
+    &::before {
+      background: radial-gradient(circle at bottom right, transparent 0, transparent 75%, $device-silver-panel 75%, $device-silver-panel 100%);
+      right: -10px;
+    }
+  }
+
+  .etww-device-sensors {
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      background: #444;
+      border-radius: 3px;
+      height: 6px;
+      left: 50%;
+      margin-left: -25px;
+      top: 32px;
+      width: 50px;
+    }
+    &::before {
+      background: #444;
+      border-radius: 50%;
+      height: 14px;
+      left: 50%;
+      margin-left: 40px;
+      top: 28px;
+      width: 14px;
+    }
+  }
+
+  .etww-device-btns {
+    background: $device-silver-dark;
+    height: 32px;
+    left: -3px;
+    position: absolute;
+    top: 115px;
+    width: 3px;
+
+    &::after,
+    &::before {
+      background: $device-silver-dark;
+      content: "";
+      height: 62px;
+      left: 0;
+      position: absolute;
+      width: 3px;
+    }
+
+    &::after {
+      top: 60px;
+    }
+    &::before {
+      top: 140px;
+    }
+  }
+
+  .etww-device-power {
+    background: $device-silver-dark;
+    height: 100px;
+    right: -3px;
+    position: absolute;
+    top: 200px;
+    width: 3px;
+  }
+}
+
+// iPhone 8
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #fff;
+$device-gold: #f7e8dd;
+$device-gold-dark: darken($device-gold, 20%);
+$device-gold-panel: #fff;
+$device-spacegray: #9b9ba0;
+$device-spacegray-dark: darken($device-spacegray, 15%);
+$device-spacegray-panel: #222;
+
+.etww-device-iphone-8 {
+  height: 871px;
+  width: 419px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 68px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark, inset 0 0 0 7px $device-silver;
+    height: 871px;
+    padding: 102px 22px;
+    width: 419px;
+  }
+
+  // 1334-by-750-pixel resolution
+  .etww-device-content {
+    border: 2px solid #222;
+    border-radius: 4px;
+    height: 667px;
+    width: 375px;
+  }
+
+  .etww-device-stripe {
+    &::after,
+    &::before {
+      border: solid rgba(#333, .15);
+      border-width: 0 7px;
+      content: "";
+      height: 6px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 9;
+    }
+    &::after {
+      top: 68px;
+    }
+    &::before {
+      bottom: 68px;
+    }
+  }
+
+  // Home button
+  .etww-device-header {
+    border: 2px solid $device-silver-dark;
+    border-radius: 50%;
+    bottom: 25px;
+    height: 58px;
+    left: 50%;
+    margin-left: -29px;
+    position: absolute;
+    width: 58px;
+  }
+
+  .etww-device-sensors {
+    background: #666;
+    border-radius: 3px;
+    height: 6px;
+    left: 50%;
+    margin-left: -38px;
+    position: absolute;
+    top: 52px;
+    width: 76px;
+
+    &::after,
+    &::before {
+      background: #666;
+      border-radius: 50%;
+      content: "";
+      position: absolute;
+    }
+    &::after {  
+      height: 10px;
+      left: 50%;
+      margin-left: -5px;
+      top: -25px;
+      width: 10px;
+    }
+    &::before {
+      height: 12px;
+      left: -42px;
+      margin-top: -6px;
+      top: 50%;
+      width: 12px;
+    }
+  }
+
+  .etww-device-btns {
+    background: $device-silver-dark;
+    height: 30px;
+    left: -3px;
+    position: absolute;
+    top: 102px;
+    width: 3px;
+
+    &::after,
+    &::before {
+      background: $device-silver-dark;
+      content: "";
+      height: 56px;
+      left: 0;
+      position: absolute;
+      width: 3px;
+    }
+
+    &::after {
+      top: 62px;
+    }
+    &::before {
+      top: 132px;
+    }
+  }
+
+  .etww-device-power {
+    background: $device-silver-dark;
+    height: 80px;
+    right: -2px;
+    position: absolute;
+    top: 160px;
+    width: 3px;
+  }
+
+  // Gold edition 
+  &.etww-device-gold {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-gold-dark, inset 0 0 0 7px $device-gold;
+    }
+
+    .etww-device-header {
+      border-color: $device-gold-dark;
+    }
+
+    .etww-device-btns {
+      &,
+      &::after,
+      &::before {
+        background: $device-gold-dark;
+      }
+    }
+
+    .etww-device-power {
+      background: $device-gold-dark;
+    }
+  }
+
+  // Space Gray edition
+  &.etww-device-spacegray {
+    .etww-device-frame {
+      background: $device-spacegray-panel;
+      box-shadow: inset 0 0 0 2px $device-spacegray-dark, inset 0 0 0 7px $device-spacegray;
+    }
+
+    .etww-device-stripe {
+      &::after,
+      &::before {
+        border-color: rgba(#ccc, .35);
+      }
+    }
+
+    .etww-device-btns {
+      &,
+      &::after,
+      &::before {
+        background: $device-spacegray-dark;
+      }
+    }
+  }
+}
+
+// Google Pixel 2 XL
+$device-black: #cfcfcf;
+$device-black-dark: darken($device-black, 20%);
+$device-black-panel: #121212;
+
+.etww-device-google-pixel-2-xl {
+  height: 832px;
+  width: 404px;
+
+  .etww-device-frame {
+    background: $device-black-panel;
+    border-radius: 36px;
+    box-shadow: inset 0 0 0 2px $device-black, inset 0 0 0 7px $device-black-dark;
+    height: 832px;
+    padding: 56px 22px;
+    width: 404px;
+  }
+
+  // 2880-by-1440-pixel resolution
+  .etww-device-content {
+    border-radius: 27px;
+    height: 720px;
+    width: 360px;
+  }
+
+  .etww-device-header {
+    height: 832px;
+    left: 50%;
+    margin-left: -150px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+
+    &::after,
+    &::before {
+      background: #333;
+      border-radius: 3px;
+      content: "";
+      height: 6px;
+      left: 50%;
+      margin-left: -73px;
+      margin-top: -3px;
+      position: absolute;
+      width: 146px;
+    }
+    &::after {
+      top: 24px;
+    }
+    &::before {
+      bottom: 28px;
+    }
+  }
+
+  .etww-device-sensors {
+    background: #333;
+    border-radius: 7px;
+    height: 14px;
+    left: 54px;
+    margin-top: -7px;
+    position: absolute;
+    top: 36px;
+    width: 14px;
+  }
+
+  .etww-device-btns {
+    background: $device-black;
+    height: 102px;
+    position: absolute;
+    right: -3px;
+    top: 306px;
+    width: 3px;
+  }
+
+  .etww-device-power {
+    background: $device-black;
+    height: 58px;
+    position: absolute;
+    right: -3px;
+    top: 194px;
+    width: 3px;
+  }
+}
+
+// Google Pixel
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #f7f7f8;
+$device-black: #6a6967;
+$device-black-dark: darken($device-black, 20%);
+$device-black-panel: #211d1c;
+$device-blue: #7695ff;
+$device-blue-dark: darken($device-blue, 15%);
+$device-blue-panel: #f7f7f8;
+
+.etww-device-google-pixel {
+  height: 744px;
+  width: 360px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 54px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark, inset 0 0 0 6px $device-silver, inset 0 0 0 10px lighten($device-silver-panel, 10%);
+    height: 744px;
+    padding: 82px 18px 86px 18px;
+    width: 360px;
+  }
+
+  // 1920-by-1080-pixel resolution
+  .etww-device-content {
+    border: 2px solid #222;
+    border-radius: 2px;
+    height: 576px;
+    width: 324px;
+  }
+
+  .etww-device-stripe {
+    border-top: 6px solid rgba(#333, .15);
+    bottom: 0;
+    left: 254px;
+    position: absolute;
+    top: 0;
+    width: 8px;
+
+    &::after,
+    &::before {
+      border: solid rgba(#333, .15);
+      border-width: 0 6px;
+      content: "";
+      height: 10px;
+      left: -254px;
+      position: absolute;
+      width: 360px;
+      z-index: 9;
+    }
+    &::after {
+      top: 60px;
+    }
+    &::before {
+      bottom: 46px;
+    }
+  }
+
+  .etww-device-sensors {
+    background: #ddd;
+    border-radius: 2.5px;
+    height: 5px;
+    left: 50%;
+    margin-left: -39px;
+    margin-top: -2.5px;
+    position: absolute;
+    top: 41px;
+    width: 78px;
+
+    &::after,
+    &::before {
+      background: #333;
+      border-radius: 6px;
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      height: 12px;
+      left: 50%;
+      margin-left: -14px;
+      top: 21.5px;
+      width: 28px;
+    }
+    &::before {
+      height: 10px;
+      left: -81px;
+      margin-top: -5px;
+      top: 50%;
+      width: 10px;
+    }
+  }
+
+  .etww-device-btns {
+    background: $device-silver-dark;
+    height: 102px;
+    position: absolute;
+    right: -2px;
+    top: 298px;
+    width: 3px;
+  }
+
+  .etww-device-power {
+    background: $device-silver-dark;
+    height: 50px;
+    position: absolute;
+    right: -2px;
+    top: 184px;
+    width: 3px;
+  }
+
+  // Black edition 
+  &.etww-device-black {
+    .etww-device-frame {
+      background: $device-black-panel;
+      box-shadow: inset 0 0 0 2px $device-black-dark, inset 0 0 0 6px $device-black, inset 0 0 0 10px lighten($device-black-panel, 10%);
+    }
+
+    .etww-device-stripe {
+      &,
+      &::after,
+      &::before {
+        border-color: rgba(#0d0d0d, .35);
+      }
+    }
+
+    .etww-device-sensors {
+      background: #444;
+
+      &::after {
+        background: #0d0d0d;
+      }
+    }
+
+    .etww-device-btns {
+      &,
+      &::after,
+      &::before {
+        background: $device-black-dark;
+      }
+    }
+
+    .etww-device-power {
+      background: $device-black-dark;
+    }
+  }
+
+  // Blue edition
+  &.etww-device-blue {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-blue-dark, inset 0 0 0 6px $device-blue, inset 0 0 0 10px lighten($device-blue-panel, 10%);
+    }
+
+    .etww-device-btns {
+      &,
+      &::after,
+      &::before {
+        background: $device-blue-dark;
+      }
+    }
+
+    .etww-device-power {
+      background: $device-blue-dark;
+    }
+  }
+}
+
+// Galaxy S8
+$device-black: #cfcfcf;
+$device-black-dark: darken($device-black, 20%);
+$device-black-panel: #222;
+$device-blue: #a3c5e8;
+$device-blue-dark: darken($device-blue, 20%);
+$device-blue-panel: #222;
+
+.etww-device-galaxy-s8 {
+  height: 828px;
+  width: 380px;
+
+  .etww-device-frame {
+    background: $device-black-panel;
+    border: solid $device-black;
+    border-radius: 55px;
+    border-width: 5px 0;
+    box-shadow: inset 0 0 0 2px $device-black-dark;
+    height: 828px;
+    padding: 48px 10px 40px 10px;
+    width: 380px;
+  }
+
+  // 2960-by-1440-pixel resolution
+  .etww-device-content {
+    border: 2px solid #222;
+    border-radius: 34px;
+    height: 740px;
+    width: 360px;
+  }
+
+  .etww-device-stripe {
+    &::after,
+    &::before {
+      border: solid rgba(#333, .15);
+      border-width: 5px 0;
+      content: "";
+      height: 828px;
+      position: absolute;
+      top: 0;
+      width: 6px;
+      z-index: 9;
+    }
+    &::after {
+      left: 48px;
+    }
+    &::before {
+      right: 48px;
+    }
+  }
+
+  .etww-device-sensors {
+    background: #666;
+    border-radius: 3px;
+    height: 6px;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -3px;
+    position: absolute;
+    top: 32px;
+    width: 48px;
+
+    &::after,
+    &::before {
+      background: #666;
+      border-radius: 50%;
+      content: "";
+      position: absolute;
+      top: 50%;
+    }
+    &::after {
+      box-shadow: -192px 0 #333, -174px 0 #333, -240px 0 #333;
+      height: 8px;
+      right: -90px;
+      margin-top: -4px;
+      width: 8px;
+    }
+    &::before {
+      box-shadow: 186px 0 #666;
+      height: 12px;
+      left: -90px;
+      margin-top: -6px;
+      width: 12px;
+    }
+  }
+
+  .etww-device-btns {
+    background: $device-black-dark;
+    border-radius: 3px 0 0 3px;
+    height: 116px;
+    left: -3px;
+    position: absolute;
+    top: 144px;
+    width: 3px;
+
+    &::after {
+      background: $device-black-dark;
+      border-radius: 3px 0 0 3px;
+      content: "";
+      height: 54px;
+      left: 0;
+      position: absolute;
+      top: 164px;
+      width: 3px;
+    }
+  }
+
+  .etww-device-power {
+    background: $device-black-dark;
+    border-radius: 0 3px 3px 0;
+    height: 54px;
+    right: -3px;
+    position: absolute;
+    top: 260px;
+    width: 3px;
+  }
+
+  // Coral Blue edition
+  &.etww-device-blue {
+    .etww-device-frame {
+      border-color: $device-blue;
+      box-shadow: inset 0 0 0 2px $device-blue-dark;
+    }
+
+    .etww-device-stripe {
+      &::after,
+      &::before {
+        border-color: rgba(#fff, .35);
+      }
+    }
+
+    .etww-device-btns {
+      &,
+      &::after {
+        background: $device-blue-dark;
+      }
+    }
+
+    .etww-device-power {
+      background: $device-blue-dark;
+    }
+  }
+}
+
+// iPad Pro
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #fff;
+$device-gold: #f7e8dd;
+$device-gold-dark: darken($device-gold, 20%);
+$device-gold-panel: #fff;
+$device-rosegold: #facfc9;
+$device-rosegold-dark: darken($device-rosegold, 10%);
+$device-rosegold-panel: #fff;
+$device-spacegray: #9b9ba0;
+$device-spacegray-dark: darken($device-spacegray, 10%);
+$device-spacegray-panel: #222;
+
+.etww-device-ipad-pro {
+  height: 804px;
+  width: 560px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 38px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark, inset 0 0 0 6px $device-silver;
+    height: 804px;
+    padding: 62px 25px;
+    width: 560px;
+  }
+
+  // 2224-by-1668-pixel resolution
+  .etww-device-content {
+    border: 2px solid #222;
+    border-radius: 2px;
+    height: 680px;
+    width: 510px;
+  }
+
+  // Home button
+  .etww-device-header {
+    border: 2px solid $device-silver-dark;
+    border-radius: 50%;
+    bottom: 17px;
+    height: 34px;
+    left: 50%;
+    margin-left: -17px;
+    position: absolute;
+    width: 34px;
+  }
+
+  .etww-device-sensors {
+    background: #666;
+    border-radius: 50%;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    position: absolute;
+    top: 34px;
+    width: 10px;
+  }
+
+  // Gold edition 
+  &.etww-device-gold {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-gold-dark, inset 0 0 0 6px $device-gold;
+    }
+
+    .etww-device-header {
+      border-color: $device-gold-dark;
+    }
+  }
+
+  // Rose Gold edition 
+  &.etww-device-rosegold {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-rosegold-dark, inset 0 0 0 6px $device-rosegold;
+    }
+
+    .etww-device-header {
+      border-color: $device-rosegold-dark;
+    }
+  }
+
+  // Space Gray edition 
+  &.etww-device-spacegray {
+    .etww-device-frame {
+      background: $device-spacegray-panel;
+      box-shadow: inset 0 0 0 2px $device-spacegray-dark, inset 0 0 0 6px $device-spacegray;
+    }
+
+    .etww-device-header {
+      border-color: $device-spacegray-dark;
+    }
+  }
+}
+
+// Surface Pro
+$device-silver: #eee;
+$device-silver-dark: darken($device-silver, 15%);
+$device-silver-panel: #0d0d0d;
+
+.etww-device-surface-pro {
+  height: 394px;
+  width: 561px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark;
+    height: 394px;
+    margin: 0 auto;
+    padding: 26px 24px;
+    width: 561px;
+  }
+
+  // 2736-by-1824-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 342px;
+    width: 513px;
+  }
+
+  .etww-device-btns {
+    &::after,
+    &::before {
+      background: $device-silver-dark;
+      content: "";
+      height: 2px;
+      position: absolute;
+      top: -2px;
+    }
+
+    &::after {
+      left: 48px;
+      width: 26px;
+    }
+    &::before {
+      left: 94px;
+      width: 48px;
+    }
+  }
+
+  .etww-device-sensors {
+    background: #333;
+    border-radius: 50%;
+    height: 6px;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: -3px;
+    position: absolute;
+    top: 14px;
+    width: 6px;
+  }
+}
+
+// Surface Book
+$device-silver: #eee;
+$device-silver-dark: darken($device-silver, 15%);
+$device-silver-panel: #0d0d0d;
+
+.etww-device-surface-book {
+  height: 424px;
+  width: 728px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark;
+    height: 408px;
+    margin: 0 auto;
+    padding: 24px 22px;
+    position: relative;
+    width: 584px;
+  }
+
+  // 3000-by-2000-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 360px;
+    width: 540px;
+  }
+
+  .etww-device-btns {
+    &::after,
+    &::before {
+      background: $device-silver-dark;
+      content: "";
+      height: 2px;
+      position: absolute;
+      top: -2px;
+    }
+
+    &::after {
+      left: 122px;
+      width: 20px;
+    }
+    &::before {
+      left: 168px;
+      width: 44px;
+    }
+  }
+
+  .etww-device-power {
+    background: linear-gradient(to bottom, $device-silver, $device-silver-dark);
+    border: solid $device-silver-dark;
+    border-radius: 2px;
+    border-width: 0 2px;
+    height: 12px;
+    margin-top: 4px;
+    position: relative;
+    width: 728px;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      background: radial-gradient(circle at center, $device-silver 0, $device-silver 95%, darken($device-silver-dark, 15%) 100%);;
+      border-radius: 0 0 6px 6px;
+      height: 8px;
+      left: 50%;
+      margin-left: -125px;
+      top: 0;
+      width: 250px;
+      z-index: 1;
+    }
+    &::before {
+      background: linear-gradient(to bottom, $device-silver, $device-silver-dark);
+      border-radius: 2px 2px 0 0;
+      bottom: 12px;
+      height: 8px;
+      left: 50%;
+      margin-left: -292px;
+      width: 584px;
+    }
+  }
+}
+
+// MacBook
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #0d0d0d;
+$device-spacegray: #83878a;
+$device-spacegray-dark: darken($device-spacegray, 5%);
+$device-spacegray-panel: #0d0d0d;
+$device-gold: #f7e8dd;
+$device-gold-dark: darken($device-gold, 10%);
+$device-gold-panel: #0d0d0d;
+$device-rosegold: #facfc9;
+$device-rosegold-dark: darken($device-rosegold, 10%);
+$device-rosegold-panel: #0d0d0d;
+
+.etww-device-macbook {
+  height: 432px;
+  width: 740px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark;
+    height: 428px;
+    margin: 0 auto;
+    padding: 29px 19px 39px 19px;
+    position: relative;
+    width: 614px;
+
+    &::after {
+      background: lighten($device-silver-panel, 10%);
+      border-radius: 0 0 20px 20px;
+      bottom: 2px;
+      content: "";
+      height: 26px;
+      left: 2px;
+      position: absolute;
+      width: 610px;
+    }
+    &::before {
+      bottom: 10px;
+      color: $device-silver-dark;
+      content: "MacBook";
+      font-size: 12px;
+      height: 16px;
+      left: 50%;
+      line-height: 16px;
+      margin-left: -100px;
+      position: absolute;
+      text-align: center;
+      width: 200px;
+      z-index: 1;
+    }
+  }
+
+  // 1440-by-900-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 360px;
+    width: 576px;
+  }
+
+  .etww-device-power {
+    background: $device-silver;
+    border: solid darken($device-silver, 5%);
+    border-radius: 2px 2px 0 0;
+    border-width: 0 4px;
+    height: 4px;
+    margin-top: -10px;
+    position: relative;
+    width: 740px;
+    z-index: 9;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      background: radial-gradient(circle at center, $device-silver 0, $device-silver 85%, darken($device-silver-dark, 15%) 100%);
+      border: solid darken($device-silver-dark, 10%);
+      border-width: 0 2px;
+      height: 4px;
+      left: 50%;
+      margin-left: -60px;
+      width: 120px;
+    }
+    &::before {
+      background: darken($device-silver-dark, 15%);
+      border-radius: 0 0 180px 180px/ 0 0 10px 10px;
+      box-shadow: inset 0 -2px 6px 0 darken($device-silver-dark, 50%);
+      height: 10px;
+      left: -4px;
+      margin: 0 auto;
+      top: 4px;
+      width: 740px;
+    }
+  }
+
+  // Gold edition
+  &.etww-device-gold {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-gold-dark;
+    }
+
+    .etww-device-power {
+      background: $device-gold;
+      border-color: $device-gold-dark;
+
+      &::after {
+        background: radial-gradient(circle at center, $device-gold 0, $device-gold 85%, darken($device-gold-dark, 15%) 100%);
+        border-color: darken($device-gold-dark, 10%);
+      }
+      &::before {
+        background: $device-gold-dark;
+        box-shadow: inset 0 -2px 6px 0 darken($device-gold-dark, 50%);
+      }
+    }
+  }
+
+  // Rose Gold edition 
+  &.etww-device-rosegold {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-rosegold-dark;
+    }
+
+    .etww-device-power {
+      background: $device-rosegold;
+      border-color: $device-rosegold-dark;
+
+      &::after {
+        background: radial-gradient(circle at center, $device-rosegold 0, $device-rosegold 85%, darken($device-rosegold-dark, 15%) 100%);
+        border-color: $device-rosegold-dark;
+      }
+      &::before {
+        background: $device-rosegold-dark;
+        box-shadow: inset 0 -2px 6px 0 darken($device-rosegold-dark, 50%);
+      }
+    }
+  }
+
+  // Space Gray edition
+  &.etww-device-spacegray {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-spacegray-dark;
+    }
+
+    .etww-device-power {
+      background: lighten($device-spacegray, 5%);
+      border-color: $device-spacegray-dark;
+
+      &::after {
+        background: radial-gradient(circle at center, lighten($device-spacegray, 5%) 0, lighten($device-spacegray, 5%) 85%, darken($device-spacegray-dark, 15%) 100%);
+        border-color: darken($device-spacegray-dark, 10%);
+      }
+      &::before {
+        background: darken($device-spacegray-dark, 15%);
+        box-shadow: inset 0 -2px 6px 0 darken($device-spacegray-dark, 50%);
+      }
+    }
+  }
+}
+
+// MacBook Pro
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #0d0d0d;
+$device-spacegray: #83878a;
+$device-spacegray-dark: darken($device-spacegray, 5%);
+$device-spacegray-panel: #0d0d0d;
+
+.etww-device-macbook-pro {
+  height: 444px;
+  width: 740px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px $device-silver-dark;
+    height: 428px;
+    margin: 0 auto;
+    padding: 29px 19px 39px 19px;
+    position: relative;
+    width: 614px;
+
+    &::after {
+      background: lighten($device-silver-panel, 10%);
+      border-radius: 0 0 20px 20px;
+      bottom: 2px;
+      content: "";
+      height: 26px;
+      left: 2px;
+      position: absolute;
+      width: 610px;
+    }
+    &::before {
+      bottom: 10px;
+      color: $device-silver-dark;
+      content: "MacBook Pro";
+      font-size: 12px;
+      height: 16px;
+      left: 50%;
+      line-height: 16px;
+      margin-left: -100px;
+      position: absolute;
+      text-align: center;
+      width: 200px;
+      z-index: 1;
+    }
+  }
+
+  // 1680-by-1050-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 360px;
+    width: 576px;
+  }
+
+  .etww-device-power {
+    background: $device-silver;
+    border: solid darken($device-silver, 5%);
+    border-radius: 2px 2px 0 0;
+    border-width: 2px 4px 0 4px;
+    height: 14px;
+    margin-top: -10px;
+    position: relative;
+    width: 740px;
+    z-index: 9;
+    
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after {
+      background: lighten($device-silver-dark, 5%);
+      border-radius: 0 0 10px 10px;
+      box-shadow: inset 0 0 4px 2px darken($device-silver-dark, 5%);
+      height: 10px;
+      left: 50%;
+      margin-left: -60px;
+      top: -2px;
+      width: 120px;
+    }
+    &::before {
+      background: darken($device-silver-dark, 15%);
+      border-radius: 0 0 180px 180px/ 0 0 12px 12px;
+      box-shadow: inset 0 -2px 6px 0 darken($device-silver-dark, 50%);
+      height: 12px;
+      left: -4px;
+      margin: 0 auto;
+      top: 10px;
+      width: 740px;
+    }
+  }
+
+  // Space Gray edition
+  &.etww-device-spacegray {
+    .etww-device-frame {
+      box-shadow: inset 0 0 0 2px $device-spacegray-dark;
+    }
+
+    .etww-device-power {
+      background: lighten($device-spacegray, 5%);
+      border-color: $device-spacegray-dark;
+
+      &::after {
+        background: lighten($device-spacegray-dark, 5%);
+        box-shadow: inset 0 0 4px 2px darken($device-spacegray-dark, 5%);
+      }
+      &::before {
+        background: darken($device-spacegray-dark, 15%);
+        box-shadow: inset 0 -2px 6px 0 darken($device-spacegray-dark, 50%);
+      }
+    }
+  }
+}
+
+// Surface Studio
+$device-silver: #e2e3e4;
+$device-silver-dark: darken($device-silver, 10%);
+$device-silver-panel: #0d0d0d;
+
+.etww-device-surface-studio {
+  height: 506px;
+  width: 640px;
+
+  .etww-device-frame {
+    background: $device-silver-panel;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 2px darken($device-silver-panel, 5%);
+    height: 440px;
+    padding: 20px;
+    width: 640px;
+  }
+
+  // 4500-by-3000-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 400px;
+    width: 600px;
+  }
+
+  .etww-device-stripe {
+    background: #444;
+    border-radius: 0 0 2px 2px;
+    bottom: 0;
+    height: 4px;
+    left: 50%;
+    margin-left: -117px;
+    position: absolute;
+    width: 234px;
+
+    &::after,
+    &::before {
+      content: "";
+      left: 50%;
+      position: absolute;
+      top: -75px;
+    }
+    &::after {
+      border: 6px solid darken($device-silver, 5%);
+      border-top: 0;
+      border-radius: 0 0 18px 18px;
+      box-shadow: inset 0 0 0 4px $device-silver-dark;
+      height: 60px;
+      margin-left: -140px;
+      width: 280px;
+      z-index: -1;
+    }
+    &::before {
+      border: 15px solid $device-silver;
+      border-top: 0;
+      border-radius: 0 0 4px 4px;
+      height: 70px;
+      margin-left: -150px;
+      width: 300px;
+      z-index: -2;
+    }
+  }
+
+  .etww-device-power {
+    background: lighten($device-silver, 5%);
+    border: solid $device-silver;
+    border-radius: 0 0 2px 2px;
+    border-width: 0 4px 2px 4px;
+    height: 32px;
+    margin: 30px auto 0 auto;
+    position: relative;
+    width: 250px;
+
+    &::after {
+      background: darken($device-silver-dark, 10%);
+      content: "";
+      height: 2px;
+      left: -4px;
+      position: absolute;
+      top: 4px;
+      width: 250px;
+    }
+  }
+}
+
+// iMac Pro
+$device-spacegray: #54525b;
+$device-spacegray-dark: darken($device-spacegray, 15%);
+$device-spacegray-panel: #0d0d0d;
+
+.etww-device-imac-pro {
+  height: 484px;
+  width: 624px;
+
+  .etww-device-frame {
+    background: $device-spacegray-panel;
+    border-radius: 18px;
+    box-shadow: inset 0 0 0 2px darken($device-spacegray-panel, 2%);
+    height: 428px;
+    padding: 24px 24px 80px 24px;
+    position: relative;
+    width: 624px;
+
+    &::after {
+      background: $device-spacegray-dark;
+      border-radius: 0 0 18px 18px;
+      bottom: 2px;
+      content: "";
+      height: 54px;
+      left: 2px;
+      position: absolute;
+      width: 620px;
+    }
+    &::before {
+      bottom: 15px;
+      color: $device-spacegray-panel;
+      content: "";
+      font-size: 24px;
+      height: 24px;
+      left: 50%;
+      line-height: 24px;
+      margin-left: -100px;
+      position: absolute;
+      text-align: center;
+      width: 200px;
+      z-index: 9;
+    }
+  }
+
+  // 5120‑by‑2880-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-spacegray-panel, 2%);
+    border-radius: 2px;
+    height: 324px;
+    width: 576px;
+  }
+
+  .etww-device-power {
+    &::after,
+    &::before {
+      content: "";
+    }
+    &::after {
+      background: darken($device-spacegray-dark, 5%);
+      border-radius: 2px;
+      height: 6px;
+      margin: 0 auto;
+      position: relative;
+      width: 180px;
+    }
+    &::before {
+      border: solid transparent;
+      border-bottom-color: lighten($device-spacegray-panel, 15%);
+      border-width: 0 8px 50px 8px;
+      height: 50px;
+      margin: 0 auto;
+      position: relative;
+      width: 130px;
+    }
+  }
+}
+
+// Apple Watch
+$device-gray: #e2e3e4;
+$device-gray-dark: darken($device-gray, 20%);
+$device-gray-panel: #0d0d0d;
+
+.etww-device-apple-watch {
+  height: 234px;
+  width: 200px;
+
+  .etww-device-frame {
+    background: $device-gray-panel;
+    border-radius: 40px;
+    box-shadow: inset 0 0 2px 2px $device-gray-dark, inset 0 0 0 6px $device-gray, inset 0 0 0 8px $device-gray;
+    height: 234px;
+    padding: 32px;
+    position: relative;
+    width: 200px;
+
+    &::after {
+      border-radius: 30px;
+      box-shadow: inset 0 0 25px 0 rgba(255, 255, 255, .75);
+      content: "";
+      height: 216px;
+      left: 9px;
+      position: absolute;
+      top: 9px;
+      width: 182px;
+    }
+  }
+
+  // 272-by-340-pixel resolution
+  .etww-device-content {
+    border: 2px solid lighten($device-silver-panel, 2%);
+    border-radius: 2px;
+    height: 170px;
+    width: 136px;
+  }
+
+  .etww-device-btns {
+    background: $device-gray;
+    border-left: 2px solid $device-gray-dark;
+    border-radius: 8px 4px 4px 8px / 20px 4px 4px 20px;
+    box-shadow: inset 0 0 2px 2px $device-gray-dark;
+    height: 44px;
+    position: absolute;
+    right: -10px;
+    top: 52px;
+    width: 16px;
+    z-index: 9;
+
+    &::after {
+      background: $device-gray;
+      border-radius: 4px 2px 2px 4px / 10px 2px 2px 10px;
+      box-shadow: inset 0 0 1px 2px $device-gray-dark;
+      content: "";
+      height: 66px;
+      right: 6px;
+      position: absolute;
+      top: 68px;
+      width: 8px;
+    }
+    
+    &::before {
+      background: $device-gray-dark;
+      box-shadow: 0 -16px $device-gray-dark, 0 -12px $device-gray-dark, 0 -8px $device-gray-dark, 0 -4px $device-gray-dark, 0 4px $device-gray-dark, 0 8px $device-gray-dark, 0 12px $device-gray-dark, 0 16px $device-gray-dark;
+      content: "";
+      height: 2px;
+      margin-top: -1px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 6px;
+    }
+  }
+}
+
+/* RTL */
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/

@@ -1,0 +1,652 @@
+.envo-extra-team-wrapper {
+    position: relative;
+}
+.envo-extra-team-content {
+    padding: 30px;
+}
+.envo-extra-team-title,
+.envo-extra-testimonial-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2b2b2b;
+    position: relative;
+}
+.envo-extra-team-designation,
+.envo-extra-testimonial-designation {
+    font-size: 18px;
+    color: #969696;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    position: relative;
+}
+.envo-extra-team-social-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.envo-extra-team-social-list > li {
+    display: inline-block;
+    margin-right: 5px;
+    -webkit-transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.envo-extra-team-social-list > li:first-child {
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+.envo-extra-team-social-list > li:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.envo-extra-team-social-list > li:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+.envo-extra-team-social-list > li:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+.envo-extra-team-social-list > li:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.envo-extra-team-social-list > li:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+.envo-extra-team-social-list > li:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    -o-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+.envo-extra-team-social-list > li:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+.envo-extra-team-social-list > li:nth-child(9) {
+    -webkit-transition-delay: 0.9s;
+    -o-transition-delay: 0.9s;
+    transition-delay: 0.9s;
+}
+.envo-extra-team-social-list > li:nth-child(10) {
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+.envo-extra-team-social-list .envo-extra-team-social-icon {
+    height: 40px;
+    width: 40px;
+    min-width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid #c1c1c1;
+    color: #8a8a8a;
+    -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.envo-extra-team-social-icon > i {
+    font-size: 16px;
+    line-height: 1;
+}
+.envo-extra-team-social-icon > svg {
+    width: 60px;
+    height: auto;
+}
+.envo-extra-team-image {
+    position: relative;
+    overflow: hidden;
+    display: inline-table;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+.envo-extra-team-wrapper .envo-extra-team-image > img {
+    width: 100%;
+    height: 100%;
+}
+.envo-extra-team-layout-1 .envo-extra-team-image > img {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.envo-extra-team-layout-1:hover .envo-extra-team-image > img,
+.envo-extra-team-layout-4:hover .envo-extra-team-image > img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.envo-extra-team-layout-2 .envo-extra-team-designation {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+.envo-extra-team-layout-2 .envo-extra-team-title {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.envo-extra-team-layout-2 .envo-extra-team-social-list {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 0 50px;
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: 0.3s 0.3s;
+    -o-transition: 0.3s 0.3s;
+    transition: 0.3s 0.3s;
+}
+.envo-extra-team-layout-2 .envo-extra-team-social-list > li {
+    -webkit-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+}
+.envo-extra-post-grid-layout-9 .envo-extra-post-grid-item:hover .envo-extra-post-grid-content,
+.envo-extra-team-layout-12:hover .envo-extra-team-image::after,
+.envo-extra-team-layout-2:hover .envo-extra-team-social-list > li,
+.envo-extra-team-layout-3:hover .envo-extra-team-social-list > li,
+.envo-extra-team-layout-6:hover .envo-extra-team-social-list > li {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.envo-extra-team-layout-2 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    background-color: #fff;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.envo-extra-team-layout-3 .envo-extra-team-social-list {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s 0.3s;
+    -o-transition: 0.3s 0.3s;
+    transition: 0.3s 0.3s;
+}
+.envo-extra-team-layout-3 .envo-extra-team-social-list > li {
+    margin: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.envo-extra-team-layout-3 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    background-color: #fff;
+    border-color: transparent;
+}
+.envo-extra-team-layout-3 .envo-extra-team-content {
+    position: relative;
+    padding: 30px;
+    z-index: 2;
+    background-color: #eaeaea;
+}
+.envo-extra-team-layout-4 .envo-extra-team-image > img {
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.envo-extra-team-layout-4 .envo-extra-team-content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+.envo-extra-team-layout-6 .envo-extra-team-content,
+.envo-extra-team-layout-9 .envo-extra-team-inner-content {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+.envo-extra-team-layout-4 .envo-extra-team-social-icon {
+    color: #fff;
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
+    border-radius: 50px;
+}
+.envo-extra-team-layout-5 .envo-extra-team-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 2;
+    background-color: #2b2b2ba3;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+.envo-extra-team-layout-5 .envo-extra-team-social-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.envo-extra-team-layout-5 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    color: #2b2b2b;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+}
+.envo-extra-team-layout-6 .envo-extra-team-content {
+    padding: 50px;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+    border: 1px solid #fff;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.envo-extra-team-layout-6 .envo-extra-team-content::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    z-index: -1;
+}
+.envo-extra-team-layout-6 .envo-extra-team-social-list {
+    margin-top: auto;
+    opacity: 0;
+    -webkit-transition: 0.3s 0.3s;
+    -o-transition: 0.3s 0.3s;
+    transition: 0.3s 0.3s;
+}
+.envo-extra-team-layout-6 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    border: 1px solid #fff;
+    color: #585858;
+    background-color: #fff;
+}
+.envo-extra-team-layout-6 .envo-extra-team-social-list > li {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.envo-extra-team-layout-7 .envo-extra-team-content {
+    padding: 30px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+}
+.envo-extra-team-layout-8 .envo-extra-team-inner-content {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.envo-extra-team-layout-8 .envo-extra-team-image {
+    overflow: initial;
+    padding-bottom: 30px;
+}
+.envo-extra-team-layout-8 .envo-extra-team-social-list {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #ffc460;
+}
+.envo-extra-team-layout-8 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 50px;
+    color: #2b2b2b;
+}
+.envo-extra-team-layout-8 .envo-extra-team-content {
+    padding: 50px;
+    display: none;
+}
+.envo-extra-team-layout-9 .envo-extra-team-inner-content {
+    bottom: 0;
+    left: 100px;
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    padding: 0;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background-color: #fff;
+    min-height: 100px;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-team-layout-9 .envo-extra-team-inner-content .envo-extra-team-title {
+    padding-left: 30px;
+}
+.envo-extra-team-layout-9 .envo-extra-team-inner-content .envo-extra-team-designation {
+    padding-left: 30px;
+    margin: 0;
+}
+.envo-extra-team-layout-10,
+.envo-extra-team-layout-9 .envo-extra-team-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.envo-extra-team-layout-9 .envo-extra-team-social-list {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    min-width: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f0c46b;
+}
+.envo-extra-team-layout-9 .envo-extra-team-social-list > li {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+}
+.envo-extra-team-layout-9 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    background-color: #ffffff47;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+}
+.envo-extra-team-layout-9 .envo-extra-team-content {
+    padding: 0 !important;
+}
+.envo-extra-team-layout-9 .envo-extra-team-description {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 50px;
+}
+.envo-extra-team-layout-9 .envo-extra-team-description::before {
+    content: "";
+    position: relative;
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-bottom: 30px;
+    background-color: #f0c46b;
+}
+.envo-extra-team-layout-10 .envo-extra-team-content,
+.envo-extra-team-layout-11 .envo-extra-team-content {
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-author-box,
+.envo-extra-team-layout-11,
+.envo-extra-testimonial-layout-4 > .elementor-widget-container,
+.envo-extra-testimonial-layout-5 > .elementor-widget-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.envo-extra-team-layout-12 .envo-extra-team-content {
+    background-color: #002569e8;
+}
+.envo-extra-team-layout-12 .envo-extra-team-social-list {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+.envo-extra-team-layout-12 .envo-extra-team-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #002569e8;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: -webkit-transform 0.3s linear;
+    transition: transform 0.3s linear;
+    -o-transition: transform 0.3s linear;
+    transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+}
+.envo-extra-team-layout-12 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    border: 1px solid #ffffff78;
+    color: #fff;
+    background-color: #ffffff78;
+}
+.envo-extra-team-layout-13::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+    max-width: 90%;
+    max-height: 90%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    -webkit-mask-image: url("../images/team-shape-2.png");
+    mask-image: url("../images/team-shape-2.png");
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.envo-extra-team-layout-13 .envo-extra-team-social-list {
+    margin: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    z-index: -1;
+}
+.envo-extra-team-layout-13 .envo-extra-team-image {
+    overflow: initial;
+    z-index: 0;
+}
+.envo-extra-team-layout-13 .envo-extra-team-social-list > li {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+    -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.envo-extra-team-layout-13:hover .envo-extra-team-social-list > li {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.envo-extra-team-layout-13 .envo-extra-team-social-list .envo-extra-team-social-icon {
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.envo-extra-team-layout-13 .envo-extra-team-content {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 100%;
+    padding: 0 0 0 30px;
+    z-index: 2;
+    max-width: calc(100% - 100px);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-left: 5px solid #2b2b2b;
+}
+.envo-extra-team-layout-15 {
+    border: 1px solid #efefef;
+    padding: 20px 0 20px 20px;
+    border-radius: 5px;
+}
+.envo-extra-team-layout-15 .envo-extra-team-social-list {
+    position: absolute;
+    top: 0;
+    -webkit-transform: none;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-team-layout-15 .envo-extra-team-social-list > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.envo-extra-team-layout-15 .envo-extra-team-content {
+    padding: 50px 0 0;
+}

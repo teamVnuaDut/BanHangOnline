@@ -1,0 +1,32 @@
+.envo-extra-wrapper-inner {
+    position: relative;
+}
+.envo-extra-counter-item {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: 1;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--e-global-color-primary);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.envo-extra-counter-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}

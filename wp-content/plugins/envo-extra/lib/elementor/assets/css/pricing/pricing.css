@@ -1,0 +1,318 @@
+.envo-extra-pricing-tooltip-toggle:hover .envo-extra-pricing-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+.envo-extra-pricing-features-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+ul.envo-extra-pricing-features-list {
+    padding-left: 0;
+}
+.envo-extra-pricing-item .envo-extra-badge {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+}
+.envo-extra-badge {
+    position: absolute;
+    z-index: 3;
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    -webkit-transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    -ms-transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    transform: translate(var(-translate-x), var(-translate-y)) rotate(var(-rotate));
+    -translate-x: 0;
+    -translate-y: 0;
+    -rotate: 0;
+}
+.envo-extra-badge-middle-center,
+.envo-extra-badge-middle-left,
+.envo-extra-badge-middle-right {
+   -translate-y: -50%;
+    top: 50%;
+}
+.envo-extra-badge-top-left {
+    top: 0;
+    left: 0;
+}
+.envo-extra-badge-top-center {
+    top: 0;
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-top-right {
+    top: 0;
+    right: 0;
+}
+.envo-extra-badge-middle-left {
+    left: 0;
+}
+.envo-extra-badge-middle-center {
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-middle-right {
+    right: 0;
+}
+.envo-extra-badge-bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.envo-extra-badge-bottom-center {
+    bottom: 0;
+    left: 50%;
+    -translate-x: -50%;
+}
+.envo-extra-badge-bottom-right,
+.envo-extra-elementor-horizontal-menu-style-lineTopBottom .envo-extra-elementor-horizontal-navbar-nav > li > a:after {
+    bottom: 0;
+    right: 0;
+}
+.envo-extra-pricing-icon,
+.envo-extra-pricing-media,
+.envo-extra-pricing-price-box,
+.envo-extra-testimonial-description,
+.envo-extra-testimonial-layout-2 .envo-extra-testimonial-rating {
+    margin-bottom: 15px;
+}
+.elementor-widget-envo-extra-pricing > .elementor-widget-container {
+    position: relative;
+    overflow: initial;
+    padding: 3em 4em;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.2rem 2.8rem rgb(36 36 36 / 10%);
+    box-shadow: 0 0.2rem 2.8rem rgb(36 36 36 / 10%);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.envo-extra-pricing-media img {
+    width: 150px;
+    display: inline-block;
+}
+.envo-extra-pricing-item .envo-extra-badge {
+    min-width: max-content;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--e-global-color-primary);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 0;
+}
+.envo-extra-pricing-icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.envo-extra-pricing-icon > i {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.envo-extra-pricing-title {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 15px;
+}
+.envo-extra-pricing-description-wrapper {
+    margin-bottom: 10px;
+}
+.envo-extra-pricing-description {
+    max-width: 400px;
+    display: inline-block;
+}
+.envo-extra-pricing-features {
+    margin: 1.5rem 0;
+}
+.envo-extra-pricing-features-title {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+}
+.envo-extra-pricing-features-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.envo-extra-pricing-features-list li:nth-last-child(1),
+.envo-extra-team-layout-13 .envo-extra-team-social-list > li:nth-last-child(1),
+.envo-extra-team-layout-15 .envo-extra-team-social-list > li:nth-last-child(1),
+.envo-extra-team-layout-9 .envo-extra-team-social-list > li:nth-last-child(1) {
+    margin-bottom: 0 !important;
+}
+.envo-extra-pricing-feature-icon {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+.envo-extra-infolist-wrapper,
+.envo-extra-pricing-feature-title,
+.envo-extra-pricing-item .envo-extra-pricing-tooltip-toggle {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+}
+.envo-extra-pricing-feature-title {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+.envo-extra-pricing-item .envo-extra-pricing-tooltip-toggle {
+    position: absolute;
+    right: -30px;
+    font-size: 8px;
+    height: 18px;
+    width: 18px;
+    min-width: 18px;
+    color: #ffcc6c;
+    background-color: #fff3df;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.envo-extra-pricing-tooltip {
+    position: absolute;
+    left: 25px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    background-color: #efefef;
+    color: #2b2b2b;
+    font-size: 12px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-family: var(--e-global-typography-primary-font-family);
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.envo-extra-infolist-media-type-custom,
+.envo-extra-infolist-media-type-icon,
+.envo-extra-pricing-btn {
+    background-color: var(--e-global-color-primary);
+    line-height: 1;
+}
+.envo-extra-pricing-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #efefef transparent transparent;
+}
+.envo-extra-pricing-btn {
+    padding: 15px 35px;
+    text-align: center;
+    border: 1px solid var(--e-global-color-primary);
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: color 0.3s ease-in-out, background-color, 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, background-color, 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color, 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.envo-extra-pricing-btn:focus,
+.envo-extra-pricing-btn:hover {
+    color: var(--e-global-color-primary);
+    background-color: transparent;
+}
+.envo-extra-pricing-price-tag {
+    margin-bottom: 0.5rem;
+    color: #242424;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    display: inline-block;
+}
+.envo-extra-pricing-currency {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: -10px;
+}
+.envo-extra-pricing-price-period {
+    color: #8c8c8c;
+    font-size: 16px;
+}
+.envo-extra-pricing-price-box-style-2 .envo-extra-pricing-price-tag {
+    display: inline-block;
+    margin: 0;
+}
+.envo-extra-pricing-price-box-style-2 .envo-extra-pricing-price-period {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-feature-title,
+.envo-extra-pricing-align-right .envo-extra-pricing-features-list li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-feature-icon {
+    margin: 0 0 0 10px;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-item .envo-extra-pricing-tooltip-toggle {
+    left: -30px;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-tooltip {
+    left: auto;
+    right: 25px;
+    text-align: right;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-tooltip::after {
+    left: 100%;
+    border-color: transparent transparent transparent #efefef;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-price-box-style-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.envo-extra-pricing-align-right .envo-extra-pricing-price-box-style-2 .envo-extra-pricing-price-period {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.envo-extra-pricing-separator {
+    display: block;
+    position: relative;
+}
+.envo-extra-pricing-separator:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    border-top: 1px solid;
+    border-color: #e0e0e0;
+    width: 100px;
+    margin: 10px 0 25px;
+    padding: 2px;
+}

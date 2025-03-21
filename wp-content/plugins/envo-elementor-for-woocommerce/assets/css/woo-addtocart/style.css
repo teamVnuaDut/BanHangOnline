@@ -1,0 +1,83 @@
+/*------------------------------------------------------------------
+Woo Add To Cart
+-------------------------------------------------------------------*/
+.etww-addtocart .elementor-align-icon-left {
+  margin-right: 4px; }
+
+.etww-addtocart .elementor-align-icon-right {
+  margin-left: 4px; }
+
+.etww-addtocart.loading {
+  opacity: 1; }
+  .etww-addtocart.loading:after {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f110';
+    position: inherit;
+    top: auto;
+    right: auto;
+    margin-left: 6px;
+    vertical-align: top;
+    font-weight: 400;
+    -ms-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+    color: inherit;
+    opacity: 1; }
+
+.etww-align-left {
+  text-align: left; }
+
+.etww-align-center {
+  text-align: center; }
+
+.etww-align-right {
+  text-align: right; }
+
+.etww-align-justify .etww-addtocart {
+  width: 100%; }
+
+.etww-addtocart-wrap .added_to_cart {
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 1px;
+  border-bottom: 2px solid;
+  margin-left: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px; }
+
+/* RTL */
+body.rtl .etww-etww-addtocart .elementor-align-icon-left {
+  margin-left: 4px;
+  margin-right: 0; }
+
+body.rtl .etww-etww-addtocart .elementor-align-icon-right {
+  margin-right: 4px;
+  margin-left: 0; }
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  .etww-tablet-align-left {
+    text-align: left; }
+  .etww-tablet-align-center {
+    text-align: center; }
+  .etww-tablet-align-right {
+    text-align: right; } }
+
+@media only screen and (max-width: 767px) {
+  .etww-mobile-align-left {
+    text-align: left; }
+  .etww-mobile-align-center {
+    text-align: center; }
+  .etww-mobile-align-right {
+    text-align: right; } }

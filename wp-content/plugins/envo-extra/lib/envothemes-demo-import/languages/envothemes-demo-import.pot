@@ -1,0 +1,644 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EnvoThemes Demo Import\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-22 13:09+0200\n"
+"PO-Revision-Date: 2016-03-09 16:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: <info@envothemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;esc_html_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: envothemes-demo-import.php:148 envothemes-demo-import.php:157
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: envothemes-demo-import.php:227
+#: includes/panel/classes/class-install-demos.php:32
+#: includes/panel/classes/class-install-demos.php:36
+#: includes/panel/classes/class-install-demos.php:57
+msgid "Install Demos"
+msgstr ""
+
+#: includes/notify/notify.php:62
+msgid "Leave A Review?"
+msgstr ""
+
+#: includes/notify/notify.php:63
+#, php-format
+msgid "We hope you've enjoyed using %1$s theme! Would you consider leaving us a review on WordPress.org?"
+msgstr ""
+
+#: includes/notify/notify.php:68
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: includes/notify/notify.php:74
+msgid "I've already left a review"
+msgstr ""
+
+#: includes/notify/notify.php:80
+msgid "Maybe Later"
+msgstr ""
+
+#: includes/notify/notify.php:86
+msgid "I need help!"
+msgstr ""
+
+#: includes/notify/notify.php:92
+msgid "Never show again"
+msgstr ""
+
+#: includes/notify/notify.php:176
+msgid "Go PRO for More Features"
+msgstr ""
+
+#: includes/notify/notify.php:178
+#, php-format
+msgid "Get the %1$s for more stunning elements, demos and customization options."
+msgstr ""
+
+#: includes/notify/notify.php:184 includes/notify/notify.php:276
+msgid "Show me more"
+msgstr ""
+
+#: includes/notify/notify.php:190 includes/notify/notify.php:282
+msgid "Hide this message"
+msgstr ""
+
+#: includes/notify/notify.php:263
+msgid "New Awesome FREE WooCommerce Theme - Envo Shopper"
+msgstr ""
+
+#: includes/notify/notify.php:267
+#, php-format
+msgid "%1$s - new free WooCommerce theme form EnvoThemes. Check out theme %2$s, that can be imported for FREE with simple click."
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:34
+#: includes/panel/assets/class-plugin-installer.php:503
+#: includes/panel/demos.php:494
+msgid "Install Now"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:63
+#: includes/panel/assets/class-plugin-installer.php:143
+#: includes/panel/assets/class-plugin-installer.php:505
+#: includes/panel/demos.php:499
+msgid "Activated"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:67
+#: includes/panel/assets/class-plugin-installer.php:147
+#: includes/panel/assets/class-plugin-installer.php:504
+#: includes/panel/demos.php:488
+msgid "Activate"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:95
+#: includes/panel/assets/class-plugin-installer.php:201
+msgid "By"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:103
+#: includes/panel/assets/class-plugin-installer.php:236
+msgid "More Details"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:225
+msgid "Get This Plugin"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:242
+msgid "Premium"
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:258
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:268
+#: includes/panel/assets/class-plugin-installer.php:338
+#: includes/panel/assets/class-plugin-installer.php:409
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:326
+#: includes/panel/assets/class-plugin-installer.php:397
+msgid "Sorry, you are not allowed to activate plugins on this site."
+msgstr ""
+
+#: includes/panel/assets/class-plugin-installer.php:502
+msgid "Are you sure you want to install this plugin?"
+msgstr ""
+
+#: includes/panel/classes/class-install-demos.php:61
+msgid "Are you ready to create an amazing website? "
+msgstr ""
+
+#: includes/panel/classes/class-install-demos.php:61
+#: includes/wizard/wizard.php:116
+msgid "Run the Setup Wizard"
+msgstr ""
+
+#: includes/panel/classes/class-install-demos.php:78
+#: includes/wizard/wizard.php:424
+msgid "All"
+msgstr ""
+
+#: includes/panel/classes/class-install-demos.php:85
+msgid "Search demos..."
+msgstr ""
+
+#: includes/panel/classes/class-install-demos.php:117
+#: includes/wizard/wizard.php:457
+msgid "Live Preview"
+msgstr ""
+
+#: includes/panel/classes/importers/class-parsers.php:44
+#: includes/panel/classes/importers/class-parsers.php:76
+#: includes/panel/classes/importers/class-parsers.php:84
+#: includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:29
+#: includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:37
+#: includes/panel/classes/importers/parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/panel/classes/importers/class-parsers.php:45
+#: includes/panel/classes/importers/parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: includes/panel/classes/importers/class-parsers.php:88
+#: includes/panel/classes/importers/class-parsers.php:93
+#: includes/panel/classes/importers/class-parsers.php:312
+#: includes/panel/classes/importers/class-parsers.php:512
+#: includes/panel/classes/importers/parsers/class-wxr-parser-regex.php:96
+#: includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:41
+#: includes/panel/classes/importers/parsers/class-wxr-parser-simplexml.php:46
+#: includes/panel/classes/importers/parsers/class-wxr-parser-xml.php:48
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:84
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:106
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:127
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:185
+msgid "Imported"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:189
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/panel/classes/importers/class-widget-importer.php:195
+msgid "No Title"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:152
+#: includes/panel/classes/importers/class-wordpress-importer.php:161
+#: includes/panel/classes/importers/class-wordpress-importer.php:212
+#: includes/panel/classes/importers/class-wordpress-importer.php:216
+#: includes/panel/classes/importers/class-wordpress-importer.php:225
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:153
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:196
+msgid "All done."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:196
+msgid "Have fun!"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:197
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:217
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:233
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:258
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:284
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:285
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:287
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:297
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:300
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:317
+msgid "Import author:"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:329
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:332
+msgid "as a new user:"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:342
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:344
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:352
+msgid "- Select -"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:406
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:458
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:503
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:558
+#: includes/panel/classes/importers/class-wordpress-importer.php:784
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:651
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:688
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:750
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:924
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:931
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:994
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1007
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1051
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1057
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1064
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1069
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1075
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1175
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1182
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1197
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: includes/panel/classes/importers/class-wordpress-importer.php:1198
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/panel/demos.php:94 includes/wizard/wizard.php:177
+msgid "There was a problem during the importing process resulting in the following error from your server:"
+msgstr ""
+
+#: includes/panel/demos.php:95 includes/wizard/wizard.php:178
+msgid "Activating"
+msgstr ""
+
+#: includes/panel/demos.php:96 includes/wizard/wizard.php:179
+msgid "Active"
+msgstr ""
+
+#: includes/panel/demos.php:385 includes/wizard/classes/WizardAjax.php:44
+#, php-format
+msgid "Import the %1$s demo"
+msgstr ""
+
+#: includes/panel/demos.php:392 includes/wizard/classes/WizardAjax.php:51
+#, php-format
+msgid "Importing demo data allow you to quickly edit everything instead of creating content from scratch. It is recommended uploading sample data on a fresh WordPress install to prevent conflicts with your current content. You can use this plugin to reset your site if needed: %1$sWordpress Database Reset%2$s."
+msgstr ""
+
+#: includes/panel/demos.php:399 includes/wizard/classes/WizardAjax.php:56
+msgid "Required Plugins"
+msgstr ""
+
+#: includes/panel/demos.php:400 includes/wizard/classes/WizardAjax.php:57
+msgid "For your site to look exactly like this demo, the plugins below need to be activated."
+msgstr ""
+
+#: includes/panel/demos.php:411
+msgid "Go to the next step"
+msgstr ""
+
+#: includes/panel/demos.php:421 includes/wizard/classes/WizardAjax.php:77
+msgid "Select what you want to import:"
+msgstr ""
+
+#: includes/panel/demos.php:427 includes/wizard/classes/WizardAjax.php:83
+msgid "Import XML Data"
+msgstr ""
+
+#: includes/panel/demos.php:427 includes/wizard/classes/WizardAjax.php:83
+msgid "pages, posts, images, menus, etc..."
+msgstr ""
+
+#: includes/panel/demos.php:434 includes/wizard/classes/WizardAjax.php:90
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: includes/panel/demos.php:441 includes/wizard/classes/WizardAjax.php:97
+msgid "Import Widgets"
+msgstr ""
+
+#: includes/panel/demos.php:449
+msgid "Install this demo"
+msgstr ""
+
+#: includes/panel/demos.php:454 includes/wizard/classes/WizardAjax.php:110
+msgid "The import process could take some time, please be patient"
+msgstr ""
+
+#: includes/panel/demos.php:460 includes/wizard/classes/WizardAjax.php:116
+msgid "Demo Imported!"
+msgstr ""
+
+#: includes/panel/demos.php:461
+msgid "See the result"
+msgstr ""
+
+#: includes/panel/demos.php:510
+msgid "Get This Addon"
+msgstr ""
+
+#: includes/panel/demos.php:532
+msgid "No plugin specified"
+msgstr ""
+
+#: includes/panel/demos.php:552
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: includes/panel/demos.php:574
+msgid "Importing XML Data"
+msgstr ""
+
+#: includes/panel/demos.php:580
+msgid "Importing Customizer Settings"
+msgstr ""
+
+#: includes/panel/demos.php:586
+msgid "Importing Widgets"
+msgstr ""
+
+#: includes/panel/demos.php:854
+msgid "Can not retrieve sample data xml file. The server may be down at the moment please try again later. If you still have issues contact the theme developer for assistance."
+msgstr ""
+
+#: includes/panel/demos.php:869
+msgid "The xml import file could not be accessed. Please try again or contact the theme developer."
+msgstr ""
+
+#: includes/panel/demos.php:905
+msgid "Can not retrieve class-wp-importer.php"
+msgstr ""
+
+#: includes/panel/demos.php:915
+msgid "Can not retrieve wordpress-importer.php"
+msgstr ""
+
+#: includes/panel/demos.php:926
+msgid "Sample data file appears corrupt or can not be accessed."
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:35
+#, php-format
+msgid "Successfully installed the plugin <strong>%s %s</strong>."
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:48
+msgid "Activate Plugin &amp; Run Importer"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:50
+msgid "Activate Plugin &amp; Return to Press This"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:52
+msgid "Activate Plugin"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:56
+msgid "Network Activate"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:61
+msgid "Return to Importers"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:63
+#: includes/wizard/classes/QuietSkin.php:65
+msgid "Return to Plugin Installer"
+msgstr ""
+
+#: includes/wizard/classes/QuietSkin.php:67
+msgid "Return to Plugins page"
+msgstr ""
+
+#: includes/wizard/classes/WizardAjax.php:105
+msgid "Import"
+msgstr ""
+
+#: includes/wizard/classes/WizardAjax.php:119
+msgid "The import didn't import well please contact the support."
+msgstr ""
+
+#: includes/wizard/wizard.php:114
+msgid "Are you ready to create an amazing website?"
+msgstr ""
+
+#: includes/wizard/wizard.php:117
+msgid "Skip setup"
+msgstr ""
+
+#: includes/wizard/wizard.php:144
+msgid "Welcome"
+msgstr ""
+
+#: includes/wizard/wizard.php:148
+msgid "Choosing Demo"
+msgstr ""
+
+#: includes/wizard/wizard.php:152
+msgid "Customize"
+msgstr ""
+
+#: includes/wizard/wizard.php:156
+msgid "Ready"
+msgstr ""
+
+#: includes/wizard/wizard.php:194
+msgid "EnvoThemes &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/wizard/wizard.php:413
+#, php-format
+msgid "Clicking %1$sLive Preview%2$s will open the demo in a new window for you to decide which template to use. Then %1$sSelect%2$s the demo you want and click %1$sInstall Demo%2$s in the bottom."
+msgstr ""
+
+#: includes/wizard/wizard.php:458
+msgid "Select"
+msgstr ""
+
+#: includes/wizard/wizard.php:470
+msgid "Install Demo"
+msgstr ""
+
+#: includes/wizard/wizard.php:471 includes/wizard/wizard.php:575
+msgid "Skip Step"
+msgstr ""
+
+#: includes/wizard/wizard.php:478
+msgid "Next Step"
+msgstr ""
+
+#: includes/wizard/wizard.php:518
+msgid "Logo"
+msgstr ""
+
+#: includes/wizard/wizard.php:519
+msgid "Please add your logo below."
+msgstr ""
+
+#: includes/wizard/wizard.php:524
+msgid "Upload"
+msgstr ""
+
+#: includes/wizard/wizard.php:532
+msgid "Site Title"
+msgstr ""
+
+#: includes/wizard/wizard.php:533
+msgid "Please add your Site Title below."
+msgstr ""
+
+#: includes/wizard/wizard.php:538
+msgid "Tagline"
+msgstr ""
+
+#: includes/wizard/wizard.php:539
+msgid "Please add your Tagline below."
+msgstr ""
+
+#: includes/wizard/wizard.php:559
+msgid "Site Icon"
+msgstr ""
+
+#: includes/wizard/wizard.php:560
+msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here! Site Icons should be square and at least 512 × 512 pixels."
+msgstr ""
+
+#: includes/wizard/wizard.php:574
+msgid "Continue"
+msgstr ""
+
+#: includes/wizard/wizard.php:617
+msgid "Hooray!"
+msgstr ""
+
+#: includes/wizard/wizard.php:618
+msgid "Your website is ready"
+msgstr ""
+
+#: includes/wizard/wizard.php:624
+msgid "View Your Website"
+msgstr ""

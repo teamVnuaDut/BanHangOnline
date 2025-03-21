@@ -1,0 +1,212 @@
+// Display flex
+@mixin flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Flex wrap
+@mixin wrap() {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+// Transition
+@mixin transition($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+/*------------------------------------------------------------------
+Blog Grid
+-------------------------------------------------------------------*/
+.etww-blog-grid {
+    @include flex();
+    @include wrap();
+    margin: 0 -10px;
+
+    .etww-grid-entry {
+        width: calc(100% / 3);
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .etww-grid-inner {
+        border: 1px solid #eaeaea;
+        text-align: center;
+    }
+
+    .etww-grid-media {
+        position: relative;
+        margin-bottom: 25px;
+
+        .etww-grid-img {
+            position: relative;
+            display: block;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            text-align: center;
+            @include transition(all .3s ease-in-out);
+        }
+
+        .etww-grid-img:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -16px;
+            margin-left: -75px;
+            min-width: 150px;
+            padding: 10px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+            border: 1px solid #fff;
+            z-index: 2;
+            border-radius: 30px;
+            @include transition(all .3s ease);
+
+            &:hover {
+                background-color: #fff;
+                color: #333;
+            }
+        }
+
+        .entry-author-link {
+            display: block;
+            position: absolute;
+            bottom: -35px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 70px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            z-index: 3;
+
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &.has-avatar .etww-grid-media {
+        margin-bottom: 45px;
+    }
+
+    .etww-grid-details {
+        padding: 0 20px 20px;
+
+        .etww-grid-title {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 0 15px;
+        }
+    }
+
+    .etww-grid-meta {
+        background-color: #f0eff0;
+        list-style: none;
+        margin: 0;
+        padding: 10px 20px;
+        font-size: 13px;
+
+        &, li a {
+            color: #aaa;
+        }
+
+        li a:hover {
+            color: #333;
+        }
+
+        li.meta-comments {
+            float: left;
+        }
+
+        li.meta-cat {
+            float: right;
+        }
+
+        li i {
+            margin-right: 6px;
+        }
+
+        &.etww-center {
+            text-align: center;
+
+            li.meta-comments,
+            li.meta-cat {
+                float: none;
+            }
+        }
+    }
+}
+
+/* RTL */
+body.rtl {
+    .etww-blog-grid {
+        .etww-grid-media {
+            .overlay-btn {
+                right: 50%;
+                left: auto;
+                margin-right: -75px;
+                margin-left: 0;
+            }
+
+            .entry-author-link {
+                right: 50%;
+                left: auto;
+                margin-right: -35px;
+                margin-left: 0;
+            }
+        }
+
+        .etww-grid-meta li {
+            &.meta-comments {
+                float: right;
+            }
+
+            &.meta-cat {
+                float: left;
+            }
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+    .etww-blog-grid .etww-grid-entry {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 767px) {
+    .etww-blog-grid .etww-grid-entry {
+        width: calc(100% / 1);
+    }
+}

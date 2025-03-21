@@ -1,0 +1,88 @@
+/*------------------------------------------------------------------
+Woo Slider
+-------------------------------------------------------------------*/
+.etww-woo-slider ul.products {
+    display: none;
+    margin: 0;
+
+    .product {
+        clear: none !important;
+		float: left;
+		margin: 0 0 20px;
+		padding: 0 10px;
+        padding-bottom: 0;
+    }
+
+    &.slick-list, &.slick-slider {
+        display: block;
+    }
+
+    .slick-arrow {
+        top: 50%;
+        margin-top: -70px;
+        font-size: 32px;
+        background-color: transparent;
+        color: #ddd;
+
+        &:hover,
+        &:focus {
+            background-color: transparent;
+            color: #333;
+        }
+    }
+
+    .slick-prev {
+        left: -30px;
+        [dir="rtl"] & {
+            left: auto;
+            right: -30px;
+        }
+    }
+
+    .slick-next {
+        right: -30px;
+        [dir="rtl"] & {
+            right: auto;
+            left: -30px;
+        }
+    }
+
+    .slick-dots {
+        margin: 0;
+
+        li {
+            margin: 0 3px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body.rtl {
+        .etww-carousel {
+            slick-prev {
+                right: -20px;
+                left: auto;
+            }
+            
+            .slick-next {
+                left: -20px;
+                right: auto;
+            }
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+    .etww-carousel {
+        .slick-prev {
+            left: -20px;
+        }
+
+        .slick-next {
+            right: -20px;
+        }
+    }
+}

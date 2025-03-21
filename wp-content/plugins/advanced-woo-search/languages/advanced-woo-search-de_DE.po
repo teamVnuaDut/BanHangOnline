@@ -1,0 +1,546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Woo Search\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Language: de_DE_formal\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"POT-Creation-Date: 2020-04-30 16:05+0000\n"
+"PO-Revision-Date: 2020-05-14 08:05+0000\n"
+"Last-Translator: Tafel Geschäft\n"
+"Language-Team: Deutsch (Sie)\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: includes/class-aws-admin.php:129
+msgid "Save Changes"
+msgstr "speichern"
+
+#: includes/class-aws-admin.php:351
+msgid "Reindex table"
+msgstr "Tabelle erneut indizieren"
+
+msgid ""
+"This action only need for %s one time %s - after you activate this plugin. "
+"After this all products changes will be re-indexed automatically."
+msgstr ""
+"Diese Aktion benötigt nur einmal % s % s - nachdem Sie dieses Plugin "
+"aktiviert haben. Danach werden alle Produktänderungen automatisch neu "
+"indiziert."
+
+msgid "Go to Settings Page"
+msgstr "Zu den Einstellungen"
+
+#: includes/class-aws-admin.php:352
+msgid ""
+"Update all data in plugins index table. Index table - table with products "
+"data where plugin is searching all typed terms.<br>Use this button if you "
+"think that plugin not shows last actual data in its search results.<br>"
+"<strong>CAUTION:</strong> this can take large amount of time.</span>"
+msgstr ""
+"Aktualisieren Sie alle Daten in der Plugins-Indextabelle. Indextabelle - "
+"Tabelle mit Produktdaten, in der das Plugin alle eingegebenen Begriffe "
+"durchsucht. <br> Verwenden Sie diese Schaltfläche, wenn Sie der Meinung sind,"
+" dass das Plugin in seinen Suchergebnissen nicht die letzten tatsächlichen "
+"Daten anzeigt. <br> <strong> VORSICHT: </ strong> Dies kann längere Zeit "
+"dauern. </ span>"
+
+#: includes/class-aws-admin.php:362
+msgid "Clear cache"
+msgstr "Cache löschen"
+
+#: includes/class-aws-admin.php:363
+msgid "Clear cache for all search results."
+msgstr "Cache löschen für alle Suchergebnisse"
+
+#: includes/options.php:111
+msgid ""
+"Smart scraping sentences with searching terms from product description."
+msgstr ""
+"Intelligente Verkürzung von Sätzen mit Suchbegriffen aus der "
+"Produktbeschreibung."
+
+#: includes/options.php:112
+msgid ""
+"First N words of product description ( number of words that you choose below."
+" )"
+msgstr ""
+"Die ersten N Worde der Produktbeschreibung (Anzahl an Wörtern, die du unten "
+"auswählst)"
+
+#: advanced-woo-search.php:113
+msgid "Sale!"
+msgstr "Abverkauf!"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "View all results"
+msgstr "Alle Ergebnisse anzeigen"
+
+#: advanced-woo-search.php:127
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: advanced-woo-search.php:130 includes/class-aws-admin.php:63
+msgid "Get Premium"
+msgstr "Hol' dir Premium"
+
+#: advanced-woo-search.php:166
+msgid ""
+"Advanced Woo Search plugin is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"Advanced Woo Search plugin ist aktiviert, jedoch nicht in Verwendung. Es "
+"benötigt WooCommerce um zu funktionieren. "
+
+#: includes/widget.php:15
+msgid "Advanced WooCommerce search widget"
+msgstr "Advanced WooCommerce search widget"
+
+#: includes/widget.php:17
+msgid "&raquo; AWS Widget"
+msgstr "&raquo; AWS Widget"
+
+#: includes/widget.php:56
+msgid "Search..."
+msgstr "Suche..."
+
+#: includes/widget.php:62
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/class-aws-admin.php:38 includes/class-aws-admin.php:38
+msgid "Adv. Woo Search"
+msgstr "Adv. Woo Search"
+
+#: includes/class-aws-admin.php:49
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/class-aws-admin.php:296
+msgid "Active sources"
+msgstr "Aktive Quellen"
+
+#: includes/class-aws-admin.php:297
+msgid "Change order by drag&drop"
+msgstr "Ändere die Reihenfolge per Drag&Drop"
+
+#: includes/class-aws-admin.php:316
+msgid "Deactivated sources"
+msgstr "Deaktivierte Quellen"
+
+#: includes/class-aws-admin.php:317
+msgid "Excluded from search results"
+msgstr "Ausgeschlossen aus Suchergebnissen"
+
+#: includes/options.php:9
+msgid "Cache results"
+msgstr "Cache Ergebnisse"
+
+msgid "Sync index table"
+msgstr "Indizierungstabelle synchronisieren"
+
+msgid ""
+"Automatically update plugin index table when product content was changed. "
+"This means that in search there will be always latest product data."
+msgstr ""
+"Bei Produktänderungen automatisch die Indextabelle updaten, wenn "
+"Produktinhalte geändert wereden. Das bedeutet, dass in der Suche jeweils die "
+"aktuellen Produktdaten verwendet werden. "
+
+msgid "Turn this off if you have any problems with performance."
+msgstr ""
+"Deaktivieren Sie diese Option, wenn Sie Probleme mit der Leistung haben."
+
+msgid "Main Settings"
+msgstr "Haupteinstellungen"
+
+msgid "Seamless integration"
+msgstr "nahtlose Integration"
+
+msgid ""
+"Replace all the standard search forms on your website ( may not work with "
+"some themes )."
+msgstr ""
+"Ersetzt alle Standard Suchformulare auf Webseite (funktioniert "
+"möglicherweise nicht mit jedem Theme)."
+
+msgid "Activation"
+msgstr "Aktivierung"
+
+msgid ""
+"In case you need to add plugin search form on your website, you can do it in "
+"several ways:"
+msgstr ""
+"Wenn Sie das Plugin Suchformular in Ihre Webseite hinzufügen wollen, gibt es "
+"dafür mehrere Wege:"
+
+msgid ""
+"Enable a \"Seamless integration\" option ( may not work with some themes )"
+msgstr ""
+"Aktiviere die \"nahtlose Integration\" (funktioniert möglicherweise nicht "
+"mit jedem Theme)"
+
+msgid "Add search form using shortcode %s"
+msgstr "Füge das Suchformular per Shortcode hinzu %s"
+
+msgid ""
+"Add search form as widget for one of your theme widget areas. Go to "
+"Appearance -> Widgets and drag&drop AWS Widget to one of your widget areas"
+msgstr ""
+"Füge ein Suchformular als Widget in den Widget-Bereichen deines Themes hinzu."
+" Gehe zu Design-> Widget und ziehe das AWS Widget in einen deiner Widget-"
+"Bereiche. "
+
+msgid "Add PHP code to the necessary files of your theme: %s"
+msgstr "Füge PHP Code zu den notwendigen Dateien deines Themes hinzu. %s"
+
+#: includes/options.php:10
+msgid ""
+"Turn off if you have old data in the search results after content of "
+"products was changed.<br><strong>CAUTION:</strong> can dramatically increase "
+"search speed"
+msgstr ""
+"Deaktivieren Sie diese Option, wenn Sie alte Daten in den Suchergebnissen "
+"haben, nachdem der Inhalt von Produkten geändert wurde. <br> <strong> "
+"VORSICHT: </ strong> kann die Suchgeschwindigkeit erheblich erhöhen"
+
+#: includes/options.php:15 includes/options.php:43 includes/options.php:55
+#: includes/options.php:67 includes/options.php:99 includes/options.php:123
+#: includes/options.php:135 includes/options.php:147 includes/options.php:159
+msgid "On"
+msgstr "an"
+
+#: includes/options.php:16 includes/options.php:44 includes/options.php:56
+#: includes/options.php:68 includes/options.php:100 includes/options.php:124
+#: includes/options.php:136 includes/options.php:148 includes/options.php:160
+msgid "Off"
+msgstr "Aus"
+
+#: includes/options.php:21
+msgid "Text for search field"
+msgstr "Text für das Suchfeld"
+
+#: includes/options.php:22
+msgid "Text for search field placeholder."
+msgstr "Text als Platzhalter im Suchfeld."
+
+#: includes/options.php:35
+msgid "Search"
+msgstr "Suche"
+
+msgid "Text for show more button"
+msgstr "Text für die ...mehr anzeigen Schaltfläche"
+
+msgid ""
+"Text for link to search results page at the bottom of search results block."
+msgstr ""
+"Text für den Link auf die Suchergebnisse Seite am Ende des "
+"Suchergebnisblocks im Suchformular."
+
+#: includes/options.php:40
+msgid "Nothing found field"
+msgstr "Feld nichts gefunden"
+
+#: includes/options.php:41
+msgid "Text when there is no search results."
+msgstr "Text wenn kein Suchergebnis angezeigt werden kann"
+
+#: includes/options.php:43
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: includes/options.php:29
+msgid "Minimum number of characters"
+msgstr "Mindestanzahl an Buchstaben"
+
+#: includes/options.php:30
+msgid "Minimum number of characters required to run ajax search."
+msgstr "Mindestanzahl an Buchstaben um die Ajax-Suche zu starten. "
+
+#: includes/options.php:37
+msgid "Show loader"
+msgstr "Ladeanimation anzeigen"
+
+#: includes/options.php:38
+msgid "Show loader animation while searching."
+msgstr "Ladeanimation während des Suchvorgangs anzeigen"
+
+msgid "Show clear button"
+msgstr "Schaltfläche zum Löschen anzeigen"
+
+msgid ""
+"Show 'Clear search string' button for desktop devices ( for mobile it is "
+"always visible )."
+msgstr ""
+"Zeige 'Suchbegriff löschen' Knopf für Desktopgeräte (für Mobilgeräte ist "
+"dies immer sichtbar)"
+
+msgid "Show 'View All Results'"
+msgstr "Zeige 'Alle Ergebnisse anzeigen'"
+
+msgid "Show link to search results page at the bottom of search results block."
+msgstr ""
+"Link zur Suchergebnis-Seite am Ende des Blocks mit der Liste der "
+"Suchergebnisse anzeigen"
+
+msgid "Mobile full screen"
+msgstr "Mobilgeräte-Ansicht volle Bildschirmgröße"
+
+msgid ""
+"Full screen search on focus. Will not work if the search form is inside the block "
+"with position: fixed."
+msgstr ""
+"Bildschirmfüllende Suche im Fokus. Wird nicht funktionieren, wenn das "
+"Suchformular innerhalb eines CSS-Blocks mit position: fixed ist. "
+
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+msgid "Choose how to view search results."
+msgstr "Wähle, wie die Suchergebnisse angezeigt werden"
+
+msgid "Both ajax search results and search results page"
+msgstr "Beide für die Ajax Suchergebnisse und die Suchergebnis Seite"
+
+msgid "Only ajax search results ( no search results page )"
+msgstr "Nur Ajax Suchergebnisse (keine Suchergebnis-Seite)"
+
+msgid "Only search results page ( no ajax search results )"
+msgstr "Nur Suchergebnis-Seite (keine Ajax-Suchergebnisse)"
+
+msgid "Form Styling"
+msgstr "Formular Styling"
+
+msgid "Choose search form layout"
+msgstr "Wähle das Formularlayout für das Such-Feld"
+
+msgid ""
+"Filter button will be visible only if you have more than one active filter "
+"for current search form instance."
+msgstr ""
+"Der Button zum Filtern wird nur dann sichtbar, wenn mehr als ein aktiver "
+"Filter für die derzeitige Suche vorhanden ist. "
+
+msgid "Highlight words"
+msgstr "Markiere Wörter"
+
+msgid "Highlight search words inside products content."
+msgstr "Suchbegriffe markieren innerhalb der Produktbeschreibung"
+
+#: includes/options.php:49
+msgid "Show image"
+msgstr "Bild anzeigen"
+
+#: includes/options.php:50
+msgid "Show product image for each search result."
+msgstr "Produktbild für jedes Suchergebnis anzeigen"
+
+#: includes/options.php:61
+msgid "Show description"
+msgstr "Beschreibung anzeigen"
+
+#: includes/options.php:62
+msgid "Show product description for each search result."
+msgstr "Produktbeschreibung für jedes Suchergebnis anzeigen"
+
+#: includes/options.php:73
+msgid "Description source"
+msgstr "Beschreibungsquelle"
+
+#: includes/options.php:74
+msgid ""
+"From where to take product description.<br>If first source is empty data "
+"will be taken from other sources."
+msgstr ""
+"Von wo die Produktbeschreibung verwendet wird. <br>Wenn die erste Quelle "
+"leer ist, werden die Daten von anderen Quellen verwendet. "
+
+#: includes/options.php:79
+msgid "Content"
+msgstr "Inhalt"
+
+#: includes/options.php:80
+msgid "Short description"
+msgstr "Kurzbeschreibung"
+
+#: includes/options.php:85
+msgid "Description length"
+msgstr "Beschreibungslänge"
+
+#: includes/options.php:86
+msgid "Maximal allowed number of words for product description."
+msgstr "Maximal erlaubte Anzahl an Wörtern in der Produktbeschreibung."
+
+#: includes/options.php:93
+msgid "Show price"
+msgstr "Preis anzeigen"
+
+#: includes/options.php:94
+msgid "Show product price for each search result."
+msgstr "Produktpreis für jedes Suchergebnis anzeigen"
+
+msgid "Show price for out of stock"
+msgstr "Zeige Preise für nicht vorrätig"
+
+msgid "Show product price for out of stock products."
+msgstr "Zeige Produkt Preis für nicht vorrätige Artikel"
+
+#: includes/options.php:105
+msgid "Description content"
+msgstr "Beschreibungs-Inhalt"
+
+#: includes/options.php:106
+msgid "What to show in product description?"
+msgstr "Was soll in der Produktbeschreibung angezeigt werden?"
+
+#: includes/options.php:117
+msgid "Show categories archive"
+msgstr "Zeige Kategorie Archiv"
+
+#: includes/options.php:118
+msgid "Include categories archives pages to search result."
+msgstr "Schließt die Kategorie-Archiv-Seiten in die Suchergebnisse ein."
+
+#: includes/options.php:129
+msgid "Show tags archive"
+msgstr "Tags Archiv anzeigen"
+
+#: includes/options.php:130
+msgid "Include tags archives pages to search results."
+msgstr "Schließt die Tag-Archiv-Seiten in die Suchergebnisse ein."
+
+#: includes/options.php:141
+msgid "Show sale badge"
+msgstr "Sale Abzeichen anzeigen"
+
+#: includes/options.php:142
+msgid "Show sale badge for products in search results."
+msgstr "Das Zeichen für Abverkaufsprodukte in den Suchergebnissen anzeigen"
+
+#: includes/options.php:153
+msgid "Show product SKU"
+msgstr "Produkt SKU anzeigen"
+
+#: includes/options.php:154
+msgid "Show product SKU in search results."
+msgstr "Produkt SKU für jedes Suchergebnis anzeigen"
+
+msgid "Show stock status"
+msgstr "Zeige den Lagerstatus"
+
+msgid "Show stock status for every product in search results."
+msgstr "Zeige den Lagerstatus für jedes Produkt in den Suchergebnissen"
+
+msgid "Show featured icon"
+msgstr "Featured Symbol anzeigen"
+
+msgid "Show or not star icon for featured products."
+msgstr "Sternsymbol bei Feature Produkten anzeigen oder nicht"
+
+#: includes/options.php:167
+msgid "Max number of results"
+msgstr "Maximale Anzahl an Ergebnissen"
+
+#: includes/options.php:168
+msgid "Maximum number of displayed search results."
+msgstr "Maximale Anzahl an angezeigten Suchergebnissen."
+
+#: includes/options.php:175
+msgid "Search in"
+msgstr "Suche in"
+
+#: includes/options.php:176
+msgid "Search source: Drag&drop sources to activate or deactivate them."
+msgstr ""
+"Suchquellen: Ziehen & Ablegen von Quellen, um diese zu aktivieren oder zu "
+"deaktivieren. "
+
+#: includes/options.php:30
+msgid "Show out-of-stock"
+msgstr "Zeige nicht vorrätige Artikel"
+
+#: includes/options.php:31
+msgid "Show out-of-stock products in search"
+msgstr "Nicht vorrätige Artikel in der Suche anzeigen"
+
+msgid "Stop words list"
+msgstr "Stop Wörter Liste"
+
+msgid "Comma separated list of words that will be excluded from search."
+msgstr ""
+"Komma-separierte Liste von Wörtern, die von der Suche ausgeschlossen werden."
+
+msgid "Re-index required on change."
+msgstr "Re-Indizierung bei Änderung."
+
+msgid "Synonyms"
+msgstr "Synonyme"
+
+msgid ""
+"Comma separated list of synonym words. Each group of synonyms must be on "
+"separated text line."
+msgstr ""
+"Kommaseparierte Liste von Synonymen. Jede Gruppe von Synonymen auf eine "
+"einzelne Zeile"
+
+#: includes/options.php:42
+msgid "Use Google Analytics"
+msgstr "Verwenden Sie Google Analytics"
+
+#: includes/options.php:42
+msgid ""
+"Use google analytics to track searches. You need google analytics to be "
+"installed on your site."
+msgstr ""
+"Verwenden Sie Google Analytics, um Suchanfragen zu verfolgen. Dazu muss "
+"Google Analytics eingerichtet sein, um mit Ihrer Webseite interagieren zu "
+"können. (Code eingefügt)"
+
+msgid ""
+"Data will be visible inside Google Analytics 'Site Search' report. Need to "
+"activate 'Site Search' feature inside GA. %s"
+msgstr ""
+"Daten werden innerhalb von Google Analytics 'Site Search' angezeigt. Dafür "
+"muss dieses Feature in GA aktiviert sein. %s"
+
+msgid "More info"
+msgstr "weitere Informationen"
+
+#: includes/options.php:42
+msgid ""
+"Also will send event with category - 'AWS search', action - 'AWS Search "
+"Term' and label of value of search term."
+msgstr ""
+"Wird zusätzlich ein Ereignis mit Kategorie 'AWS search ', action -  'AWS "
+"Suchbegriff' und den Wert des Labels des Suchbegriffs senden."
+
+msgid "In stock"
+msgstr "vorrätig"
+
+msgid "Out of stock"
+msgstr "nicht vorrätig"
+
+#. Name of the plugin
+msgid "Advanced Woo Search"
+msgstr "Advanced Woo Search"
+
+#. Description of the plugin
+msgid "Advance ajax WooCommerce product search."
+msgstr "Advance Ajax WooCommerce Produkt Suche."
+
+#. Author of the plugin
+msgid "ILLID"
+msgstr "ILLID"

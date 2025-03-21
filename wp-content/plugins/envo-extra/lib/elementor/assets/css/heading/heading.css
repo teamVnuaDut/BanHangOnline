@@ -1,0 +1,17 @@
+.envo-extra-simple-heading-wrapper {
+    text-align: center;
+}
+.envo-extra-simple-heading-wrapper .envo-extra-heading-title {
+    position: relative;
+    line-height: 1.2;
+    font-size: 3rem;
+    margin: 5px 0;
+    font-weight: 500;
+    z-index: 2;
+    display: inline-block;
+}
+.envo-extra-simple-heading-wrapper .envo-extra-title-focus {
+    color: var(--e-global-color-primary);
+    -webkit-text-fill-color: initial;
+    display: inline;
+}

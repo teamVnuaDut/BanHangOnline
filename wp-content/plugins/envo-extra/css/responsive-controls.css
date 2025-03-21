@@ -1,0 +1,100 @@
+﻿/* Responsive Control */
+.envo-responsive-options {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.envo-responsive-options li {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+.envo-responsive-options li button {
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+.envo-responsive-options li button i {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.envo-responsive-options li button:hover {
+    background: #ccc;
+}
+
+.envo-responsive-options li:hover {
+}
+
+.envo-responsive-options li button.active {
+    background: #ccc;
+}
+
+.envo-control-desktop, .envo-control-tablet, .envo-control-mobile {
+    display: none !important;
+}
+
+.envo-control-desktop.active.activated:not([style*="display: none;"]), .envo-control-tablet.active.activated:not([style*="display: none;"]), .envo-control-mobile.active.activated:not([style*="display: none;"]) {
+    display: block !important;
+}
+
+/* Padding Control */
+.envo-control-padding-top, .envo-control-padding-right, .envo-control-padding-bottom, .envo-control-padding-left {
+    width: 21.5%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.customize-control-envo-padding .px,
+.customize-control-envo-responsive-padding .px {
+    line-height: 18px;
+    float: left;
+    padding: 3px 5px;
+}
+.envo-responsive-input-wrap .customize-control-title {
+    float: left;
+}
+li.customize-control-responsive_devices {
+    margin-bottom: -10px;
+}
+.customize-control-kirki-dimension .has-label-bottom .kirki-control-label {
+    font-size: 9px;
+    letter-spacing: -0.2px;
+    margin-top: 0;
+}
+span.show-kirki-control.dashicons {
+    border: 1px solid #666;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px #666;
+    padding: 0;
+    cursor: pointer;
+    float: left;
+    display: b;
+    margin-right: 6px;
+    top: 3px;
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+}
+.customize-control-kirki-custom hr {
+    margin-top: 15px!important;
+}
+
+li#accordion-section-pro h3, li#accordion-section-envo-pro h3 {
+    letter-spacing: -0.2px;
+    background: rgb(255,189,189);
+    background: linear-gradient(90deg, rgba(255,189,189,1) 0%, rgba(255,90,220,1) 100%);
+}
+li#accordion-section-pro h3.accordion-section-title:after, li#accordion-section-envo-pro h3.accordion-section-title:after {
+    display: none;
+}

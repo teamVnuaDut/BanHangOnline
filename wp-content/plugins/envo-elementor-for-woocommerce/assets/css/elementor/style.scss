@@ -1,0 +1,11 @@
+/*------------------------------------------------------------------
+Elementor Editor
+-------------------------------------------------------------------*/
+.etww-icon {
+    color: #13aff0;
+}
+
+/* Fix issue with the Woo Sldier widget in the editor */
+.woocommerce ul.products li.product .product-inner > img {
+    display: none;
+}
