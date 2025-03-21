@@ -1,0 +1,96 @@
+.taxonomy-category.wp-block-post-terms a, 
+.taxonomy-post_tag.wp-block-post-terms a, 
+.wp-block-tag-cloud a {
+    border: none;
+    color: var(--wp--preset--color--black);
+    padding: 0 10px;
+}
+.wp-block-buttons .wp-block-button.is-style-outline .wp-block-button__link:hover {
+    border-color:  var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--black)!important;
+}
+.wp-block-buttons .wp-block-button__link:hover {
+    background: var(--wp--preset--color--secondary)!important;
+    color: var(--wp--preset--color--white)!important;
+}
+
+ul.blog-list-style li a.wp-block-post-excerpt__more-link {
+    background:  var(--wp--preset--color--primary)!important;
+    color: var(--wp--preset--color--white)!important;
+}
+ul.blog-list-style li a.wp-block-post-excerpt__more-link:hover {
+    background: var(--wp--preset--color--secondary)!important;
+    color: var(--wp--preset--color--white)!important;
+}	
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.wpcf7 input[type="submit"]:hover{
+	border: none;
+	background: var(--wp--preset--color--secondary)!important;
+	color: var(--wp--preset--color--white);
+}
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--white);
+}
+.wp-block-social-links.footer-social li:hover {
+    background: var(--wp--preset--color--primary)!important;
+}
+.wp-block-social-links.footer-social li a:hover {
+   color: var(--wp--preset--color--white)!important;
+}
+/*Dropdown color*/
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{ /*background:transparent !important;*/ border:none !important}
+
+.wp-block-navigation ul li.current-menu-item > a,
+.wp-block-navigation ul li > a:hover{
+ 	color:var(--wp--preset--color--primary) !important;
+}
+.SF-Sidebar ul li a:hover,
+.SF-copy-wrap a:hover{
+	color:var(--wp--preset--color--primary);	
+}
+
+
+.footer-wrapper .wp-block-social-links li:hover,
+.wpcf7 input[type="submit"],
+.site-footer h3.wp-block-heading::before{
+	background:var(--wp--preset--color--primary) !important;	
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover:hover{
+	color:var(--wp--preset--color--primary) !important;	
+}
+.site-footer .wp-block-social-links li:hover{ 
+	color:var(--wp--preset--color--primary) !important;
+}
+h1,h2,h3,h4,h5,h6{
+	color:var(--wp--preset--color--heading);	
+}
+.Footer-QuickLinks li a:hover{
+ color:var(--wp--preset--color--primary) !important;	
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--wp--preset--color--primary);
+}
+

@@ -1,0 +1,163 @@
+/* Admin Styles
+-------------------------------------------------------*/
+.Grcae-info-holder {  
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.Grcae-info-holder-content {
+  margin-bottom: 24px;
+}
+
+.Grcae-info-holder-content,
+.Grcae-info-holder-sidebar {
+  flex: 1 0 0%;
+  max-width: 100%;
+  padding: 0 12px;
+}
+
+@media screen and (min-width: 783px) {
+  .Grcae-info-holder-sidebar {
+    max-width: 30%;
+    flex: 0 0 30%;
+    padding: 0 20px;
+  }
+}
+
+.sidebarBX { 
+  padding: 24px;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.sidebarBX-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.edublock-video-tutorials__item {
+  margin-bottom: 16px;
+}
+
+.edublock-video-tutorials__url {
+  position: relative;
+  display: block;  
+  border-radius: 5px;
+  overflow: hidden;
+  transition: ease-in-out box-shadow 0.2s;
+}
+
+
+.edublock-video-tutorials__url:hover::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.edublock-video-tutorials__url::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: block;
+  content: "";   
+  width: 100%;
+  transition: ease-in-out background-color 0.2s;
+}
+
+.edublock-video-tutorials__img {
+  width: 100%;
+  display: block;
+}
+
+.edublock-video-tutorials__label {
+  position: absolute; 
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 8px 12px;
+  font-size: 11px;
+   z-index: 1;
+  top: 50%;
+  left: 50%;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.sidebarBX-video-tutorials__more-videos {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.Grace-wrapper {
+  max-width: 1140px; 
+  margin: 25px auto 20px;
+   padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Grace-wrapper .welcomeTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0;
+}
+
+.Grace-Welcome {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.Grace-Welcome ol {
+  font-size: 0.9375rem;
+}
+
+.Grace-Welcome iframe {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.Grace-Welcome img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Grace-Welcome h3 {
+  margin-top: 1.5em;
+}
+
+.featureDesc {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height:24px;
+}
+
+.edublock-list {
+  line-height: 1.5;
+}
+
+.button.edublock-import-content--hidden {
+  display: none;
+}
+.themeinfo-links {
+  margin: 0;
+}
+
+.themeinfo-links a {
+  text-decoration: none;
+}
+
+.themeinfo-links a {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.Grcae-info-holder-sidebar p {
+  font-size: 16px;
+}
+.Grace-Welcome a.button.button-primary.button-hero {
+  font-size: 17px;
+  text-decoration:none;
+}

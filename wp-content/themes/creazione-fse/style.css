@@ -1,0 +1,254 @@
+/*
+Theme Name: Creazione FSE
+Theme URI: https://gracethemes.com/themes/free-luxury-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The Creazione FSE is a free Luxury WordPress theme for architecture, building, construction, interior design, decorator, furniture, interior art and dcor, interior planners, renovators, heritage centers, and more. Creazione FSE theme has an extremely appealing homepage. This Free Luxury WordPress Theme looks equally professional and stunning. The homepage has different types of headers and footers that enhance the appearance of your website.This WordPress theme is very appealing and functions well with the latest WordPress version. This Free Luxury WordPress Theme, being a full-site editing theme is easy to customize without hiring any professionals. You do not need any coding knowledge to use this theme. This is an SEO-optimized theme. It means you do not need to worry about the ranking of your website on the SERPs. When you make use of this WordPress theme, your website automatically ranks higher in the SERPs. Also, this theme is compatible with a lot of SEO plugins such as Yoast SEO and Rank Math. This theme is flexible and dynamic. Anyone can operate this theme with ease. It is compatible with multiple devices like PCs, laptops, smartphones, and tablets. This theme has qualified for the mobile-friendly test conducted by Google. All these features make this theme the right choice for you. Demo: https://gracethemesdemo.com/gymfinity/
+
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: creazione-fse
+Requires PHP:  5.6
+Tested up to: 6.6
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Creazione FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2024.
+Creazione FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body.page-template-front .site-main-header {  
+	width:100%; 
+	z-index:999;	
+	background:transparent !important; 
+	position: absolute !important;
+}
+.site-main-header{  
+	position:relative;
+	background-color:#262325; 
+}
+.clear{ clear:both; }
+
+/*dropdown menu background color*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ 
+	background-color:#2d2a2b;
+}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{ 
+	padding:5px 0; 
+	border-bottom:1px solid #534e50 !important;
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{ 
+	padding-top:30px !important
+}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu li ul{ 
+	padding-top:0 !important; 
+	left:100% !important; 
+	right:auto !important;
+}
+.header-navigation.wp-block-navigation{ padding:5px 0 !important;}
+
+.logo {  
+    position: relative;
+}
+.header_right_menu{	
+	position:relative;
+}
+.header-nav-bar{ background-color:rgba(24,24,24,0.5);}
+
+.services-3-column, .crz-expert-services{ 
+	margin-bottom:-90px !important;
+}
+
+
+.interior-services-33{ 
+	position:relative;
+}
+.interior-services-33 .crz-image-title{ 
+	position:absolute; 
+	bottom:35px; 
+	left:25px; 
+	right:25px;
+	background-color:#fff;
+	color:#282828 !important;
+	padding:20px 10px !important;
+}
+.interior-services-33 .crz-image-title a{ 
+	color:#282828 !important;
+}
+
+.interior-services-33:hover .crz-image-title{ 
+	background:transparent !important;
+	font-size:40px !important;
+	bottom:150px; 
+	color:#fff !important;
+}
+
+.interior-services-33:hover .crz-image-title a{ 
+	color:#fff !important;
+}
+
+.interior-services-33 .crz-btn{
+	position:absolute; 
+	bottom:35px; 
+	left:auto; 
+	right:auto;
+	display:none !important;
+}
+
+.interior-services-33:hover .crz-btn{ 
+	display:block !important;
+}
+
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ 
+	margin:0; 
+	padding:0; 
+}
+ul.blog-list-style li{ 
+	margin-bottom:25px; 
+	padding:30px;
+	border-radius:5px; 
+	display:flow-root; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+	
+}
+ul.blog-list-style li .blog-thumbx{ 
+	margin:0 35px 20px 0;
+}
+ul.blog-list-style li a.wp-block-post-excerpt__more-link{ 
+	padding:10px 20px; border-radius:10px
+}
+
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image a,
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image img{ 
+	height:auto;
+}
+.wp-block-group.sidebar-blog .st-widgetBX{ 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+
+.wp-block-group.PostStyle-1{ 
+	padding:30px;
+	border-radius:5px; 
+	display:flow-root; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+.wp-block-column.fse-page-layout{
+	padding:30px;
+	border-radius:5px; 
+	display:flow-root; 
+	box-shadow:0 0 30px rgb(193 193 193/30%);
+}
+
+
+
+/* = Sidebar CSS
+----------------------------------------------- */
+.st-widgetBX ul.wp-block-latest-posts li{ 
+	margin-bottom:20px; 
+	min-height:80px;
+}
+.st-widgetBX ul.wp-block-latest-posts li a.wp-block-latest-posts__post-title{ 
+	margin-bottom:5px !important; 
+	display:block; 
+	line-height:20px;
+}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+	margin:30px 0 0;padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	color:#797979;
+	margin-bottom:0;
+	height:40px;
+	padding:0 15px;
+}	
+.wpcf7 textarea{
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;
+	font-weight:600;
+	font-size:16px;
+	cursor:pointer;
+	background-color:#60c19f;
+	padding:20px 40px;
+	color:#ffffff;
+	width:auto;
+	border:none;
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+/* = Footer CSS
+----------------------------------------------- */
+.site-footer{ 
+	position:relative;
+}
+.site-footer h3.wp-block-heading{ 
+	position:relative; 
+}
+
+
+footer.wp-block-template-part{ 
+	margin-block-start:0 !important
+}
+
+.Footer-QuickLinks{ 
+	list-style:none !important; 
+	padding:0 !important;
+}
+.Footer-QuickLinks li{ 
+	list-style:none !important; 
+	padding:5px 0 5px 0 !important;
+}
+.Footer-QuickLinks li a:hover{ 
+	text-decoration:none; 
+}
+.footer-latest-news li{ 
+	margin-bottom:10px;
+}
+.wp-block-social-links.footer-social li{ 
+	border-radius:0;
+}
+.wp-block-social-links.footer-social li a{ 
+	padding:10px;
+}
+ul.fs-footer-post{ 
+	margin:0; 
+	padding:0;
+}
+ul.fs-footer-post li{ 
+	list-style:none; 
+	margin-bottom:30px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ 
+	margin-top:6px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ 
+	border-radius:10px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ 
+	margin-bottom:15px; 
+	display:block; 
+	line-height:22px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ 
+	color:#8cc73e;
+}

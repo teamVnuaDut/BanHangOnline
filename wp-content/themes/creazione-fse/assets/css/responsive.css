@@ -1,0 +1,72 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+/*Mobile Menu CSS*/
+.wp-block-navigation__responsive-container.is-menu-open.has-modal-open{ background-color:#000000 !important; padding:25px;}
+/*Custom CSS*/
+.wp-block-group.header-Top .wp-block-group{ flex-wrap:wrap !important; gap:5px !important;  flex-direction: column !important; }
+.wp-block-cover.hdrbanner-BX{ min-height:400px !important;}
+.wp-block-group.bannerInfo h2{ font-size:28px !important;}
+ul.blog-list-style li{ padding:30px; margin-bottom:25px;}
+ul.blog-list-style li .blog-thumbx{ width:100%; float:none; margin:0 0 20px 0;}
+body.page-template-front .site-main-header{ position: relative !important; background-color:#000000 !important;}
+.wp-block-button.QuoteBtn a{ position:absolute; right:0; bottom:4px; padding:12px 20px !important;}
+.fse-sections-01 h2.wp-block-heading, .fse-sections-02 h2.wp-block-heading, .fse-sections-03 h2.wp-block-heading{ font-size:35px !important;}
+.footer-top-contact-info .wp-block-column-is-layout-flow{ border-right:0 !important;}
+.header-left-box{ background:transparent !important;}
+.header-left-box::before, .header-left-box::after{ display:none !important;}
+}
+
+
+@media screen and (max-width:599px) {
+
+.wp-block-cover.hdrbanner-BX{ min-height:300px !important;}
+body .header-top-left.is-layout-flex, 
+body .header-top-right.is-layout-flex{ flex-wrap:wrap; gap:10px;}
+
+
+.wp-block-column.logo {  
+    padding:20px 0 20px 0px !important;
+	border-right:none;
+	flex-basis:25% !important;
+}
+.header_right_menu{
+	background: transparent !important; 
+	position:relative; 
+	border-left:none;
+	padding:25px !important;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+body .headtop-Wrap.is-layout-flex{ flex-wrap:wrap !important}
+
+/* Navigation Responsive CSS*/
+.wp-block-navigation__responsive-container-close svg,
+.wp-block-navigation__responsive-container-open svg{ width: 42px; height: 42px;  }    
+.wp-block-navigation__responsive-container-open svg path,
+.wp-block-navigation__responsive-container-close svg path{ fill: var(--wp--preset--color--white);  }
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container { width: 100%; border-bottom: none;  gap: 0 !important;   }
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item {width:100%;gap: 0 !important;border: none !important;}
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item a { width: calc( 100% - 48px ); padding: 12px 24px 12px;line-height: 30px;text-align: left;}
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon { font-size: 19px;line-height: 1; position: absolute; right: 0;top: 0; display: block !important; margin-left: 15px; padding: 3px 10px; float: right; height: 42px; width: 42px;}
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg { width: 30px;height: 13px; stroke: var(--wp--preset--color--white);display: block;margin: 0 !important;padding: 0 !important;}
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container {
+width: 100%;gap: 0;margin: 0;padding: 0;display: none;box-shadow: none;  }
+.wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation-submenu__toggle[aria-expanded=true] + ul.wp-block-navigation__submenu-container { display: block; margin: 0; padding: 0;  }
+
+}
+
+@media screen and (max-width: 980px){
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"], .wpcf7 textarea{ width:100%;}
+.wp-block-button.QuoteBtn a::before{ display:none !important;}
+}
+@media screen and (max-width:1200px) and (min-width:782px) { 
+.interior-services-33 .crz-image-title{ font-size:30px !important;}
+.wp-block-group.bannerInfo h5.wp-block-heading{ margin-top:100px !important;}
+}
+
+@media screen and (max-width:1800px) and (min-width:1200px) { 
+.wp-block-group.bannerInfo h5.wp-block-heading{ margin-top:100px !important;}
+}
+
