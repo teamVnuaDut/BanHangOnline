@@ -1,0 +1,58 @@
+{
+    "name": "mailerlite/mailerlite-php",
+    "description": "MailerLite PHP SDK",
+    "keywords": [
+        "MailerLite",
+        "mailerlite",
+        "sdk",
+        "email",
+        "marketing"
+    ],
+    "homepage": "https://github.com/mailerlite/mailerlite-php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Remigijus Rekerta",
+            "email": "remigijus.rekerta@mailerlite.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": "^7.4|^8.0",
+        "php-http/client-common": "^2.2",
+        "php-http/discovery": "^1.9",
+        "php-http/httplug": "^2.1",
+        "psr/http-client-implementation": "^1.0",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5.15 || ^8.4 || ^9.0",
+        "php-http/mock-client": "^1.0",
+        "php-http/message": "^1.0",
+        "mockery/mockery": "^0.9.4",
+        "guzzlehttp/psr7": "^1.5.2",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "php-http/guzzle7-adapter": "^0.1",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "MailerLite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MailerLite\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@php vendor/bin/phpunit tests/"
+        ],
+        "format": [
+            "@php vendor/bin/php-cs-fixer fix --verbose --diff"
+        ]
+    }
+}

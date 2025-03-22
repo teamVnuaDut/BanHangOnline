@@ -1,0 +1,83 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">subscribe-form</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">blossomthemes_email_newsletter_setting</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="widget_blossomthemes_email_newsletter_widget">
+      <key name="2">
+        <key name="title"/>
+        <key name="newsletter"/>
+        <key name="image"/>
+        <key name="gdpr"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+    <key name="blossomthemes_email_newsletter_settings">
+      <key name="platform"/>
+      <key name="mailchimp">
+        <key name="api-key"/>
+        <key name="list-id"/>
+      </key>
+      <key name="appearance">
+        <key name="bgcolor"/>
+        <key name="fontcolor"/>
+        <key name="enable-popup"/>
+        <key name="newsletter-id"/>
+        <key name="popup-page">
+          <key name="home"/>
+          <key name="post-type">
+            <key name="post"/>
+          </key>
+        </key>
+        <key name="icon"/>
+        <key name="poup_delay"/>
+      </key>
+      <key name="thankyou-option"/>
+      <key name="msg"/>
+      <key name="gdpr-msg"/>
+      <key name="mailerlite">
+        <key name="api-key"/>
+        <key name="list-id"/>
+      </key>
+      <key name="getresponse">
+        <key name="api-key"/>
+        <key name="list-id"/>
+      </key>
+      <key name="sendinblue">
+        <key name="api-key"/>
+        <key name="list-id"/>
+      </key>
+      <key name="convertkit">
+        <key name="api-key"/>
+        <key name="api-secret"/>
+        <key name="list-id"/>
+      </key>
+      <key name="activecampaign">
+        <key name="api-url"/>
+        <key name="api-key"/>
+        <key name="list-id"/>
+      </key>
+      <key name="aweber">
+        <key name="list-id"/>
+      </key>
+    </key>
+    <key name="bten_sib_temp_list"/>
+    <key name="bten_aw_auth_info">
+      <key name="consumer_key"/>
+      <key name="consumer_secret"/>
+      <key name="access_key"/>
+      <key name="access_secret"/>
+    </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>BTEN</tag>
+      <attributes>
+        <attribute>id</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

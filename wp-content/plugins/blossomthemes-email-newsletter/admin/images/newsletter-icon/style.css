@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'blossom-newsletter';
+  src:  url('fonts/blossom-newsletter.eot?q6k3zj');
+  src:  url('fonts/blossom-newsletter.eot?q6k3zj#iefix') format('embedded-opentype'),
+    url('fonts/blossom-newsletter.ttf?q6k3zj') format('truetype'),
+    url('fonts/blossom-newsletter.woff?q6k3zj') format('woff'),
+    url('fonts/blossom-newsletter.svg?q6k3zj#blossom-newsletter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="dashicons-blossom-newsletter"]:before, [class*=" dashicons-blossom-newsletter"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'blossom-newsletter' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-blossom-newsletter:before {
+  content: "\e901";
+  color: #000;
+}
+
+#adminmenu .menu-icon-subscribe-form div.wp-menu-image {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#adminmenu .menu-icon-subscribe-form div.wp-menu-name {
+    padding: 8px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 45px);
+}
