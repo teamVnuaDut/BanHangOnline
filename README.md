@@ -1,7 +1,5 @@
 # BanHangOnline
 Đồ án môn thương mại điện tử
-Dưới đây là nội dung hoàn chỉnh bạn có thể copy và lưu vào file `README.md`:
-
 ```markdown
 # Hướng Dẫn Cài Đặt & Triển Khai Ứng Dụng
 
@@ -31,9 +29,7 @@ Hướng dẫn này giúp bạn thiết lập môi trường cho dự án sử d
 1. Mở **Command Prompt** hoặc **Git Bash**.
 2. Chạy lệnh sau để clone repository:
 
-   ```bash
    git clone <URL-repository>
-   ```
 
    > **Lưu ý:** Thay `<URL-repository>` bằng URL của repository cần clone. Sau khi clone, thư mục chứa mã nguồn sẽ được tạo trong thư mục hiện tại.
 
@@ -44,13 +40,9 @@ Hướng dẫn này giúp bạn thiết lập môi trường cho dự án sử d
 1. Mở [phpMyAdmin](http://localhost/phpmyadmin) thông qua Laragon.
 2. Tạo một cơ sở dữ liệu mới. Bạn có thể sử dụng giao diện của phpMyAdmin hoặc chạy câu lệnh SQL dưới đây:
 
-   ```sql
    CREATE DATABASE ten_database;
-   ```
 
    > **Lưu ý:** Thay `ten_database` bằng tên mà bạn mong muốn.
-
----
 
 ## 4. Cài Đặt WordPress
 
@@ -83,9 +75,7 @@ Sau khi cài đặt xong, bạn có thể đăng nhập vào WordPress với th�
 
 - Sau khi cài đặt, mở trình duyệt và truy cập:
   
-  ```
   http://localhost/<ten-thu-muc>
-  ```
 
   để kiểm tra hoạt động của WordPress.
 
@@ -94,7 +84,6 @@ Sau khi cài đặt xong, bạn có thể đăng nhập vào WordPress với th�
 ---
 
 Nếu bạn gặp khó khăn trong quá trình cài đặt hoặc cần hỗ trợ thêm, hãy xem lại các bước hướng dẫn hoặc liên hệ với nhóm phát triển dự án.
-```
 
 ---
 
