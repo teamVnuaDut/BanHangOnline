@@ -29,9 +29,7 @@ Hướng dẫn này giúp bạn thiết lập môi trường cho dự án sử d
 1. Mở **Command Prompt** hoặc **Git Bash**.
 2. Chạy lệnh sau để clone repository:
 
-   ```bash
    git clone <URL-repository>
-
 
    > **Lưu ý:** Thay `<URL-repository>` bằng URL của repository cần clone. Sau khi clone, thư mục chứa mã nguồn sẽ được tạo trong thư mục hiện tại.
 
@@ -42,7 +40,6 @@ Hướng dẫn này giúp bạn thiết lập môi trường cho dự án sử d
 1. Mở [phpMyAdmin](http://localhost/phpmyadmin) thông qua Laragon.
 2. Tạo một cơ sở dữ liệu mới. Bạn có thể sử dụng giao diện của phpMyAdmin hoặc chạy câu lệnh SQL dưới đây:
 
-   ```sql
    CREATE DATABASE ten_database;
 
    > **Lưu ý:** Thay `ten_database` bằng tên mà bạn mong muốn.
