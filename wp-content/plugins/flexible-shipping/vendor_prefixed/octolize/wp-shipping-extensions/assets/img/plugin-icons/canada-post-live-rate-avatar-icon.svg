@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#002333;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);stroke:#C2CACE;}
+	.st3{fill:none;stroke:#00E3C0;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#00E3C0;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#D3200C;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<path class="st0" d="M95.9,112H16.1C7.2,112,0,104.8,0,95.9V16.1C0,7.2,7.2,0,16.1,0h79.7c9,0,16.2,7.2,16.2,16.1v79.7
+	C112,104.8,104.8,112,95.9,112z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="56" y1="16" x2="56" y2="127.9998" gradientTransform="matrix(1 0 0 -1 0 128)">
+	<stop  offset="0" style="stop-color:#004A52"/>
+	<stop  offset="1" style="stop-color:#002333"/>
+</linearGradient>
+<path class="st1" d="M95.9,0H16.1C7.2,0,0,7.2,0,16.1v53C16.5,76,35.7,80,56.2,80c20.3,0,39.4-3.8,55.8-10.7V16.1
+	C112,7.2,104.8,0,95.9,0z"/>
+<path class="st0" d="M95.9,3.5c7,0,12.6,5.7,12.6,12.6v79.7c0,7-5.7,12.6-12.6,12.6H16.1c-7,0-12.6-5.7-12.6-12.6V16.1
+	c0-6.9,5.7-12.6,12.6-12.6H95.9z M95.9,0H16.1C7.2,0,0,7.2,0,16.1v79.7c0,9,7.2,16.2,16.1,16.2h79.7c8.9,0,16.1-7.2,16.1-16.1V16.1
+	C112,7.2,104.8,0,95.9,0z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="89.2598" y1="38.2534" x2="127.7598" y2="0.7534" gradientTransform="matrix(1 0 0 -1 0 128)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#F2F4F5"/>
+</linearGradient>
+<path class="st2" d="M93,88.5h30c2.5,0,4.5,2,4.5,4.5v30c0,2.5-2,4.5-4.5,4.5H93c-2.5,0-4.5-2-4.5-4.5V93
+	C88.5,90.5,90.5,88.5,93,88.5z"/>
+<path class="st3" d="M56,79.6c-13.1,0-23.6-10.6-23.6-23.6S42.9,32.3,56,32.3"/>
+<path class="st3" d="M56,32.3c13.1,0,23.7,10.6,23.7,23.6"/>
+<path class="st4" d="M49.8,56v-3.3c0-4.7,2.2-6.1,6.4-3.7l2.8,1.6l2.8,1.6c3.9,2.2,3.9,5.2,0,7.4l-2.8,1.6l-2.8,1.6
+	c-4.2,2.4-6.4,1-6.4-3.7V56z"/>
+<path class="st3" d="M65.7,74.8c0,2.1,1.6,3.8,3.6,3.8h4c1.7,0,3.1-1.5,3.1-3.3c0-2-0.8-2.7-2.1-3.1l-6.5-2.3
+	c-1.3-0.5-2.1-1.1-2.1-3.1c0-1.8,1.4-3.3,3.1-3.3h4c2,0,3.6,1.7,3.6,3.8"/>
+<path class="st3" d="M71.1,60.3v21.5"/>
+<g>
+	<path id="Fill-4" class="st5" d="M119,108c0,6.2-4.9,11.1-11,11.1c-6.1,0-11-5-11-11.1c0-6.2,4.9-11.1,11-11.1
+		C114.1,96.9,119,101.8,119,108"/>
+	<polyline id="Fill-5" class="st6" points="104.5,109.5 105.3,108.7 114,108.3 114.4,107.9 105.8,107.9 101.1,102.3 116.7,107.6 
+		111.5,112.9 101.1,112.9 102.2,111.8 110.9,111.4 111.3,111 103,111 103.7,110.2 112.4,109.8 112.8,109.5 104.5,109.5 	"/>
+</g>
+</svg>

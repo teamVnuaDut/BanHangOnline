@@ -1,0 +1,44 @@
+.wpdesk-rating-petition {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.wpdesk-rating-petition a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.wpdesk-rating-petition span.plugins-repository {
+    text-decoration: underline;
+}
+
+.wpdesk-rating-petition span.plugin-title {
+    font-weight: 600;
+}
+
+.wpdesk-rating-petition span.heart {
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #dc3232;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.wpdesk-rating-petition span.star {
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ffb900;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.wpdesk-helpscout-beacon-icon-container {
+    position: fixed;
+    bottom: 37px;
+    right: 37px;
+    outline: none;
+}
+
+.rtl .wpdesk-helpscout-beacon-icon-container {
+    right: initial;
+    left: 37px;
+}

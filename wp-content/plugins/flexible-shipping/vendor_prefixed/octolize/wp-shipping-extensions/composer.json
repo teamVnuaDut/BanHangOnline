@@ -1,0 +1,60 @@
+{
+    "name": "octolize\/wp-shipping-extensions",
+    "description": "WP Shipping Extensions",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "shipping"
+    ],
+    "homepage": "https:\/\/gitlab.wpdesk.dev\/wpdesk\/predators\/library\/wp-shipping-extensions",
+    "authors": [
+        {
+            "name": "sebastian.pisula",
+            "email": "sebastian.pisula@octolize.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "wpdesk\/wp-builder": "^2.0.0",
+        "wpdesk\/wp-wpdesk-tracker": "^3.5.2",
+        "wpdesk\/wp-wpdesk-helper-override": "^1.1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave\/security-advisories": "dev-latest",
+        "phpunit\/phpunit": "^7||^8||^9",
+        "wp-coding-standards\/wpcs": "^0.14.1",
+        "squizlabs\/php_codesniffer": "^3.0.2",
+        "mockery\/mockery": "*",
+        "10up\/wp_mock": "*",
+        "phpcompatibility\/php-compatibility": "*",
+        "php-stubs\/woocommerce-stubs": "^8.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\Octolize\\ShippingExtensions\\": "src\/ShippingExtensions"
+        }
+    },
+    "extra": {
+        "text-domain": "wp-shipping-extensions",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po",
+            "de_DE": "de_DE.po"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-coverage": "phpunit --configuration phpunit-unit.xml --coverage-html build-coverage",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    }
+}

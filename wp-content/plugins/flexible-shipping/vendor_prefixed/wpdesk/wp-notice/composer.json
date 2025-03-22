@@ -1,0 +1,55 @@
+{
+    "name": "wpdesk\/wp-notice",
+    "description": "Library for displaying Wordpress notices.",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "notice",
+        "admin"
+    ],
+    "homepage": "https:\/\/gitlab.com\/wpdesk\/wp-notice",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "grola",
+            "email": "grola@wpdesk.net"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.0.8"
+        },
+        "allow-plugins": {
+            "kylekatarnls\/update-helper": true,
+            "wpdesk\/wp-codeception": true
+        }
+    },
+    "require": {
+        "php": ">=7.0.8",
+        "wpdesk\/wp-builder": "^1.0|^2.0"
+    },
+    "require-dev": {
+        "wp-coding-standards\/wpcs": "^0.14.1",
+        "squizlabs\/php_codesniffer": "^3.0.2",
+        "mockery\/mockery": "*",
+        "10up\/wp_mock": "*",
+        "wimg\/php-compatibility": "^8",
+        "wpdesk\/wp-codeception": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\WPDesk\\Notice\\": "src\/WPDesk\/Notice\/"
+        },
+        "files": [
+            "src\/WPDesk\/notice-functions.php"
+        ]
+    },
+    "autoload-dev": {},
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    }
+}

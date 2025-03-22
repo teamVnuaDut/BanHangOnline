@@ -1,0 +1,42 @@
+{
+    "name": "wpdesk\/wp-view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WP Desk",
+            "role": "Owner"
+        },
+        {
+            "name": "Krzysiek",
+            "email": "krzysiek@wpdesk.pl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0 | ^8"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "<7",
+        "wpdesk\/wp-code-sniffer": "^1",
+        "mockery\/mockery": "*",
+        "10up\/wp_mock": "*",
+        "wpdesk\/phpstan-rules": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\WPDesk\\View\\": "src\/"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect\/phpcodesniffer-composer-installer": true,
+            "phpstan\/extension-installer": true
+        }
+    }
+}

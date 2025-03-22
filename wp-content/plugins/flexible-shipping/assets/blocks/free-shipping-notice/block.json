@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "flexible-shipping/free-shipping-notice",
+  "version": "1.0.0",
+  "title": "Free Shipping Notice",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Displays free shipping notice.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "flexible-shipping",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

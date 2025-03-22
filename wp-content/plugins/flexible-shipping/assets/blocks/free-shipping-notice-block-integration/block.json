@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "flexible-shipping/free-shipping-notice-block-integration",
+  "version": "1.0.0",
+  "title": "Free Shipping Notice Block Integration",
+  "category": "woocommerce",
+  "description": "Adds a notice to the checkout and cart when free shipping is available.",
+  "supports": {
+    "html": false,
+    "align": false,
+    "multiple": false,
+    "reusable": false
+  },
+  "parent": [
+    "woocommerce/checkout-shipping-methods-block",
+    "woocommerce/cart-totals-block"
+  ],
+  "attributes": {
+    "lock": {
+      "type": "object",
+      "default": {
+        "remove": true,
+        "move": true
+      }
+    }
+  },
+  "textdomain": "flexible-shipping",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

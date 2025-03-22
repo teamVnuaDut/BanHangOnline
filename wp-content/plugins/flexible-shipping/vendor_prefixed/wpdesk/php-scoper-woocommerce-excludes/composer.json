@@ -1,0 +1,35 @@
+{
+    "name": "wpdesk\/php-scoper-woocommerce-excludes",
+    "description": "A list of all WooCommerce core classes, functions and constants. Meant to be used with the PHP-Scoper exclusion functionality.",
+    "minimum-stability": "stable",
+    "keywords": [
+        "WooCommerce",
+        "PHP-scoper",
+        "php-scoper",
+        "scoping Woocommerce"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Calvin Alkan",
+            "email": "calvin@snicco.de"
+        },
+        {
+            "name": "Marlon Alkan",
+            "email": "marlon@snicco.de"
+        }
+    ],
+    "require-dev": {
+        "php": "^7.2",
+        "sniccowp\/php-scoper-excludes": "dev-master",
+        "php-stubs\/woocommerce-stubs": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
+    "scripts": {
+        "generate:excludes": "generate-excludes --json --exclude-empty"
+    }
+}

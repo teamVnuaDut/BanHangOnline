@@ -1,0 +1,75 @@
+{
+    "name": "octolize\/octolize-checkout-block-integration",
+    "description": "Pickup Point Checkout Blocks",
+    "license": "none",
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "blocks",
+        "checkout"
+    ],
+    "homepage": "https:\/\/gitlab.wpdesk.dev\/wpdesk\/predators\/library\/octolize-checkout-block-integration",
+    "authors": [
+        {
+            "name": "grola",
+            "email": "grola@octolize.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "allow-plugins": {
+            "phpstan\/extension-installer": true
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "<7",
+        "mockery\/mockery": "*",
+        "10up\/wp_mock": "*",
+        "phpcompatibility\/php-compatibility": "^9.1",
+        "php-stubs\/woocommerce-stubs": "^8.3",
+        "php-stubs\/wordpress-stubs": "^6.3",
+        "wpdesk\/wp-plugin-flow": "^3.2",
+        "wpdesk\/phpstan-rules": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\Octolize\\Blocks\\": "src\/Blocks"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests\/unit"
+        ]
+    },
+    "extra": {
+        "text-domain": "octolize-checkout-block-integration",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    },
+    "repositories": {
+        "octolize": {
+            "type": "composer",
+            "url": "https:\/\/gitlab.wpdesk.dev\/api\/v4\/group\/wpdesk\/-\/packages\/composer\/"
+        },
+        "wpdesk": {
+            "type": "composer",
+            "url": "https:\/\/gitlab.wpdesk.dev\/api\/v4\/group\/wpdesk\/-\/packages\/composer\/"
+        }
+    }
+}

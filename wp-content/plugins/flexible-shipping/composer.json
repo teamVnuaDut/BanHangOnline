@@ -1,0 +1,130 @@
+{
+    "name": "wpdesk/flexible-shipping",
+    "authors": [
+        {
+            "name": "Krzysiek",
+            "email": "krzysiek@wpdesk.pl"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "inc",
+            "classes",
+            "vendor_prefixed"
+        ],
+        "psr-4": {
+            "WPDesk\\FS\\": "src/WPDesk/FS"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform-check": false,
+        "platform": {
+            "php": "7.4"
+        },
+        "gitlab-domains": [
+            "gitlab.wpdesk.dev"
+        ],
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "kylekatarnls/update-helper": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "wpdesk/wp-codeception": true,
+            "wpdesk/wp-wpdesk-composer": true
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "wpdesk/wp-wpdesk-fs-shipment-interfaces": "^1.0",
+        "wpdesk/wp-wpdesk-helper-override": "^1.1"
+    },
+    "require-dev": {
+        "10up/wp_mock": "*",
+        "albertofem/rsync-lib": "^1.0",
+        "lucatume/wp-browser": "<3.5",
+        "moneyphp/money": "^3.2.1",
+        "octolize/flexible-shipping-rules": "^1.3.0",
+        "octolize/octolize-checkout-block-integration": "^1.1",
+        "octolize/wp-betterdocs-beacon": "^1.0.2",
+        "octolize/wp-octolize-brand-assets": "^1.3",
+        "octolize/wp-octolize-tracker": "^1.3.2",
+        "octolize/wp-onboarding": "^1.9",
+        "octolize/wp-shipping-extensions": "^1.9.0",
+        "phpunit/phpunit": "^7||^8||^9",
+        "psr/log": "^1||^2||^3",
+        "wpdesk/wc-currency-switchers-integrations": "^1.1.2",
+        "wpdesk/wp-abtesting": "^2.0",
+        "wpdesk/wp-codeception": "^2.11.1",
+        "wpdesk/wp-forms": "^2",
+        "wpdesk/wp-helpscout-beacon": "^1.6",
+        "wpdesk/wp-logs": "^1.11.0",
+        "wpdesk/wp-mutex": "^1.1",
+        "wpdesk/wp-notice": "^3.0",
+        "wpdesk/wp-plugin-flow-free": "^1.0",
+        "wpdesk/wp-pointer": "^2.0.0",
+        "wpdesk/wp-wpdesk-composer": "^3",
+        "wpdesk/wp-wpdesk-fs-compatibility": "^1.0.0",
+        "wpdesk/wp-wpdesk-fs-shipment": "^2.4.2",
+        "wpdesk/wp-wpdesk-fs-table-rate": "^4.4",
+        "wpdesk/wp-wpdesk-rating-petition": "^1.6",
+        "wpdesk/wp-wpdesk-tracker": "^3.1",
+        "wpdesk/wp-wpdesk-tracker-deactivation": "^2.0.0",
+        "wpdesk/wp-wpdesk-tracker-user-feedback": "^1.0.0",
+        "wpdesk/wpdesk-sessions": "^1.0.0"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "inc"
+        ],
+        "psr-4": {
+            "": "tests"
+        }
+    },
+    "extra": {
+        "php-requires": "7.4",
+        "text-domain": "flexible-shipping",
+        "translations-folder": "lang",
+        "translation-file-headers": {
+            "Project-Id-Version": "Flexible Shipping",
+            "Last-Translator": "Grzegorz Rola <grola@wpdesk.pl>",
+            "X-Poedit-WPHeader": "flexible-shipping.php"
+        },
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        },
+        "minify-assets": {
+            "js": [
+                "assets/js/admin.js",
+                "assets/js/beacon-clicked.js",
+                "assets/js/duplicate-methods.js",
+                "assets/js/contextual-info.js"
+            ],
+            "css": [
+                "assets/css/font.css"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "echo composer is alive",
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf src",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-coverage": "phpunit --configuration phpunit-unit.xml --coverage-html build-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "docs": "apigen generate",
+        "build-plugin": "composer install && npm install && npm run prod && composer install --no-dev"
+    },
+    "repositories": {
+        "octolize": {
+            "type": "composer",
+            "url": "https://gitlab.wpdesk.dev/api/v4/group/wpdesk/-/packages/composer/"
+        },
+        "wpdesk": {
+            "type": "composer",
+            "url": "https://gitlab.wpdesk.dev/api/v4/group/wpdesk/-/packages/composer/"
+        }
+    }
+}
