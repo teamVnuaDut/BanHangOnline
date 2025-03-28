@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/OpenSans-Normal",
+        "bold": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/OpenSans-Bold",
+        "italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/Segoe-Normal",
+        "bold": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/Segoe-Bold",
+        "italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/currencies",
+        "bold": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/currencies",
+        "italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/currencies",
+        "bold_italic": "C:\/laragon\/www\/BanHangOnline\/wp-content\/uploads\/wpo_wcpdf_9c0b52383b1ab8f7b8e0a89d24a0ea7f\/fonts\/currencies"
+    }
+}

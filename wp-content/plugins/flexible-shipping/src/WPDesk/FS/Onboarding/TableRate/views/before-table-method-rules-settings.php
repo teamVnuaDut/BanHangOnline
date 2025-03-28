@@ -1,1 +1,0 @@
-<div id="onboarding-container"></div>

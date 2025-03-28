@@ -1,0 +1,2 @@
+2025-03-28T16:43:29+00:00 INFO Template setting migrated from C:/laragon/www/BanHangOnline/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2025-03-28T16:54:41+00:00 CRITICAL Table 'banhangonline.wp_wcpdf_invoice_number' doesn't exist
