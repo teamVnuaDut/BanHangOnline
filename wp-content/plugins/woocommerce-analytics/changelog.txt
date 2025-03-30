@@ -1,0 +1,37 @@
+*** WooCommerce Analytics Changelog ***
+
+= 0.9.10 - 2025-03-26 =
+* Fix - Discrepancies in checksums for order_stats.
+* Update - Jetpack sync package to 4.9.x.
+
+= 0.9.9 - 2025-03-18 =
+* Tweak - Bump minimum WC to 9.5.
+* Tweak - Update beta notice text.
+* Tweak - WC 9.8 compatibility.
+* Update - Better trigger for order attribution report ready email.
+
+= 0.9.8 - 2025-02-26 =
+* Fix - Catch division by zero.
+* Update - Ensure single report ready email is sent.
+
+= 0.9.7 - 2025-02-11 =
+* Tweak - WC 9.7 compatibility.
+
+= 0.9.6 - 2025-01-24 =
+* Doc - Update readme.txt.
+
+= 0.9.5 - 2025-01-20 =
+* Tweak - View details link points to WordPress.org Plugin Directory page.
+
+= 0.9.4 - 2025-01-20 =
+* Tweak - WC 9.6 compatibility.
+
+= 0.9.3 - 2025-01-14 =
+* Tweak - Fix redirection on plugin activation.
+* Tweak - Increase activation transient expiry.
+* Update - Remove user connection step from onboarding.
+
+= 0.9.2 - 2024-12-19 =
+* Initial beta release of WooCommerce Analytics.
+* Includes reports for order attribution by channel, source, device, campaign, and combined channel and source.
+* Customizable timeframe analysis and detailed comparisons across key metrics.

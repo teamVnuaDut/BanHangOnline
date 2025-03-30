@@ -1,0 +1,61 @@
+{
+  "ID": "0",
+  "title": "Instant Checkout",
+  "type": "free",
+  "featured_image_url": "",
+  "thumbnail_image_url": "",
+  "is_recommanded": true,
+  "is_instant_checkout": true,
+  "category": [
+    "store-checkout"
+  ],
+  "page_builder": "{{page_builder_slug}}",
+  "steps": [
+    {}
+  ],
+  "cartflows_flow_page_builder": [
+    {
+      "term_id": 16,
+      "name": "{{page_builder_name}}",
+      "slug": "{{page_builder_slug}}",
+      "term_group": 0,
+      "term_taxonomy_id": 16,
+      "taxonomy": "cartflows_flow_page_builder",
+      "description": "",
+      "parent": 0,
+      "count": 56,
+      "filter": "raw",
+      "term_order": "0"
+    }
+  ],
+  "cartflows_flow_category": [
+    {
+      "term_id": 200,
+      "name": "Store Checkout",
+      "slug": "store-checkout",
+      "term_group": 0,
+      "term_taxonomy_id": 200,
+      "taxonomy": "cartflows_flow_category",
+      "description": "",
+      "parent": 0,
+      "count": 4,
+      "filter": "raw",
+      "term_order": "0"
+    }
+  ],
+  "cartflows_flow_type": [
+    {
+      "term_id": 27,
+      "name": "Free",
+      "slug": "free",
+      "term_group": 0,
+      "term_taxonomy_id": 27,
+      "taxonomy": "cartflows_flow_type",
+      "description": "",
+      "parent": 0,
+      "count": 28,
+      "filter": "raw",
+      "term_order": "0"
+    }
+  ]
+}

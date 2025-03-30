@@ -1,0 +1,113 @@
+.suretriggers-nobase {
+    position: fixed;
+    top: 50px;
+    height: calc(100% - 50px);
+    width: -webkit-fill-available;
+}
+
+.suretriggers-nobase > div {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+}
+
+.suretriggers-nobase > div > div {
+    width: 550px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background: white; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    padding: 40px; 
+    text-align: center;
+}
+
+.suretriggers-info-title {
+    text-align: center; font-size: 1.5rem; font-weight: 600; color: #111827; margin-bottom: 16px;
+}
+
+.suretriggers-info-content {
+    font-size: 0.875rem; color: #6b7280; margin-bottom: 16px;
+}
+
+.suretriggers-info-link {
+    --primary: 224, 64%, 33%, 1;--primary-foreground: 210 40% 98%;color: hsl(var(--primary-foreground));background-color: hsl(var(--primary));display: inline-block; padding: 10px 20px; border-radius: 6px; font-size: 1rem; text-decoration: none; margin-bottom: 16px;
+}
+
+.suretriggers-info-link:active, .suretriggers-info-link:hover, .suretriggers-info-link:focus {
+    --primary: 224, 64%, 33%, 1;--primary-foreground: 210 40% 98%;color: hsl(var(--primary-foreground));background-color: hsl(var(--primary));
+}
+
+/* General Admin Page Styling */
+.admin-page {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.suretriggers-nav-tab {
+    margin: 1.5em 0 1em;
+}
+
+.suretriggers-system-table {
+    margin-bottom: 1em;
+}
+
+.suretriggers-system-table h2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.suretriggers-system-table h5 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.suretriggers-system-table td svg {
+    display: inline;
+}
+
+.suretriggers-system-table-trigger tbody tr {
+    background-color: #f9f9f9;
+}
+.suretriggers-system-table-trigger tbody tr.odd-row {
+    background-color: #ffffff;
+}
+
+table.suretriggers-system-table-trigger th, table.suretriggers-system-table-trigger td {
+    border: 1px solid #e0dede;
+}
+
+table.suretriggers-system-table-trigger tr.integration-row {
+    border-top: 1px solid #e0dede;
+}
+
+@media screen and (max-width: 782px) {
+    .suretriggers-nobase > div {
+        display: flex;  
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        height: 100%;
+    }
+
+    #suretriggers-requests-table-form .tablenav.top .actions {
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #suretriggers-requests-table-form .tablenav .actions select {
+        float: none;
+    }
+
+    #suretriggers_filter_request {
+        margin: 0;
+    }
+}

@@ -1,0 +1,90 @@
+{
+	"name": "woocommerce/woocommerce-analytics",
+	"description": "WooCommerce Analytics plugin.",
+	"type": "wordpress-plugin",
+	"license": "GPL-3",
+	"require": {
+		"php": ">=7.4",
+		"automattic/jetpack-autoloader": "^3.1",
+		"automattic/jetpack-config": "^2.0",
+		"automattic/jetpack-sync": "^4.9.0",
+		"automattic/jetpack-connection": "^6.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Automattic\\WooCommerce\\Analytics\\": "src/",
+			"Automattic\\WooCommerce\\Analytics\\Dependencies\\": "vendor/woocommerce/analytics/dependencies/src"
+		},
+		"files": [
+			"vendor/woocommerce/analytics/dependencies/src/DI/functions.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Automattic\\WooCommerce\\Analytics\\Tests\\": "tests/Unit"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"automattic/jetpack-autoloader": true,
+			"dealerdirect/phpcodesniffer-composer-installer": false
+		}
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^v1.0.0",
+		"wp-coding-standards/wpcs": "^3.1.0",
+		"woocommerce/woocommerce-sniffs": "^1.0.0",
+		"exussum12/coverage-checker": "^1.0",
+		"phpunit/phpunit": "^9.5",
+		"yoast/phpunit-polyfills": "^1.0",
+		"sirbrillig/phpcs-changed": "^2.11",
+		"wp-cli/i18n-command": "^2.6",
+		"coenjacobs/mozart": "^0.7.1",
+		"php-di/php-di": "6.4.0",
+		"friendsofphp/php-cs-fixer": "^3.65"
+	},
+	"scripts": {
+		"test-unit": "./vendor/bin/phpunit",
+		"lint": "chg=$(git diff --relative --name-only -- '*.php'); [[ -z $chg ]] || phpcs-changed -s --git --git-unstaged $chg",
+		"lint-staged": "chg=$(git diff HEAD --relative --name-only -- '*.php'); [[ -z $chg ]] || phpcs-changed -s --git $chg",
+		"lint-branch": "sh ./bin/lint-branch.sh",
+    "post-install-cmd": [
+			"@create-dummy-functions-php",
+      "@mozart-compose",
+      "composer dump-autoload -o",
+			"@fix-php-cs",
+			"@install-codestandards"
+    ],
+    "post-update-cmd": [
+			"@create-dummy-functions-php",
+      "@mozart-compose",
+      "composer dump-autoload -o",
+			"@fix-php-cs",
+			"@install-codestandards"
+    ],
+    "mozart-compose": [
+      "if [ -f vendor/bin/mozart ]; then vendor/bin/mozart compose; fi"
+    ],
+		"create-dummy-functions-php": [
+			"if [ ! -f vendor/woocommerce/analytics/dependencies/src/DI/functions.php ]; then mkdir -p vendor/woocommerce/analytics/dependencies/src/DI && echo \"<?php // Dummy file for autoloading\" > vendor/woocommerce/analytics/dependencies/src/DI/functions.php; fi"
+		],
+		"fix-php-cs": [
+			"sh ./bin/php-cs-fix-8_4.sh"
+		],
+		"install-codestandards": [
+			"PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+		]
+	},
+	"extra": {
+		"mozart": {
+			"dep_namespace": "Automattic\\WooCommerce\\Analytics\\Dependencies\\",
+			"dep_directory": "/vendor/woocommerce/analytics/dependencies/src/",
+			"classmap_directory": "/vendor/woocommerce/analytics/dependencies/src/",
+			"classmap_prefix": "WC_Analytics_",
+			"packages": [
+				"php-di/php-di"
+			],
+			"delete_vendor_directories": true
+		}
+	}
+}
